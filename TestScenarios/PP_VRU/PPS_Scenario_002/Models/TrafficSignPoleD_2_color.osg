@@ -1,0 +1,165 @@
+MatrixTransform {
+    DataVariance STATIC
+    nodeMask 0xff
+    cullingActive TRUE
+    StateSet {
+        UniqueID ColorStateSet
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_CULL_FACE ON
+        GL_LIGHTING ON
+        0xba1 ON
+        Material {
+            DataVariance STATIC
+            ColorMode OFF
+            ambientColor 0 0 0 1
+            diffuseColor 0 0 0 1
+            specularColor 0 0 0 1
+            emissionColor 0 1 0 1
+            shininess 0
+        }
+    }
+    referenceFrame RELATIVE
+    Matrix {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    }
+    num_children 1
+    Group {
+        DataVariance STATIC
+        name "Body"
+        nodeMask 0xff
+        cullingActive TRUE
+        num_children 2
+        Geode
+        {
+            name "Pole"
+            ShapeDrawable {
+                DataVariance DYNAMIC
+                Use ColorStateSet
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                Cylinder {
+                    DataVariance DYNAMIC
+                    Center 0 0 1.10000002384186
+                    Radius 0.05
+                    Height 2.20000004768372
+                    Rotation 0 0 0 1
+                }
+                color 1 1 1 1
+                Use TessellationHints_1
+            }
+        }
+        Geode {
+            name "1_896891"
+            DataVariance STATIC
+            nodeMask 0xff
+            cullingActive TRUE
+            num_children 2
+            Geometry {
+                name "1_896891_Front"
+                DataVariance DYNAMIC
+                Use ColorStateSet
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays POLYGON 0 4
+                }
+                VertexArray Vec3Array 4
+                {
+                    0.06 0 2.2
+                    0.06 -0.35 1.593782
+                    0.06 0.35 1.593782
+                    0.06 0 2.2
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 4
+                {
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                }
+                TexCoordArray 0 Vec2Array 4
+                {
+                    0.5 1
+                    0 0
+                    1 0
+                    0.5 1
+                }
+            }
+            Geometry {
+                name "1_896891_Back"
+                DataVariance DYNAMIC
+                Use ColorStateSet
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays POLYGON 0 4
+                }
+                VertexArray Vec3Array 4
+                {
+                    0.05 0 2.2
+                    0.05 0.35 1.593782
+                    0.05 -0.35 1.593782
+                    0.05 0 2.2
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 4
+                {
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                }
+            }
+            Geometry {
+                name "1_896891_Side"
+                DataVariance DYNAMIC
+                Use ColorStateSet
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays QUADS 0 12
+                }
+                VertexArray Vec3Array 12
+                {
+                    0.06 0 2.2
+                    0.05 0 2.2
+                    0.05 -0.35 1.593782
+                    0.06 -0.35 1.593782
+                    0.06 -0.35 1.593782
+                    0.05 -0.35 1.593782
+                    0.05 0.35 1.593782
+                    0.06 0.35 1.593782
+                    0.06 0.35 1.593782
+                    0.05 0.35 1.593782
+                    0.05 0 2.2
+                    0.06 0 2.2
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 12
+                {
+                    0 -0.0060621772212377 0.00350000051409005
+                    0 -0.0060621772212377 0.00350000051409005
+                    0 -0.0060621772212377 0.00350000051409005
+                    0 -0.0060621772212377 0.00350000051409005
+                    0 0 -0.0070000010281801
+                    0 0 -0.0070000010281801
+                    0 0 -0.0070000010281801
+                    0 0 -0.0070000010281801
+                    0 0.0060621772212377 0.00350000051409005
+                    0 0.0060621772212377 0.00350000051409005
+                    0 0.0060621772212377 0.00350000051409005
+                    0 0.0060621772212377 0.00350000051409005
+                }
+            }
+        }
+    }
+}

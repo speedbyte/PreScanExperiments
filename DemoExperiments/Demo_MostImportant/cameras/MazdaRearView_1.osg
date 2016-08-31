@@ -1,0 +1,11 @@
+CameraView {
+  name "MazdaRearView_1"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -10 2.85154e-007 4.009
+  attitude -0.5 0.5 0.5 -0.5
+  fieldOfView 67.5
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

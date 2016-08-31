@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="32" rtYLength="292">
+    <BlockDef id="Audi_A8_1">
+        <PortDef id="Position_Audi_A8_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_1" index="0" type="0" width="8"/>
+        <PortDef id="visu_TransWheelFL_0" index="15" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="18" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="22" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="25" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="29" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="32" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="36" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="39" type="1" width="4"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="43" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="59" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearLeft_0" index="75" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearRight_0" index="91" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="107" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="123" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="139" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="155" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="171" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="187" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="203" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="219" type="1" width="16"/>
+        <PortDef id="visu_SteeringWheel_0" index="235" type="1" width="4"/>
+        <PortDef id="visu_SteeringColumn_0" index="239" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Sphere_1">
+        <PortDef id="Position_Sphere_1" index="243" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_1" index="246" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_1" index="249" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_1" index="252" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_1" index="255" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_1" index="8" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Previa_1">
+        <PortDef id="Position_Toyota_Previa_1" index="258" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Previa_1" index="261" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Previa_1" index="264" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Previa_1" index="267" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Previa_1" index="270" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Previa_1" index="16" type="0" width="8"/>
+        <PortDef id="visu_GhostColor_0" index="273" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="BalloonCar_1">
+        <PortDef id="Position_BalloonCar_1" index="277" type="1" width="3"/>
+        <PortDef id="Velocity_BalloonCar_1" index="280" type="1" width="3"/>
+        <PortDef id="Acceleration_BalloonCar_1" index="283" type="1" width="3"/>
+        <PortDef id="RPY_BalloonCar_1" index="286" type="1" width="3"/>
+        <PortDef id="velRPY_BalloonCar_1" index="289" type="1" width="3"/>
+        <PortDef id="SELF_BalloonCar_1" index="24" type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

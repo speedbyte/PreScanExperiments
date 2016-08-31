@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="16" rtYLength="288">
+    <BlockDef id="HumanAnimated_1">
+        <PortDef id="Position_HumanAnimated_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_HumanAnimated_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_HumanAnimated_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_HumanAnimated_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_HumanAnimated_1" index="12" type="1" width="3"/>
+        <PortDef id="Anim_HumanAnimated_1" index="15" type="1" width="2"/>
+        <PortDef id="SELF_HumanAnimated_1" index="0" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="BMW_X5_1">
+        <PortDef id="Position_BMW_X5_1" index="17" type="1" width="3"/>
+        <PortDef id="Velocity_BMW_X5_1" index="20" type="1" width="3"/>
+        <PortDef id="Acceleration_BMW_X5_1" index="23" type="1" width="3"/>
+        <PortDef id="RPY_BMW_X5_1" index="26" type="1" width="3"/>
+        <PortDef id="velRPY_BMW_X5_1" index="29" type="1" width="3"/>
+        <PortDef id="SELF_BMW_X5_1" index="8" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="32" type="1" width="3"/>
+        <PortDef id="visu_TransWheelFL_0" index="35" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="38" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="42" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="45" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="49" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="52" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="56" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="59" type="1" width="4"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="63" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="79" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearLeft_0" index="95" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearRight_0" index="111" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="127" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="143" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="159" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="175" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="191" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="207" type="1" width="16"/>
+        <PortDef id="visu_SteeringWheel_0" index="223" type="1" width="4"/>
+        <PortDef id="visu_SteeringColumn_0" index="227" type="1" width="4"/>
+        <PortDef id="visu_DynLightVehicleHeadLightRightHBLB_0"
+            index="231" type="1" width="1"/>
+        <PortDef id="visu_DynLightVehicleHeadLightRightHBLBTrans_0"
+            index="232" type="1" width="3"/>
+        <PortDef id="visu_DynLightVehicleHeadLightRightHBLBRot_0"
+            index="235" type="1" width="3"/>
+        <PortDef id="visu_DynLightVehicleHeadLightRightHBLBColor_0"
+            index="238" type="1" width="3"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="241" type="1" width="16"/>
+        <PortDef id="visu_DynLightVehicleHeadLightRightHBLBICM_0"
+            index="257" type="1" width="1"/>
+        <PortDef id="visu_DynLightVehicleHeadLightLeftHBLB_0"
+            index="258" type="1" width="1"/>
+        <PortDef id="visu_DynLightVehicleHeadLightLeftHBLBTrans_0"
+            index="259" type="1" width="3"/>
+        <PortDef id="visu_DynLightVehicleHeadLightLeftHBLBRot_0"
+            index="262" type="1" width="3"/>
+        <PortDef id="visu_DynLightVehicleHeadLightLeftHBLBColor_0"
+            index="265" type="1" width="3"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="268" type="1" width="16"/>
+        <PortDef id="visu_DynLightVehicleHeadLightLeftHBLBICM_0"
+            index="284" type="1" width="1"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_1">
+        <PortDef id="InformationPlate_1" index="285" type="1" width="1"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_2">
+        <PortDef id="InformationPlate_2" index="286" type="1" width="1"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_3">
+        <PortDef id="InformationPlate_3" index="287" type="1" width="1"/>
+    </BlockDef>
+</ExperimentDef>

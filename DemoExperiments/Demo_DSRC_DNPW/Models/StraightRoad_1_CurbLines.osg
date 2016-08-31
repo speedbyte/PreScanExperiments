@@ -1,0 +1,110 @@
+MatrixTransform {
+    DataVariance STATIC
+    name "StraightRoad_1_CurbLines.osg"
+    nodeMask 0xff
+    cullingActive TRUE
+    referenceFrame RELATIVE
+    Matrix {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    }
+    num_children 1
+    Geode {
+        DataVariance STATIC
+        nodeMask 0xff
+        cullingActive TRUE
+        num_drawables 1
+        Geometry {
+            DataVariance DYNAMIC
+            StateSet {
+                DataVariance STATIC
+                rendering_hint DEFAULT_BIN
+                renderBinMode INHERIT
+                GL_CULL_FACE ON
+                GL_LIGHTING ON
+                Material {
+                    DataVariance STATIC
+                    ColorMode OFF
+                    ambientColor 0.588235 0.588235 0.588235 1
+                    diffuseColor 1 1 1 1
+                    specularColor 0 0 0 1
+                    emissionColor 0 0 0 1
+                    shininess 0
+                }
+                textureUnit 0 {
+                    GL_TEXTURE_2D ON
+                    Texture2D {
+                        DataVariance DYNAMIC
+                        file "White_2.png"
+                        wrap_s REPEAT
+                        wrap_t REPEAT
+                        wrap_r CLAMP
+                        min_filter LINEAR_MIPMAP_LINEAR
+                        mag_filter LINEAR
+                        maxAnisotropy 1
+                        borderColor 0 0 0 0
+                        borderWidth 0
+                        useHardwareMipMapGeneration TRUE
+                        unRefImageDataAfterApply FALSE
+                        internalFormatMode USE_IMAGE_DATA_FORMAT
+                        resizeNonPowerOfTwo TRUE
+                    }
+                }
+            }
+            useDisplayList TRUE
+            useVertexBufferObjects FALSE
+            PrimitiveSets 1
+            {
+                DrawArrays TRIANGLES 0 12
+            }
+            VertexArray Vec3Array 12
+            {
+                150 3.45 0
+                0 3.55 0
+                0 3.45 0
+                150 3.55 0
+                0 3.55 0
+                150 3.45 0
+                150 -3.55002 0
+                0 -3.45 0
+                0 -3.55 0
+                150 -3.44997 0
+                0 -3.45 0
+                150 -3.55002 0
+            }
+            NormalBinding PER_VERTEX
+            NormalArray Vec3Array 12
+            {
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+            }
+            TexCoordArray 0 Vec2Array 12
+            {
+                15 0.345
+                0 0.355
+                0 0.345
+                15 0.355
+                0 0.355
+                15 0.345
+                15 -0.355002
+                0 -0.345
+                0 -0.355
+                15 -0.344997
+                0 -0.345
+                15 -0.355002
+            }
+        }
+    }
+}

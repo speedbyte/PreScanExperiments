@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="716" rtYLength="675">
+    <BlockDef id="Mazda_RX8_1">
+        <PortDef id="Position_Mazda_RX8_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_1" index="0" type="0" width="8"/>
+        <PortDef id="Antenna_Rx_1" index="8" type="0" width="684"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Yaris_1">
+        <PortDef id="Position_Toyota_Yaris_1" index="15" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Yaris_1" index="18" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Yaris_1" index="21" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Yaris_1" index="24" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Yaris_1" index="27" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Yaris_1" index="692" type="0" width="8"/>
+        <PortDef id="Antenna_Tx_2" index="30" type="1" width="205"/>
+    </BlockDef>
+    <BlockDef id="Nissan_Cabstar_1">
+        <PortDef id="Position_Nissan_Cabstar_1" index="235" type="1" width="3"/>
+        <PortDef id="Velocity_Nissan_Cabstar_1" index="238" type="1" width="3"/>
+        <PortDef id="Acceleration_Nissan_Cabstar_1" index="241" type="1" width="3"/>
+        <PortDef id="RPY_Nissan_Cabstar_1" index="244" type="1" width="3"/>
+        <PortDef id="velRPY_Nissan_Cabstar_1" index="247" type="1" width="3"/>
+        <PortDef id="SELF_Nissan_Cabstar_1" index="700" type="0" width="8"/>
+        <PortDef id="Antenna_Tx_1" index="250" type="1" width="205"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Previa_1">
+        <PortDef id="Position_Toyota_Previa_1" index="455" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Previa_1" index="458" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Previa_1" index="461" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Previa_1" index="464" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Previa_1" index="467" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Previa_1" index="708" type="0" width="8"/>
+        <PortDef id="Antenna_Tx_3" index="470" type="1" width="205"/>
+    </BlockDef>
+</ExperimentDef>

@@ -1,0 +1,5 @@
+Mazda_RX8_1,TIS_1,DriftAzimuthGaussianSigma,0
+Mazda_RX8_1,TIS_1,NoiseAzimuthIllumination,0
+Mazda_RX8_1,TIS_1,NoiseAzimuthReflection,0
+Mazda_RX8_1,TIS_1,NoiseRange,0
+Mazda_RX8_1,TIS_1,NoiseRangeType,1

@@ -1,0 +1,24 @@
+# create sensor mounts and cameras
+LaneMarkerSensor_1_mount = visnodes.VisTransform.createTransformNode(r"LaneMarkerSensor_1_mount")
+scene.Mazda_RX8_1.addChild(LaneMarkerSensor_1_mount)
+scene.getTransformChild("LaneMarkerSensor_1_mount")
+LaneMarkerSensor_1_mount.setTranslation(1.64999997615814, 0, 1.20000004768372)
+LaneMarkerSensor_1_mount.setRotation(0, 1, 0, 0)
+
+LaneMarkerSensor_1 = visnodes.VisTransform.createTransformNode(r"LaneMarkerSensor_1")
+LaneMarkerSensor_1.setRotationLegacyYUpAxes(1.5707963267948966, 0, 0, -1)
+LaneMarkerSensor_1_mount.addChild(LaneMarkerSensor_1)
+LaneMarkerSensor_1.setNodeMask(32, False)
+
+LaneMarkerSensor_1_plane_0 = visnodes.VisBeamPlane_createPlane(r"LaneMarkerSensor_1_plane_0", 20, 40)
+LaneMarkerSensor_1_plane_0.setBeamColor(1, 0.6470588, 0, 0.25)
+LaneMarkerSensor_1_plane_0.setNodeMask(16384, False)
+LaneMarkerSensor_1.addChild(LaneMarkerSensor_1_plane_0)
+LaneMarkerSensor_1_plane_0.setTranslation(0, 0, 0)
+
+LaneMarkerSensor_1_plane_1 = visnodes.VisBeamPlane_createPlane(r"LaneMarkerSensor_1_plane_1", 20, 40)
+LaneMarkerSensor_1_plane_1.setBeamColor(1, 0.6470588, 0, 0.25)
+LaneMarkerSensor_1_plane_1.setNodeMask(16384, False)
+LaneMarkerSensor_1.addChild(LaneMarkerSensor_1_plane_1)
+LaneMarkerSensor_1_plane_1.setTranslation(0, 0, -4)
+

@@ -1,0 +1,11 @@
+CameraView {
+  name "Crossing"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -84.6355 -89.4649 79.5295
+  attitude 0.440245 -0.182338 -0.336415 0.812257
+  fieldOfView 30
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

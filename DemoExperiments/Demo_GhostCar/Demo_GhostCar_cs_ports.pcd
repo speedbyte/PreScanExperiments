@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="24" rtYLength="51">
+    <BlockDef id="HumanAnimated_1">
+        <PortDef id="Position_HumanAnimated_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_HumanAnimated_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_HumanAnimated_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_HumanAnimated_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_HumanAnimated_1" index="12" type="1" width="3"/>
+        <PortDef id="Anim_HumanAnimated_1" index="15" type="1" width="2"/>
+        <PortDef id="SELF_HumanAnimated_1" index="0" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Mazda_RX8_1_Ref">
+        <PortDef id="Position_Mazda_RX8_1_Ref" index="17" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_1_Ref" index="20" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_1_Ref" index="23" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_1_Ref" index="26" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_1_Ref" index="29" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_1_Ref" index="8" type="0" width="8"/>
+        <PortDef id="visu_GhostColor_0" index="32" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Mazda_RX8_2">
+        <PortDef id="Position_Mazda_RX8_2" index="36" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_2" index="39" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_2" index="42" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_2" index="45" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_2" index="48" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_2" index="16" type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

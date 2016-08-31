@@ -1,0 +1,387 @@
+MatrixTransform {
+  DataVariance STATIC
+  name "StraightRoad_4_LaneLines"
+  nodeMask 0xfffffeef
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  Matrix {
+    1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+  }
+  num_children 2
+  Geode {
+    UniqueID Geode_0
+    nodeMask 0xffffff1f
+    cullingActive TRUE
+    StateSet {
+      UniqueID StateSet_1
+      rendering_hint DEFAULT_BIN
+      renderBinMode USE
+      binNumber -28
+      binName RenderBin
+      GL_CULL_FACE ON
+      GL_LIGHTING ON
+      GL_DEPTH_TEST ON
+      Depth {
+        UniqueID Depth_2
+        function ALWAYS
+        writeMask FALSE
+        range 1 1
+      }
+      textureUnit 0 {
+        GL_TEXTURE_2D ON
+        Texture2D {
+          file "White_2.png"
+          wrap_s REPEAT
+          wrap_t REPEAT
+          wrap_r CLAMP
+          min_filter LINEAR_MIPMAP_LINEAR
+          mag_filter LINEAR
+          maxAnisotropy 1
+          borderColor 0 0 0 0
+          borderWidth 0
+          useHardwareMipMapGeneration TRUE
+          unRefImageDataAfterApply FALSE
+          internalFormatMode USE_IMAGE_DATA_FORMAT
+          resizeNonPowerOfTwo TRUE
+          shadowComparison FALSE
+          shadowCompareFunc GL_LEQUAL
+          shadowTextureMode GL_LUMINANCE
+        }
+      }
+    }
+    num_drawables 1
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 16
+      {
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          3 80 1 2 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          8 81 6 7 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          13 82 11 12 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          18 83 16 17 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          23 84 21 22 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          28 85 26 27 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          33 86 31 32 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          38 87 36 37 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          43 88 41 42 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          48 89 46 47 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          53 90 51 52 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          58 91 56 57 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          63 92 61 62 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          68 93 66 67 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          73 94 71 72 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          78 95 76 77 
+        }
+      }
+      VertexArray Vec3Array 96
+      {
+        -0 -3.55 0
+        1 -3.55 0
+        1 -3.45 0
+        -0 -3.45 0
+        -0 -3.55 0
+        4 -3.55 0
+        5 -3.55 0
+        5 -3.45 0
+        4 -3.45 0
+        4 -3.55 0
+        8 -3.55 0
+        9 -3.55 0
+        9 -3.45 0
+        8 -3.45 0
+        8 -3.55 0
+        12 -3.55 0
+        13 -3.55 0
+        13 -3.45 0
+        12 -3.45 0
+        12 -3.55 0
+        16 -3.55 0
+        17 -3.55 0
+        17 -3.45 0
+        16 -3.45 0
+        16 -3.55 0
+        20 -3.55 0
+        21 -3.55 0
+        21 -3.45 0
+        20 -3.45 0
+        20 -3.55 0
+        24 -3.55 0
+        25 -3.55 0
+        25 -3.45 0
+        24 -3.45 0
+        24 -3.55 0
+        28 -3.55 0
+        29 -3.55 0
+        29 -3.45 0
+        28 -3.45 0
+        28 -3.55 0
+        0 3.45 0
+        1 3.45 0
+        1 3.55 0
+        0 3.55 0
+        0 3.45 0
+        4 3.45 0
+        5 3.45 0
+        5 3.55 0
+        4 3.55 0
+        4 3.45 0
+        8 3.45 0
+        9 3.45 0
+        9 3.55 0
+        8 3.55 0
+        8 3.45 0
+        12 3.45 0
+        13 3.45 0
+        13 3.55 0
+        12 3.55 0
+        12 3.45 0
+        16 3.45 0
+        17 3.45 0
+        17 3.55 0
+        16 3.55 0
+        16 3.45 0
+        20 3.45 0
+        21 3.45 0
+        21 3.55 0
+        20 3.55 0
+        20 3.45 0
+        24 3.45 0
+        25 3.45 0
+        25 3.55 0
+        24 3.55 0
+        24 3.45 0
+        28 3.45 0
+        29 3.45 0
+        29 3.55 0
+        28 3.55 0
+        28 3.45 0
+        -0 -3.55 0
+        4 -3.55 0
+        8 -3.55 0
+        12 -3.55 0
+        16 -3.55 0
+        20 -3.55 0
+        24 -3.55 0
+        28 -3.55 0
+        0 3.45 0
+        4 3.45 0
+        8 3.45 0
+        12 3.45 0
+        16 3.45 0
+        20 3.45 0
+        24 3.45 0
+        28 3.45 0
+      }
+      NormalBinding OVERALL
+      NormalArray Vec3Array 1
+      {
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 96
+      {
+        -0 -3.55
+        1 -3.55
+        1 -3.45
+        -0 -3.45
+        -0 -3.55
+        4 -3.55
+        5 -3.55
+        5 -3.45
+        4 -3.45
+        4 -3.55
+        8 -3.55
+        9 -3.55
+        9 -3.45
+        8 -3.45
+        8 -3.55
+        12 -3.55
+        13 -3.55
+        13 -3.45
+        12 -3.45
+        12 -3.55
+        16 -3.55
+        17 -3.55
+        17 -3.45
+        16 -3.45
+        16 -3.55
+        20 -3.55
+        21 -3.55
+        21 -3.45
+        20 -3.45
+        20 -3.55
+        24 -3.55
+        25 -3.55
+        25 -3.45
+        24 -3.45
+        24 -3.55
+        28 -3.55
+        29 -3.55
+        29 -3.45
+        28 -3.45
+        28 -3.55
+        0 3.45
+        1 3.45
+        1 3.55
+        0 3.55
+        0 3.45
+        4 3.45
+        5 3.45
+        5 3.55
+        4 3.55
+        4 3.45
+        8 3.45
+        9 3.45
+        9 3.55
+        8 3.55
+        8 3.45
+        12 3.45
+        13 3.45
+        13 3.55
+        12 3.55
+        12 3.45
+        16 3.45
+        17 3.45
+        17 3.55
+        16 3.55
+        16 3.45
+        20 3.45
+        21 3.45
+        21 3.55
+        20 3.55
+        20 3.45
+        24 3.45
+        25 3.45
+        25 3.55
+        24 3.55
+        24 3.45
+        28 3.45
+        29 3.45
+        29 3.55
+        28 3.55
+        28 3.45
+        0 -3.55
+        4 -3.55
+        8 -3.55
+        12 -3.55
+        16 -3.55
+        20 -3.55
+        24 -3.55
+        28 -3.55
+        0 3.45
+        4 3.45
+        8 3.45
+        12 3.45
+        16 3.45
+        20 3.45
+        24 3.45
+        28 3.45
+      }
+    }
+  }
+  Geode {
+    UniqueID Geode_3
+    nodeMask 0x20
+    cullingActive TRUE
+    num_drawables 2
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawArrays LINE_STRIP 0 2
+      }
+      VertexArray Vec3Array 2
+      {
+        0 -3.5 0
+        30 -3.5 0
+      }
+      NormalBinding OVERALL
+      NormalArray UniqueID Vec3Array_4 Vec3Array 1
+      {
+        1 3 0.1
+      }
+      ColorBinding OVERALL
+      ColorArray UniqueID Vec4ubArray_5 Vec4ubArray 1
+      {
+        255 255 255 255
+      }
+      TexCoordArray 0 Vec2Array 2
+      {
+        0 -3.5
+        30 -3.5
+      }
+    }
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawArrays LINE_STRIP 0 2
+      }
+      VertexArray Vec3Array 2
+      {
+        0 3.5 0
+        30 3.5 0
+      }
+      NormalBinding OVERALL
+      NormalArray Use Vec3Array_4
+      ColorBinding OVERALL
+      ColorArray Use Vec4ubArray_5
+      TexCoordArray 0 Vec2Array 2
+      {
+        0 3.5
+        30 3.5
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+Group {
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  num_children 2
+  Group {
+    name "Visible"
+    nodeMask 0x20
+    cullingActive TRUE
+  }
+  Group {
+    name "ColorCoded"
+    nodeMask 0x40
+    cullingActive TRUE
+  }
+}

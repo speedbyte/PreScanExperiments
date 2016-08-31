@@ -1,0 +1,256 @@
+MatrixTransform {
+  DataVariance STATIC
+  name "StraightRoad_2_SideWalk"
+  nodeMask 0xfffffeef
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  Matrix {
+    1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+  }
+  num_children 1
+  Geode {
+    UniqueID Geode_0
+    nodeMask 0xffffff1f
+    cullingActive TRUE
+    StateSet {
+      UniqueID StateSet_1
+      DataVariance STATIC
+      rendering_hint DEFAULT_BIN
+      renderBinMode INHERIT
+      GL_CULL_FACE ON
+      GL_LIGHTING ON
+      Material {
+        ColorMode OFF
+        ambientColor 0 0 0 1
+        diffuseColor 0 0 0 1
+        specularColor 0 0 0 1
+        emissionColor 0 1 0 1
+        shininess 0
+      }
+    }
+    num_drawables 3
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLES 24
+        {
+          0 1 12 1 10 12 13 11 16 11
+          14 16 17 15 20 15 18 20 21 19
+          8 19 9 8 
+        }
+      }
+      VertexArray Vec3Array 22
+      {
+        0 -13.5 0.2
+        0 -13.5 0
+        28 -13.5 0.2
+        28 -13.5 0
+        28 -10.5 0.2
+        28 -10.5 0
+        0 -10.5 0.2
+        0 -10.5 0
+        0 -13.5 0.2
+        0 -13.5 0
+        28 -13.5 0
+        28 -13.5 0
+        28 -13.5 0.2
+        28 -13.5 0.2
+        28 -10.5 0
+        28 -10.5 0
+        28 -10.5 0.2
+        28 -10.5 0.2
+        0 -10.5 0
+        0 -10.5 0
+        0 -10.5 0.2
+        0 -10.5 0.2
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 22
+      {
+        0 -1 0
+        0 -1 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        -1 0 0
+        -1 0 0
+        0 -1 0
+        1 0 0
+        0 -1 0
+        1 0 0
+        1 0 0
+        0 1 0
+        1 0 0
+        0 1 0
+        0 1 0
+        -1 0 0
+        0 1 0
+        -1 0 0
+      }
+      TexCoordArray 0 Vec2Array 22
+      {
+        -13.5 0.2
+        -13.5 0
+        14.5 0.2
+        14.5 0
+        17.5 0.2
+        17.5 0
+        -10.5 0.2
+        -10.5 0
+        -13.5 0.2
+        -13.5 0
+        14.5 0
+        14.5 0
+        14.5 0.2
+        14.5 0.2
+        17.5 0
+        17.5 0
+        17.5 0.2
+        17.5 0.2
+        -10.5 0
+        -10.5 0
+        -10.5 0.2
+        -10.5 0.2
+      }
+    }
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLES 24
+        {
+          0 1 12 1 10 12 13 11 16 11
+          14 16 17 15 20 15 18 20 21 19
+          8 19 9 8 
+        }
+      }
+      VertexArray Vec3Array 22
+      {
+        0 10.5 0.2
+        0 10.5 0
+        28 10.5 0.2
+        28 10.5 0
+        28 13.5 0.2
+        28 13.5 0
+        0 13.5 0.2
+        0 13.5 0
+        0 10.5 0.2
+        0 10.5 0
+        28 10.5 0
+        28 10.5 0
+        28 10.5 0.2
+        28 10.5 0.2
+        28 13.5 0
+        28 13.5 0
+        28 13.5 0.2
+        28 13.5 0.2
+        0 13.5 0
+        0 13.5 0
+        0 13.5 0.2
+        0 13.5 0.2
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 22
+      {
+        0 -1 0
+        0 -1 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        -1 0 0
+        -1 0 0
+        0 -1 0
+        1 0 0
+        0 -1 0
+        1 0 0
+        1 0 0
+        0 1 0
+        1 0 0
+        0 1 0
+        0 1 0
+        -1 0 0
+        0 1 0
+        -1 0 0
+      }
+      TexCoordArray 0 Vec2Array 22
+      {
+        10.5 0.2
+        10.5 0
+        38.5 0.2
+        38.5 0
+        41.5 0.2
+        41.5 0
+        13.5 0.2
+        13.5 0
+        10.5 0.2
+        10.5 0
+        38.5 0
+        38.5 0
+        38.5 0.2
+        38.5 0.2
+        41.5 0
+        41.5 0
+        41.5 0.2
+        41.5 0.2
+        13.5 0
+        13.5 0
+        13.5 0.2
+        13.5 0.2
+      }
+    }
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 2
+      {
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          3 0 1 2 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          7 4 5 6 
+        }
+      }
+      VertexArray Vec3Array 8
+      {
+        0 -13.5 0.2
+        28 -13.5 0.2
+        28 -10.5 0.2
+        0 -10.5 0.2
+        0 10.5 0.2
+        28 10.5 0.2
+        28 13.5 0.2
+        0 13.5 0.2
+      }
+      NormalBinding OVERALL
+      NormalArray Vec3Array 1
+      {
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 8
+      {
+        0 -13.5
+        28 -13.5
+        28 -10.5
+        0 -10.5
+        0 10.5
+        28 10.5
+        28 13.5
+        0 13.5
+      }
+    }
+  }
+}

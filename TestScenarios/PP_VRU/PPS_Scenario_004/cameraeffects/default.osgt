@@ -1,0 +1,20 @@
+#Ascii Object 
+#Version 80 
+#Generator OpenSceneGraph 3.0.1 
+
+visosg::VisPostProcessOptions {
+  UniqueID 1 
+  Name "default" 
+  VignetteRadii 0.45 0.751 
+  CrossScreenFactor 4 
+  CameraDistortions TRUE {
+    visosg::VisCameraDistortionOptions {
+      UniqueID 2 
+    }
+  }
+  CameraLensOptions TRUE {
+    visosg::VisCameraLensOptions {
+      UniqueID 3 
+    }
+  }
+}

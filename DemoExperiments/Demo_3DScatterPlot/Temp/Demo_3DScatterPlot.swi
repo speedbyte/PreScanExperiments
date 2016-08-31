@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+TIS_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_mount")
+scene.Mazda_RX8_1.addChild(TIS_1_mount)
+scene.getTransformChild("TIS_1_mount")
+TIS_1_mount.setTranslation(3.525, 0, 0.4)
+TIS_1_mount.setRotation(0.043633231299854559, 0, -1, 0)
+

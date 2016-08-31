@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<CameraEffects>
+  <Setting camera="CameraSensor_1" effect="default" />
+</CameraEffects>

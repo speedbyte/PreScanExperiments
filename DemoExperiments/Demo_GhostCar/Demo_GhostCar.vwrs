@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ViewerSettings>
+	<Viewers>
+		<Viewer1 camera="East Direction Zoomed"/>
+		<Viewer2 camera="HumanView_2"/>
+		<Viewer3 camera="Top View Zoomed"/>
+		<Viewer4 camera="Default View"/>
+	</Viewers>
+	<Layout>
+		<splitter horizontal="True" left="1" right="0"/>
+		<splitter2 horizontal="True" left="1" right="0"/>
+		<splitter3 horizontal="False" left="1" right="1"/>
+	</Layout>
+</ViewerSettings>

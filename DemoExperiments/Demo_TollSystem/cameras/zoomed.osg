@@ -1,0 +1,11 @@
+CameraView {
+  name "zoomed"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -111.831 -203.455 104.656
+  attitude 0.564434 -0.228046 -0.297195 0.735584
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0.43
+}

@@ -1,0 +1,28 @@
+MatrixTransform {
+	DataVariance STATIC
+	nodeMask 0xff
+	cullingActive TRUE
+	StateSet {
+		UniqueID StateSet_0
+		DataVariance STATIC
+		rendering_hint DEFAULT_BIN
+		renderBinMode INHERIT
+		GL_LIGHTING ON
+	}
+	referenceFrame RELATIVE
+	Matrix {
+		1 0 0 0
+		0 1 0 0
+		0 0 1 0
+		0 0 0 1
+	}
+	num_children 2
+	Group {
+		DataVariance STATIC
+		name "Poles"
+		nodeMask 0xff
+		cullingActive TRUE
+		num_children 0
+		
+	}
+}

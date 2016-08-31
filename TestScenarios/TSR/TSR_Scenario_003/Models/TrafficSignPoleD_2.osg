@@ -1,0 +1,803 @@
+MatrixTransform {
+    DataVariance STATIC
+    nodeMask 0xff
+    cullingActive TRUE
+    StateSet {
+        UniqueID StateSet_0
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_LIGHTING ON
+    }
+    referenceFrame RELATIVE
+    Matrix {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    }
+    num_children 1
+    Group {
+        DataVariance STATIC
+        name "Body"
+        nodeMask 0xff
+        cullingActive TRUE
+        num_children 3
+        Geode
+        {
+            name "Pole"
+            ShapeDrawable {
+                DataVariance DYNAMIC
+                StateSet {
+                    DataVariance STATIC
+                    rendering_hint DEFAULT_BIN
+                    renderBinMode INHERIT
+                    GL_CULL_FACE ON
+                    GL_LIGHTING ON
+                    0xba1 ON
+                    Material {
+                        DataVariance STATIC
+                        ColorMode OFF
+                        ambientColor 0.588235 0.588235 0.588235 1
+                        diffuseColor 1 1 1 1
+                        specularColor 0 0 0 1
+                        emissionColor 0 0 0 1
+                        shininess 0
+                    }
+                    textureUnit 0 {
+                        GL_TEXTURE_2D ON
+                        Texture2D {
+                            DataVariance STATIC
+                            file "TrafficSignPoleD_1.jpg"
+                            wrap_s CLAMP_TO_EDGE
+                            wrap_t CLAMP_TO_EDGE
+                            wrap_r CLAMP_TO_EDGE
+                            min_filter LINEAR_MIPMAP_LINEAR
+                            mag_filter LINEAR
+                            maxAnisotropy 1
+                            borderColor 0 0 0 0
+                            borderWidth 0
+                            useHardwareMipMapGeneration TRUE
+                            unRefImageDataAfterApply FALSE
+                            internalFormatMode USE_IMAGE_DATA_FORMAT
+                            resizeNonPowerOfTwo TRUE
+                        }
+                    }
+                }
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                Cylinder {
+                    DataVariance DYNAMIC
+                    Center 0 0 1.5
+                    Radius 0.05
+                    Height 3
+                    Rotation 0 0 0 1
+                }
+                color 1 1 1 1
+                Use TessellationHints_1
+            }
+        }
+        Geode {
+            name "RectanglePlate0"
+            DataVariance STATIC
+            nodeMask 0xff
+            cullingActive TRUE
+            num_children 2
+            Geometry {
+                name "RectanglePlate0_Front"
+                DataVariance DYNAMIC
+                StateSet {
+                    DataVariance STATIC
+                    rendering_hint DEFAULT_BIN
+                    renderBinMode INHERIT
+                    GL_CULL_FACE ON
+                    GL_LIGHTING ON
+                    0xba1 ON
+                    Material {
+                        DataVariance STATIC
+                        ColorMode OFF
+                        ambientColor 0.803921568627451 0.803921568627451 0.803921568627451 1
+                        diffuseColor 0.588235294117647 0.588235294117647 0.588235294117647 1
+                        specularColor 0.784313725490196 0.784313725490196 0.784313725490196 1
+                        emissionColor 0 0 0 1
+                        shininess 0.15625
+                    }
+                    textureUnit 0 {
+                        GL_TEXTURE_2D ON
+                        Texture2D {
+                            DataVariance STATIC
+                            file "z350-10.png"
+                            wrap_s CLAMP_TO_EDGE
+                            wrap_t CLAMP_TO_EDGE
+                            wrap_r CLAMP_TO_EDGE
+                            min_filter LINEAR_MIPMAP_LINEAR
+                            mag_filter LINEAR
+                            maxAnisotropy 1
+                            borderColor 0 0 0 0
+                            borderWidth 0
+                            useHardwareMipMapGeneration TRUE
+                            unRefImageDataAfterApply FALSE
+                            internalFormatMode USE_IMAGE_DATA_FORMAT
+                            resizeNonPowerOfTwo TRUE
+                        }
+                        TexEnv {
+						DataVariance STATIC
+						mode DECAL
+					}
+                    }
+                }
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays POLYGON 0 22
+                }
+                VertexArray Vec3Array 22
+                {
+                    0.1 -0.375 2.31
+                    0.1 -0.37 2.2875
+                    0.1 -0.3575 2.2675
+                    0.1 -0.3375 2.255
+                    0.1 -0.315 2.25
+                    0.1 0.315 2.25
+                    0.1 0.33875 2.255
+                    0.1 0.3575 2.2675
+                    0.1 0.37 2.2875
+                    0.1 0.375 2.31
+                    0.1 0.375 2.31
+                    0.1 0.375 2.94
+                    0.1 0.37 2.96375
+                    0.1 0.3575 2.9825
+                    0.1 0.33875 2.995
+                    0.1 0.315 3
+                    0.1 -0.315 3
+                    0.1 -0.3375 2.995
+                    0.1 -0.3575 2.9825
+                    0.1 -0.37 2.96375
+                    0.1 -0.375 2.94
+                    0.1 -0.375 2.31
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 22
+                {
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                }
+                TexCoordArray 0 Vec2Array 22
+                {
+                    7.947286E-08 0.08000024
+                    0.00666674 0.05000019
+                    0.02333339 0.02333355
+                    0.05000007 0.006666819
+                    0.08000008 0
+                    0.92 0
+                    0.9516667 0.006666819
+                    0.9766667 0.02333355
+                    0.9933334 0.05000019
+                    1 0.08000024
+                    1 0.08000024
+                    1 0.9200001
+                    0.9933334 0.9516668
+                    0.9766667 0.9766667
+                    0.9516667 0.9933335
+                    0.92 1
+                    0.08000008 1
+                    0.05000007 0.9933335
+                    0.02333339 0.9766667
+                    0.00666674 0.9516668
+                    7.947286E-08 0.9200001
+                    7.947286E-08 0.08000024
+                }
+            }
+            Geometry {
+                name "RectanglePlate0_Back"
+                DataVariance DYNAMIC
+                StateSet {
+                    DataVariance STATIC
+                    rendering_hint DEFAULT_BIN
+                    renderBinMode INHERIT
+                    GL_CULL_FACE ON
+                    GL_LIGHTING ON
+                    0xba1 ON
+                    Material {
+                        DataVariance STATIC
+                        ColorMode OFF
+                        ambientColor 0.254901960784314 0.254901960784314 0.254901960784314 1
+                        diffuseColor 0.588235294117647 0.588235294117647 0.588235294117647 1
+                        specularColor 0.784313725490196 0.784313725490196 0.784313725490196 1
+                        emissionColor 0 0 0 1
+                        shininess 0.15625
+                    }
+                    textureUnit 0 {
+                        GL_TEXTURE_2D ON
+                        Texture2D {
+                            DataVariance STATIC
+                            file "ffb9b9b9_2.png"
+                            wrap_s CLAMP_TO_EDGE
+                            wrap_t CLAMP_TO_EDGE
+                            wrap_r CLAMP_TO_EDGE
+                            min_filter LINEAR_MIPMAP_LINEAR
+                            mag_filter LINEAR
+                            maxAnisotropy 1
+                            borderColor 0 0 0 0
+                            borderWidth 0
+                            useHardwareMipMapGeneration TRUE
+                            unRefImageDataAfterApply FALSE
+                            internalFormatMode USE_IMAGE_DATA_FORMAT
+                            resizeNonPowerOfTwo TRUE
+                        }
+                        TexEnv {
+						DataVariance STATIC
+						mode DECAL
+					}
+                    }
+                }
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays POLYGON 0 22
+                }
+                VertexArray Vec3Array 22
+                {
+                    0.05 -0.375 2.31
+                    0.05 -0.375 2.94
+                    0.05 -0.37 2.96375
+                    0.05 -0.3575 2.9825
+                    0.05 -0.3375 2.995
+                    0.05 -0.315 3
+                    0.05 0.315 3
+                    0.05 0.33875 2.995
+                    0.05 0.3575 2.9825
+                    0.05 0.37 2.96375
+                    0.05 0.375 2.94
+                    0.05 0.375 2.31
+                    0.05 0.375 2.31
+                    0.05 0.37 2.2875
+                    0.05 0.3575 2.2675
+                    0.05 0.33875 2.255
+                    0.05 0.315 2.25
+                    0.05 -0.315 2.25
+                    0.05 -0.3375 2.255
+                    0.05 -0.3575 2.2675
+                    0.05 -0.37 2.2875
+                    0.05 -0.375 2.31
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 22
+                {
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                }
+            }
+            Geometry {
+                name "RectanglePlate0_Side"
+                DataVariance DYNAMIC
+                StateSet {
+                    DataVariance STATIC
+                    rendering_hint DEFAULT_BIN
+                    renderBinMode INHERIT
+                    GL_CULL_FACE ON
+                    GL_LIGHTING ON
+                    0xba1 ON
+                    Material {
+                        DataVariance STATIC
+                        ColorMode OFF
+                        ambientColor 0.254901960784314 0.254901960784314 0.254901960784314 1
+                        diffuseColor 0.588235294117647 0.588235294117647 0.588235294117647 1
+                        specularColor 0.784313725490196 0.784313725490196 0.784313725490196 1
+                        emissionColor 0 0 0 1
+                        shininess 0.15625
+                    }
+                    textureUnit 0 {
+                        GL_TEXTURE_2D ON
+                        Texture2D {
+                            DataVariance STATIC
+                            file "ffb9b9b9_2.png"
+                            wrap_s CLAMP_TO_EDGE
+                            wrap_t CLAMP_TO_EDGE
+                            wrap_r CLAMP_TO_EDGE
+                            min_filter LINEAR_MIPMAP_LINEAR
+                            mag_filter LINEAR
+                            maxAnisotropy 1
+                            borderColor 0 0 0 0
+                            borderWidth 0
+                            useHardwareMipMapGeneration TRUE
+                            unRefImageDataAfterApply FALSE
+                            internalFormatMode USE_IMAGE_DATA_FORMAT
+                            resizeNonPowerOfTwo TRUE
+                        }
+                        TexEnv {
+						DataVariance STATIC
+						mode DECAL
+					}
+                    }
+                }
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays QUADS 0 84
+                }
+                VertexArray Vec3Array 84
+                {
+                    0.1 -0.375 2.31
+                    0.05 -0.375 2.31
+                    0.05 -0.37 2.2875
+                    0.1 -0.37 2.2875
+                    0.1 -0.37 2.2875
+                    0.05 -0.37 2.2875
+                    0.05 -0.3575 2.2675
+                    0.1 -0.3575 2.2675
+                    0.1 -0.3575 2.2675
+                    0.05 -0.3575 2.2675
+                    0.05 -0.3375 2.255
+                    0.1 -0.3375 2.255
+                    0.1 -0.3375 2.255
+                    0.05 -0.3375 2.255
+                    0.05 -0.315 2.25
+                    0.1 -0.315 2.25
+                    0.1 -0.315 2.25
+                    0.05 -0.315 2.25
+                    0.05 0.315 2.25
+                    0.1 0.315 2.25
+                    0.1 0.315 2.25
+                    0.05 0.315 2.25
+                    0.05 0.33875 2.255
+                    0.1 0.33875 2.255
+                    0.1 0.33875 2.255
+                    0.05 0.33875 2.255
+                    0.05 0.3575 2.2675
+                    0.1 0.3575 2.2675
+                    0.1 0.3575 2.2675
+                    0.05 0.3575 2.2675
+                    0.05 0.37 2.2875
+                    0.1 0.37 2.2875
+                    0.1 0.37 2.2875
+                    0.05 0.37 2.2875
+                    0.05 0.375 2.31
+                    0.1 0.375 2.31
+                    0.1 0.375 2.31
+                    0.05 0.375 2.31
+                    0.05 0.375 2.31
+                    0.1 0.375 2.31
+                    0.1 0.375 2.31
+                    0.05 0.375 2.31
+                    0.05 0.375 2.94
+                    0.1 0.375 2.94
+                    0.1 0.375 2.94
+                    0.05 0.375 2.94
+                    0.05 0.37 2.96375
+                    0.1 0.37 2.96375
+                    0.1 0.37 2.96375
+                    0.05 0.37 2.96375
+                    0.05 0.3575 2.9825
+                    0.1 0.3575 2.9825
+                    0.1 0.3575 2.9825
+                    0.05 0.3575 2.9825
+                    0.05 0.33875 2.995
+                    0.1 0.33875 2.995
+                    0.1 0.33875 2.995
+                    0.05 0.33875 2.995
+                    0.05 0.315 3
+                    0.1 0.315 3
+                    0.1 0.315 3
+                    0.05 0.315 3
+                    0.05 -0.315 3
+                    0.1 -0.315 3
+                    0.1 -0.315 3
+                    0.05 -0.315 3
+                    0.05 -0.3375 2.995
+                    0.1 -0.3375 2.995
+                    0.1 -0.3375 2.995
+                    0.05 -0.3375 2.995
+                    0.05 -0.3575 2.9825
+                    0.1 -0.3575 2.9825
+                    0.1 -0.3575 2.9825
+                    0.05 -0.3575 2.9825
+                    0.05 -0.37 2.96375
+                    0.1 -0.37 2.96375
+                    0.1 -0.37 2.96375
+                    0.05 -0.37 2.96375
+                    0.05 -0.375 2.94
+                    0.1 -0.375 2.94
+                    0.1 -0.375 2.94
+                    0.05 -0.375 2.94
+                    0.05 -0.375 2.31
+                    0.1 -0.375 2.31
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 84
+                {
+                    0 -0.00112500192411247 -0.000249999765306708
+                    0 -0.00112500192411247 -0.000249999765306708
+                    0 -0.00112500192411247 -0.000249999765306708
+                    0 -0.00112500192411247 -0.000249999765306708
+                    0 -0.000999999061226831 -0.000624999413266769
+                    0 -0.000999999061226831 -0.000624999413266769
+                    0 -0.000999999061226831 -0.000624999413266769
+                    0 -0.000999999061226831 -0.000624999413266769
+                    0 -0.000625002393499052 -0.00100000055134297
+                    0 -0.000625002393499052 -0.00100000055134297
+                    0 -0.000625002393499052 -0.00100000055134297
+                    0 -0.000625002393499052 -0.00100000055134297
+                    0 -0.000250005725771274 -0.00112500043399633
+                    0 -0.000250005725771274 -0.00112500043399633
+                    0 -0.000250005725771274 -0.00112500043399633
+                    0 -0.000250005725771274 -0.00112500043399633
+                    0 0 -0.0314999987408519
+                    0 0 -0.0314999987408519
+                    0 0 -0.0314999987408519
+                    0 0 -0.0314999987408519
+                    0 0.000250005725771274 -0.001187500375323
+                    0 0.000250005725771274 -0.001187500375323
+                    0 0.000250005725771274 -0.001187500375323
+                    0 0.000250005725771274 -0.001187500375323
+                    0 0.000625002393499052 -0.000937500610016295
+                    0 0.000625002393499052 -0.000937500610016295
+                    0 0.000625002393499052 -0.000937500610016295
+                    0 0.000625002393499052 -0.000937500610016295
+                    0 0.000999999061226831 -0.000624999413266769
+                    0 0.000999999061226831 -0.000624999413266769
+                    0 0.000999999061226831 -0.000624999413266769
+                    0 0.000999999061226831 -0.000624999413266769
+                    0 0.00112500192411247 -0.000249999765306708
+                    0 0.00112500192411247 -0.000249999765306708
+                    0 0.00112500192411247 -0.000249999765306708
+                    0 0.00112500192411247 -0.000249999765306708
+                    0 0 0
+                    0 0 0
+                    0 0 0
+                    0 0 0
+                    0 0.0314999942705034 0
+                    0 0.0314999942705034 0
+                    0 0.0314999942705034 0
+                    0 0.0314999942705034 0
+                    0 0.00118750335555529 0.000249999765306708
+                    0 0.00118750335555529 0.000249999765306708
+                    0 0.00118750335555529 0.000249999765306708
+                    0 0.00118750335555529 0.000249999765306708
+                    0 0.000937497629784012 0.000624999413266769
+                    0 0.000937497629784012 0.000624999413266769
+                    0 0.000937497629784012 0.000624999413266769
+                    0 0.000937497629784012 0.000624999413266769
+                    0 0.000625002393499052 0.000937500610016295
+                    0 0.000625002393499052 0.000937500610016295
+                    0 0.000625002393499052 0.000937500610016295
+                    0 0.000625002393499052 0.000937500610016295
+                    0 0.000249993804842141 0.001187500375323
+                    0 0.000249993804842141 0.001187500375323
+                    0 0.000249993804842141 0.001187500375323
+                    0 0.000249993804842141 0.001187500375323
+                    0 0 0.0314999987408519
+                    0 0 0.0314999987408519
+                    0 0 0.0314999987408519
+                    0 0 0.0314999987408519
+                    0 -0.000249993804842141 0.00112500043399633
+                    0 -0.000249993804842141 0.00112500043399633
+                    0 -0.000249993804842141 0.00112500043399633
+                    0 -0.000249993804842141 0.00112500043399633
+                    0 -0.000625002393499052 0.00100000055134297
+                    0 -0.000625002393499052 0.00100000055134297
+                    0 -0.000625002393499052 0.00100000055134297
+                    0 -0.000625002393499052 0.00100000055134297
+                    0 -0.000937497629784012 0.000624999413266769
+                    0 -0.000937497629784012 0.000624999413266769
+                    0 -0.000937497629784012 0.000624999413266769
+                    0 -0.000937497629784012 0.000624999413266769
+                    0 -0.00118750335555529 0.000249999765306708
+                    0 -0.00118750335555529 0.000249999765306708
+                    0 -0.00118750335555529 0.000249999765306708
+                    0 -0.00118750335555529 0.000249999765306708
+                    0 -0.0314999942705034 0
+                    0 -0.0314999942705034 0
+                    0 -0.0314999942705034 0
+                    0 -0.0314999942705034 0
+                }
+            }
+        }	Geode {
+            name "TrianglePlate1"
+            DataVariance STATIC
+            nodeMask 0xff
+            cullingActive TRUE
+            num_children 2
+            Geometry {
+                name "TrianglePlate1_Front"
+                DataVariance DYNAMIC
+                StateSet {
+                    DataVariance STATIC
+                    rendering_hint DEFAULT_BIN
+                    renderBinMode INHERIT
+                    GL_CULL_FACE ON
+                    GL_LIGHTING ON
+                    0xba1 ON
+                    Material {
+                        DataVariance STATIC
+                        ColorMode OFF
+                        ambientColor 0.803921568627451 0.803921568627451 0.803921568627451 1
+                        diffuseColor 0.588235294117647 0.588235294117647 0.588235294117647 1
+                        specularColor 0.784313725490196 0.784313725490196 0.784313725490196 1
+                        emissionColor 0 0 0 1
+                        shininess 0.15625
+                    }
+                    textureUnit 0 {
+                        GL_TEXTURE_2D ON
+                        Texture2D {
+                            DataVariance STATIC
+                            file "z101.png"
+                            wrap_s CLAMP_TO_EDGE
+                            wrap_t CLAMP_TO_EDGE
+                            wrap_r CLAMP_TO_EDGE
+                            min_filter LINEAR_MIPMAP_LINEAR
+                            mag_filter LINEAR
+                            maxAnisotropy 1
+                            borderColor 0 0 0 0
+                            borderWidth 0
+                            useHardwareMipMapGeneration TRUE
+                            unRefImageDataAfterApply FALSE
+                            internalFormatMode USE_IMAGE_DATA_FORMAT
+                            resizeNonPowerOfTwo TRUE
+                        }
+                        TexEnv {
+						DataVariance STATIC
+						mode DECAL
+					}
+                    }
+                }
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays POLYGON 0 7
+                }
+                VertexArray Vec3Array 7
+                {
+                    0.1 0.0225 2.211029
+                    0.1 -0.0225 2.211029
+                    0.1 -0.4275 1.509548
+                    0.1 -0.405 1.470577
+                    0.1 0.405 1.470577
+                    0.1 0.4275 1.509548
+                    0.1 0.0225 2.211029
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 7
+                {
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                    1 0 0
+                }
+                TexCoordArray 0 Vec2Array 7
+                {
+                    0.5263158 1
+                    0.4736842 1
+                    0 0.05263164
+                    0.02631577 0
+                    0.9736843 0
+                    1 0.05263164
+                    0.5263158 1
+                }
+            }
+            Geometry {
+                name "TrianglePlate1_Back"
+                DataVariance DYNAMIC
+                StateSet {
+                    DataVariance STATIC
+                    rendering_hint DEFAULT_BIN
+                    renderBinMode INHERIT
+                    GL_CULL_FACE ON
+                    GL_LIGHTING ON
+                    0xba1 ON
+                    Material {
+                        DataVariance STATIC
+                        ColorMode OFF
+                        ambientColor 0.254901960784314 0.254901960784314 0.254901960784314 1
+                        diffuseColor 0.588235294117647 0.588235294117647 0.588235294117647 1
+                        specularColor 0.784313725490196 0.784313725490196 0.784313725490196 1
+                        emissionColor 0 0 0 1
+                        shininess 0.15625
+                    }
+                    textureUnit 0 {
+                        GL_TEXTURE_2D ON
+                        Texture2D {
+                            DataVariance STATIC
+                            file "ffb9b9b9_2.png"
+                            wrap_s CLAMP_TO_EDGE
+                            wrap_t CLAMP_TO_EDGE
+                            wrap_r CLAMP_TO_EDGE
+                            min_filter LINEAR_MIPMAP_LINEAR
+                            mag_filter LINEAR
+                            maxAnisotropy 1
+                            borderColor 0 0 0 0
+                            borderWidth 0
+                            useHardwareMipMapGeneration TRUE
+                            unRefImageDataAfterApply FALSE
+                            internalFormatMode USE_IMAGE_DATA_FORMAT
+                            resizeNonPowerOfTwo TRUE
+                        }
+                        TexEnv {
+						DataVariance STATIC
+						mode DECAL
+					}
+                    }
+                }
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays POLYGON 0 7
+                }
+                VertexArray Vec3Array 7
+                {
+                    0.05 0.0225 2.211029
+                    0.05 0.4275 1.509548
+                    0.05 0.405 1.470577
+                    0.05 -0.405 1.470577
+                    0.05 -0.4275 1.509548
+                    0.05 -0.0225 2.211029
+                    0.05 0.0225 2.211029
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 7
+                {
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                    -1 0 0
+                }
+            }
+            Geometry {
+                name "TrianglePlate1_Side"
+                DataVariance DYNAMIC
+                StateSet {
+                    DataVariance STATIC
+                    rendering_hint DEFAULT_BIN
+                    renderBinMode INHERIT
+                    GL_CULL_FACE ON
+                    GL_LIGHTING ON
+                    0xba1 ON
+                    Material {
+                        DataVariance STATIC
+                        ColorMode OFF
+                        ambientColor 0.254901960784314 0.254901960784314 0.254901960784314 1
+                        diffuseColor 0.588235294117647 0.588235294117647 0.588235294117647 1
+                        specularColor 0.784313725490196 0.784313725490196 0.784313725490196 1
+                        emissionColor 0 0 0 1
+                        shininess 0.15625
+                    }
+                    textureUnit 0 {
+                        GL_TEXTURE_2D ON
+                        Texture2D {
+                            DataVariance STATIC
+                            file "ffb9b9b9_2.png"
+                            wrap_s CLAMP_TO_EDGE
+                            wrap_t CLAMP_TO_EDGE
+                            wrap_r CLAMP_TO_EDGE
+                            min_filter LINEAR_MIPMAP_LINEAR
+                            mag_filter LINEAR
+                            maxAnisotropy 1
+                            borderColor 0 0 0 0
+                            borderWidth 0
+                            useHardwareMipMapGeneration TRUE
+                            unRefImageDataAfterApply FALSE
+                            internalFormatMode USE_IMAGE_DATA_FORMAT
+                            resizeNonPowerOfTwo TRUE
+                        }
+                        TexEnv {
+						DataVariance STATIC
+						mode DECAL
+					}
+                    }
+                }
+                useDisplayList TRUE
+                useVertexBufferObjects FALSE
+                PrimitiveSets 1
+                {
+                    DrawArrays QUADS 0 24
+                }
+                VertexArray Vec3Array 24
+                {
+                    0.1 0.0225 2.211029
+                    0.05 0.0225 2.211029
+                    0.05 -0.0225 2.211029
+                    0.1 -0.0225 2.211029
+                    0.1 -0.0225 2.211029
+                    0.05 -0.0225 2.211029
+                    0.05 -0.4275 1.509548
+                    0.1 -0.4275 1.509548
+                    0.1 -0.4275 1.509548
+                    0.05 -0.4275 1.509548
+                    0.05 -0.405 1.470577
+                    0.1 -0.405 1.470577
+                    0.1 -0.405 1.470577
+                    0.05 -0.405 1.470577
+                    0.05 0.405 1.470577
+                    0.1 0.405 1.470577
+                    0.1 0.405 1.470577
+                    0.05 0.405 1.470577
+                    0.05 0.4275 1.509548
+                    0.1 0.4275 1.509548
+                    0.1 0.4275 1.509548
+                    0.05 0.4275 1.509548
+                    0.05 0.0225 2.211029
+                    0.1 0.0225 2.211029
+                }
+                NormalBinding PER_VERTEX
+                NormalArray Vec3Array 24
+                {
+                    0 0 0.00224999993667006
+                    0 0 0.00224999993667006
+                    0 0 0.00224999993667006
+                    0 0 0.00224999993667006
+                    0 -0.0350740259151761 0.0202499993368983
+                    0 -0.0350740259151761 0.0202499993368983
+                    0 -0.0350740259151761 0.0202499993368983
+                    0 -0.0350740259151761 0.0202499993368983
+                    0 -0.001948559313246 -0.00112499894388018
+                    0 -0.001948559313246 -0.00112499894388018
+                    0 -0.001948559313246 -0.00112499894388018
+                    0 -0.001948559313246 -0.00112499894388018
+                    0 0 -0.0405000007227063
+                    0 0 -0.0405000007227063
+                    0 0 -0.0405000007227063
+                    0 0 -0.0405000007227063
+                    0 0.001948559313246 -0.00112499894388018
+                    0 0.001948559313246 -0.00112499894388018
+                    0 0.001948559313246 -0.00112499894388018
+                    0 0.001948559313246 -0.00112499894388018
+                    0 0.0350740259151761 0.0202499993368983
+                    0 0.0350740259151761 0.0202499993368983
+                    0 0.0350740259151761 0.0202499993368983
+                    0 0.0350740259151761 0.0202499993368983
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,268 @@
+MatrixTransform {
+  DataVariance STATIC
+  name "StraightRoad_4_SideWalk"
+  nodeMask 0xfffffeef
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  Matrix {
+    1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+  }
+  num_children 1
+  Geode {
+    UniqueID Geode_0
+    nodeMask 0xffffff1f
+    cullingActive TRUE
+    StateSet {
+      UniqueID StateSet_1
+      rendering_hint DEFAULT_BIN
+      renderBinMode INHERIT
+      GL_CULL_FACE ON
+      GL_LIGHTING ON
+      textureUnit 0 {
+        GL_TEXTURE_2D ON
+        Texture2D {
+          file "Pavement.png"
+          wrap_s REPEAT
+          wrap_t REPEAT
+          wrap_r CLAMP
+          min_filter LINEAR_MIPMAP_LINEAR
+          mag_filter LINEAR
+          maxAnisotropy 1
+          borderColor 0 0 0 0
+          borderWidth 0
+          useHardwareMipMapGeneration TRUE
+          unRefImageDataAfterApply FALSE
+          internalFormatMode USE_IMAGE_DATA_FORMAT
+          resizeNonPowerOfTwo TRUE
+          shadowComparison FALSE
+          shadowCompareFunc GL_LEQUAL
+          shadowTextureMode GL_LUMINANCE
+        }
+      }
+    }
+    num_drawables 3
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLES 24
+        {
+          0 1 12 1 10 12 13 11 16 11
+          14 16 17 15 20 15 18 20 21 19
+          8 19 9 8 
+        }
+      }
+      VertexArray Vec3Array 22
+      {
+        0 -13.5 0.2
+        0 -13.5 0
+        30 -13.5 0.2
+        30 -13.5 0
+        30 -7 0.2
+        30 -7 0
+        0 -7 0.2
+        0 -7 0
+        0 -13.5 0.2
+        0 -13.5 0
+        30 -13.5 0
+        30 -13.5 0
+        30 -13.5 0.2
+        30 -13.5 0.2
+        30 -7 0
+        30 -7 0
+        30 -7 0.2
+        30 -7 0.2
+        0 -7 0
+        0 -7 0
+        0 -7 0.2
+        0 -7 0.2
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 22
+      {
+        0 -1 0
+        0 -1 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        -1 0 0
+        -1 0 0
+        0 -1 0
+        1 0 0
+        0 -1 0
+        1 0 0
+        1 0 0
+        0 1 0
+        1 0 0
+        0 1 0
+        0 1 0
+        -1 0 0
+        0 1 0
+        -1 0 0
+      }
+      TexCoordArray 0 Vec2Array 22
+      {
+        -13.5 0.2
+        -13.5 0
+        16.5 0.2
+        16.5 0
+        23 0.2
+        23 0
+        -7 0.2
+        -7 0
+        -13.5 0.2
+        -13.5 0
+        16.5 0
+        16.5 0
+        16.5 0.2
+        16.5 0.2
+        23 0
+        23 0
+        23 0.2
+        23 0.2
+        -7 0
+        -7 0
+        -7 0.2
+        -7 0.2
+      }
+    }
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUShort TRIANGLES 24
+        {
+          0 1 12 1 10 12 13 11 16 11
+          14 16 17 15 20 15 18 20 21 19
+          8 19 9 8 
+        }
+      }
+      VertexArray Vec3Array 22
+      {
+        0 7 0.2
+        0 7 0
+        30 7 0.2
+        30 7 0
+        30 13.5 0.2
+        30 13.5 0
+        0 13.5 0.2
+        0 13.5 0
+        0 7 0.2
+        0 7 0
+        30 7 0
+        30 7 0
+        30 7 0.2
+        30 7 0.2
+        30 13.5 0
+        30 13.5 0
+        30 13.5 0.2
+        30 13.5 0.2
+        0 13.5 0
+        0 13.5 0
+        0 13.5 0.2
+        0 13.5 0.2
+      }
+      NormalBinding PER_VERTEX
+      NormalArray Vec3Array 22
+      {
+        0 -1 0
+        0 -1 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        0 0 0
+        -1 0 0
+        -1 0 0
+        0 -1 0
+        1 0 0
+        0 -1 0
+        1 0 0
+        1 0 0
+        0 1 0
+        1 0 0
+        0 1 0
+        0 1 0
+        -1 0 0
+        0 1 0
+        -1 0 0
+      }
+      TexCoordArray 0 Vec2Array 22
+      {
+        7 0.2
+        7 0
+        37 0.2
+        37 0
+        43.5 0.2
+        43.5 0
+        13.5 0.2
+        13.5 0
+        7 0.2
+        7 0
+        37 0
+        37 0
+        37 0.2
+        37 0.2
+        43.5 0
+        43.5 0
+        43.5 0.2
+        43.5 0.2
+        13.5 0
+        13.5 0
+        13.5 0.2
+        13.5 0.2
+      }
+    }
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 2
+      {
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          3 0 1 2 
+        }
+        DrawElementsUByte TRIANGLE_FAN 4
+        {
+          7 4 5 6 
+        }
+      }
+      VertexArray Vec3Array 8
+      {
+        0 -13.5 0.2
+        30 -13.5 0.2
+        30 -7 0.2
+        0 -7 0.2
+        0 7 0.2
+        30 7 0.2
+        30 13.5 0.2
+        0 13.5 0.2
+      }
+      NormalBinding OVERALL
+      NormalArray Vec3Array 1
+      {
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 8
+      {
+        0 -13.5
+        30 -13.5
+        30 -7
+        0 -7
+        0 7
+        30 7
+        30 13.5
+        0 13.5
+      }
+    }
+  }
+}

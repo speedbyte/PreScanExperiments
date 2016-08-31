@@ -1,0 +1,11 @@
+CameraView {
+  name "iso"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -12.0515 -15.8845 7.81851
+  attitude 0.57021 -0.213193 -0.277838 0.743112
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0.41
+}

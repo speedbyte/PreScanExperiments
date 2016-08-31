@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+LaneMarkerSensor_1_mount = visnodes.VisTransform.createTransformNode(r"LaneMarkerSensor_1_mount")
+scene.Mazda_RX8_1.addChild(LaneMarkerSensor_1_mount)
+scene.getTransformChild("LaneMarkerSensor_1_mount")
+LaneMarkerSensor_1_mount.setTranslation(1.64999997615814, 0, 1.20000004768372)
+LaneMarkerSensor_1_mount.setRotation(0, 1, 0, 0)
+

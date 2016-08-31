@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="24" rtYLength="433">
+    <BlockDef id="Citroen_C3_1">
+        <PortDef id="Position_Citroen_C3_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Citroen_C3_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Citroen_C3_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Citroen_C3_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Citroen_C3_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Citroen_C3_1" index="0" type="0" width="8"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="15" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="31" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="47" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="63" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="79" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="95" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="111" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="127" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="143" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="159" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="Audi_A8_1">
+        <PortDef id="Position_Audi_A8_1" index="175" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_1" index="178" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_1" index="181" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_1" index="184" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_1" index="187" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_1" index="8" type="0" width="8"/>
+        <PortDef id="visu_TransWheelFL_0" index="190" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="193" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="197" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="200" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="204" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="207" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="211" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="214" type="1" width="4"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="218" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="234" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearLeft_0" index="250" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearRight_0" index="266" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="282" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="298" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="314" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="330" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="346" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="362" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="378" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="394" type="1" width="16"/>
+        <PortDef id="visu_SteeringWheel_0" index="410" type="1" width="4"/>
+        <PortDef id="visu_SteeringColumn_0" index="414" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Sphere_1">
+        <PortDef id="Position_Sphere_1" index="418" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_1" index="421" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_1" index="424" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_1" index="427" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_1" index="430" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_1" index="16" type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

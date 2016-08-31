@@ -1,0 +1,11 @@
+CameraView {
+  name "Lateral"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 87.2932 35.5525 7.81688
+  attitude 0.542935 -0.240394 -0.325761 0.735739
+  fieldOfView 30
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

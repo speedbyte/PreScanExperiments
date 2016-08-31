@@ -1,0 +1,11 @@
+CameraView {
+  name "East Direction Zoomed"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 88.3305 68.1964 5.66432
+  attitude -0.410116 0.410116 0.576025 -0.576025
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0.32
+}

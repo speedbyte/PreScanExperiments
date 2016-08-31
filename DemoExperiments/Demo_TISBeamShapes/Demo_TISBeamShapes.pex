@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Experiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Description="" id="Demo_TISBeamShapes" UniqueId="0" TotalSimulationTime="0" Built="true" EnableCollisionDetection="false" EnableTestAutomation="false" Generate3DTrajectories="false" VisualizeSensorBeams="false" VisualizeBoundingBoxes="false" Parsed="true" PrecipitationRandomSeed="0" PRESCANVersion="7.4.0" ResourcesDir="Resources" SensorRandomSeed="0" SimulationGenerationHash="CAD8B8374CE53CE7DF3567A6B8CC3B00F170F6ABFE8D6F1F6CD897A2C413C5A6" SkyBoxName="SKY_Air" TerrainColor="FF0080FF" TerrainTexture="Air_terrain.png" UniqueExperimentIdentifier="11713120-7e7a-4fb6-a014-2044e3b0de12" UniqueIdCounter="1106" UseTerrain="true" VisuAidMaxRenderingDistance="750" VisuAidMinRenderingDistance="0.01" WeatherTypeName="None">
+  <Actors>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_1" UniqueId="1001" ColorCodeR="0" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="true" NumericalID="1001" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_2" UniqueId="1002" ColorCodeR="255" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="true" NumericalID="1002" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_3" UniqueId="1003" ColorCodeR="255" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="true" NumericalID="1003" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_4" UniqueId="1004" ColorCodeR="0" ColorCodeG="255" ColorCodeB="255" SensorIDDetection="true" NumericalID="1004" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_5" UniqueId="1005" ColorCodeR="127" ColorCodeG="127" ColorCodeB="127" SensorIDDetection="true" NumericalID="1005" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_6" UniqueId="1006" ColorCodeR="127" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="true" NumericalID="1006" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_7" UniqueId="1007" ColorCodeR="0" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="true" NumericalID="1007" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_8" UniqueId="1008" ColorCodeR="0" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="true" NumericalID="1008" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_9" UniqueId="1009" ColorCodeR="127" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="true" NumericalID="1009" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-4" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_10" UniqueId="1010" ColorCodeR="127" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="true" NumericalID="1010" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_11" UniqueId="1011" ColorCodeR="0" ColorCodeG="127" ColorCodeB="127" SensorIDDetection="true" NumericalID="1011" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_12" UniqueId="1012" ColorCodeR="127" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="true" NumericalID="1012" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_13" UniqueId="1013" ColorCodeR="255" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="true" NumericalID="1013" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_14" UniqueId="1014" ColorCodeR="0" ColorCodeG="127" ColorCodeB="255" SensorIDDetection="true" NumericalID="1014" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_15" UniqueId="1015" ColorCodeR="255" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="true" NumericalID="1015" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_16" UniqueId="1016" ColorCodeR="127" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="true" NumericalID="1016" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_17" UniqueId="1017" ColorCodeR="0" ColorCodeG="255" ColorCodeB="127" SensorIDDetection="true" NumericalID="1017" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_18" UniqueId="1018" ColorCodeR="191" ColorCodeG="191" ColorCodeB="191" SensorIDDetection="true" NumericalID="1018" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-3" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_19" UniqueId="1019" ColorCodeR="191" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="true" NumericalID="1019" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_20" UniqueId="1020" ColorCodeR="0" ColorCodeG="191" ColorCodeB="0" SensorIDDetection="true" NumericalID="1020" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_21" UniqueId="1021" ColorCodeR="0" ColorCodeG="0" ColorCodeB="191" SensorIDDetection="true" NumericalID="1021" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_22" UniqueId="1022" ColorCodeR="191" ColorCodeG="191" ColorCodeB="0" SensorIDDetection="true" NumericalID="1022" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_23" UniqueId="1023" ColorCodeR="191" ColorCodeG="0" ColorCodeB="191" SensorIDDetection="true" NumericalID="1023" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_24" UniqueId="1024" ColorCodeR="0" ColorCodeG="191" ColorCodeB="191" SensorIDDetection="true" NumericalID="1024" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_25" UniqueId="1025" ColorCodeR="191" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="true" NumericalID="1025" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_26" UniqueId="1026" ColorCodeR="255" ColorCodeG="0" ColorCodeB="191" SensorIDDetection="true" NumericalID="1026" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_27" UniqueId="1027" ColorCodeR="0" ColorCodeG="191" ColorCodeB="255" SensorIDDetection="true" NumericalID="1027" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-2" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_28" UniqueId="1028" ColorCodeR="255" ColorCodeG="191" ColorCodeB="0" SensorIDDetection="true" NumericalID="1028" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_29" UniqueId="1029" ColorCodeR="191" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="true" NumericalID="1029" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_30" UniqueId="1030" ColorCodeR="0" ColorCodeG="255" ColorCodeB="191" SensorIDDetection="true" NumericalID="1030" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_31" UniqueId="1031" ColorCodeR="191" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="true" NumericalID="1031" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_32" UniqueId="1032" ColorCodeR="127" ColorCodeG="0" ColorCodeB="191" SensorIDDetection="true" NumericalID="1032" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_33" UniqueId="1033" ColorCodeR="0" ColorCodeG="191" ColorCodeB="127" SensorIDDetection="true" NumericalID="1033" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_34" UniqueId="1034" ColorCodeR="127" ColorCodeG="191" ColorCodeB="0" SensorIDDetection="true" NumericalID="1034" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_35" UniqueId="1035" ColorCodeR="191" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="true" NumericalID="1035" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_36" UniqueId="1036" ColorCodeR="0" ColorCodeG="127" ColorCodeB="191" SensorIDDetection="true" NumericalID="1036" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="-1" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_37" UniqueId="1037" ColorCodeR="63" ColorCodeG="63" ColorCodeB="63" SensorIDDetection="true" NumericalID="1037" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_38" UniqueId="1038" ColorCodeR="63" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="true" NumericalID="1038" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_39" UniqueId="1039" ColorCodeR="0" ColorCodeG="63" ColorCodeB="0" SensorIDDetection="true" NumericalID="1039" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_40" UniqueId="1040" ColorCodeR="0" ColorCodeG="0" ColorCodeB="63" SensorIDDetection="true" NumericalID="1040" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_41" UniqueId="1041" ColorCodeR="63" ColorCodeG="63" ColorCodeB="0" SensorIDDetection="true" NumericalID="1041" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_42" UniqueId="1042" ColorCodeR="63" ColorCodeG="0" ColorCodeB="63" SensorIDDetection="true" NumericalID="1042" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_43" UniqueId="1043" ColorCodeR="0" ColorCodeG="63" ColorCodeB="63" SensorIDDetection="true" NumericalID="1043" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_44" UniqueId="1044" ColorCodeR="63" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="true" NumericalID="1044" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_45" UniqueId="1045" ColorCodeR="255" ColorCodeG="0" ColorCodeB="63" SensorIDDetection="true" NumericalID="1045" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="0" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_46" UniqueId="1046" ColorCodeR="0" ColorCodeG="63" ColorCodeB="255" SensorIDDetection="true" NumericalID="1046" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_47" UniqueId="1047" ColorCodeR="255" ColorCodeG="63" ColorCodeB="0" SensorIDDetection="true" NumericalID="1047" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_48" UniqueId="1048" ColorCodeR="63" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="true" NumericalID="1048" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_49" UniqueId="1049" ColorCodeR="0" ColorCodeG="255" ColorCodeB="63" SensorIDDetection="true" NumericalID="1049" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_50" UniqueId="1050" ColorCodeR="63" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="true" NumericalID="1050" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_51" UniqueId="1051" ColorCodeR="127" ColorCodeG="0" ColorCodeB="63" SensorIDDetection="true" NumericalID="1051" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_52" UniqueId="1052" ColorCodeR="0" ColorCodeG="63" ColorCodeB="127" SensorIDDetection="true" NumericalID="1052" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_53" UniqueId="1053" ColorCodeR="127" ColorCodeG="63" ColorCodeB="0" SensorIDDetection="true" NumericalID="1053" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_54" UniqueId="1054" ColorCodeR="63" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="true" NumericalID="1054" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="1" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_55" UniqueId="1055" ColorCodeR="0" ColorCodeG="127" ColorCodeB="63" SensorIDDetection="true" NumericalID="1055" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_56" UniqueId="1056" ColorCodeR="63" ColorCodeG="191" ColorCodeB="0" SensorIDDetection="true" NumericalID="1056" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_57" UniqueId="1057" ColorCodeR="191" ColorCodeG="0" ColorCodeB="63" SensorIDDetection="true" NumericalID="1057" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_58" UniqueId="1058" ColorCodeR="0" ColorCodeG="63" ColorCodeB="191" SensorIDDetection="true" NumericalID="1058" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_59" UniqueId="1059" ColorCodeR="191" ColorCodeG="63" ColorCodeB="0" SensorIDDetection="true" NumericalID="1059" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_60" UniqueId="1060" ColorCodeR="63" ColorCodeG="0" ColorCodeB="191" SensorIDDetection="true" NumericalID="1060" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_61" UniqueId="1061" ColorCodeR="0" ColorCodeG="191" ColorCodeB="63" SensorIDDetection="true" NumericalID="1061" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_62" UniqueId="1062" ColorCodeR="223" ColorCodeG="223" ColorCodeB="223" SensorIDDetection="true" NumericalID="1062" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_63" UniqueId="1063" ColorCodeR="223" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="true" NumericalID="1063" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="2" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_64" UniqueId="1064" ColorCodeR="0" ColorCodeG="223" ColorCodeB="0" SensorIDDetection="true" NumericalID="1064" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_65" UniqueId="1065" ColorCodeR="0" ColorCodeG="0" ColorCodeB="223" SensorIDDetection="true" NumericalID="1065" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_66" UniqueId="1066" ColorCodeR="223" ColorCodeG="223" ColorCodeB="0" SensorIDDetection="true" NumericalID="1066" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_67" UniqueId="1067" ColorCodeR="223" ColorCodeG="0" ColorCodeB="223" SensorIDDetection="true" NumericalID="1067" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_68" UniqueId="1068" ColorCodeR="0" ColorCodeG="223" ColorCodeB="223" SensorIDDetection="true" NumericalID="1068" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_69" UniqueId="1069" ColorCodeR="223" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="true" NumericalID="1069" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_70" UniqueId="1070" ColorCodeR="255" ColorCodeG="0" ColorCodeB="223" SensorIDDetection="true" NumericalID="1070" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_71" UniqueId="1071" ColorCodeR="0" ColorCodeG="223" ColorCodeB="255" SensorIDDetection="true" NumericalID="1071" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_72" UniqueId="1072" ColorCodeR="255" ColorCodeG="223" ColorCodeB="0" SensorIDDetection="true" NumericalID="1072" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="3" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_73" UniqueId="1073" ColorCodeR="223" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="true" NumericalID="1073" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="2" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_74" UniqueId="1074" ColorCodeR="0" ColorCodeG="255" ColorCodeB="223" SensorIDDetection="true" NumericalID="1074" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="3" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_75" UniqueId="1075" ColorCodeR="223" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="true" NumericalID="1075" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="4" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_76" UniqueId="1076" ColorCodeR="127" ColorCodeG="0" ColorCodeB="223" SensorIDDetection="true" NumericalID="1076" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="5" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_77" UniqueId="1077" ColorCodeR="0" ColorCodeG="223" ColorCodeB="127" SensorIDDetection="true" NumericalID="1077" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="6" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_78" UniqueId="1078" ColorCodeR="127" ColorCodeG="223" ColorCodeB="0" SensorIDDetection="true" NumericalID="1078" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="7" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_79" UniqueId="1079" ColorCodeR="223" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="true" NumericalID="1079" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="8" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_80" UniqueId="1080" ColorCodeR="0" ColorCodeG="127" ColorCodeB="223" SensorIDDetection="true" NumericalID="1080" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="9" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Sphere" Description="" id="Sphere_81" UniqueId="1081" ColorCodeR="223" ColorCodeG="191" ColorCodeB="0" SensorIDDetection="true" NumericalID="1081" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" SphereRadius="0.05">
+      <Location X="20" Y="4" Z="10" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.1" Y="0.1" Z="0.1" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Cone" Description="" id="Cone_1" UniqueId="1098" ColorCodeR="255" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="true" NumericalID="2" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" ConeRadius="0.5" ConeHeight="1.5">
+      <Location X="0" Y="0" Z="6" />
+      <Orientation Bank="0" Tilt="90" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.25" />
+      <Size X="1" Y="1" Z="1.5" />
+      <CoGOffset X="0" Y="0" Z="1.125" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors>
+        <Sensor xsi:type="TISSensor" Description="" id="TIS_1" UniqueId="12" PreventDragging="true" CurrentAttachmentPoint="Actor" Visualize="true" VisualizedAlpha="25" BeamColor="Red (FFFF0000)" FovAzimuth="60" FovElevation="45" HorizontalResolution="347" VerticalResolution="363" OutputCameraImage="true" BeamCountHor="5" BeamCountVert="1" BeamType="Elliptical_Cone" ScanPattern="ArrayMode" AtmAttenuation="0" MaxDetectableObjects="81" ReportClosestObjectFirst="true" BeamWidth="60" BeamHeight="22.61987" ORMFiltered="false" ORMPorts="false" ORMTechnologyFilter="" OverrideBeams="true" CoherentSystem="false" ActualBeamCount="5" CaptureFrequency="20" SweepRateScaleFactor="1" SweepDirectionLine="Left to Right / Top to Bottom" SweepDirectionGrid="TopLeft to BottomRight" SensorSweepDirectionOrientation="Horizontal" ScanManner="SliceWise" DriftAzimuthType="None" DriftElevationType="None" DriftRangeType="None" DriftAzimuthGaussianSigma="0" DriftAzimuthUnidirectionalRate="0" DriftElevationGaussianSigma="0" DriftElevationUnidirectionalRate="0" DriftRangeGaussianSigma="0" DriftRangeUnidirectionalRate="0" NoiseAngularAzimuthResolutionCellSize="0" NoiseAngularElevationResolutionCellSize="0" NoiseAzimuthIllumination="0" NoiseElevationIllumination="0" NoiseAzimuthReflection="0" NoiseElevationReflection="0" NoiseRange="0" NoiseRangeCellSize="0" SourceType="Single" MSourceHorizontalGridSpacing="5" MSourceVerticalGridSpacing="5" PencilBeamAngle="1E-05" NoiseAziIlluType="Additive" NoiseElevIlluType="Additive" NoiseAziReflectType="Additive" NoiseElevReflectType="Additive" NoiseRangeType="Multiplicative" BeamLength="50">
+          <Location X="0" Y="0" Z="1.125" />
+          <Orientation Bank="0" Tilt="270" Heading="0" />
+          <Origin X="0" Y="1" Z="0" />
+          <Size X="4.1085062026977539" Y="1.6562497615814209" Z="0.10000000149011612" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <TestAutomationVariables>
+            <TestAutomationVariable VariableName="Location" VariableState="false" />
+            <TestAutomationVariable VariableName="Orientation" VariableState="false" />
+            <TestAutomationVariable VariableName="Range" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAzimuthIllumination" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAziIlluType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevationIllumination" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevIlluType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAzimuthReflection" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAziReflectType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevationReflection" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevReflectType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseRange" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseRangeType" VariableState="false" />
+          </TestAutomationVariables>
+          <TISSensorCustomBeams>
+            <TISSensorBeam Description="" id="" UniqueId="1096" BeamID="4" FilterBeamID="0" Range="50" OffsetWidth="0" OffsetHeight="0" Type="Pyramid" Width="8" Height="13" />
+            <TISSensorBeam Description="" id="" UniqueId="1097" BeamID="5" FilterBeamID="1" Range="50" OffsetWidth="0" OffsetHeight="0" Type="Pencil" Width="0" Height="0" />
+            <TISSensorBeam Description="" id="" UniqueId="1095" BeamID="3" FilterBeamID="2" Range="50" OffsetWidth="0" OffsetHeight="0" Type="Cone" Width="15" Height="15" />
+            <TISSensorBeam Description="" id="" UniqueId="1093" BeamID="1" FilterBeamID="3" Range="50" OffsetWidth="0" OffsetHeight="0" Type="Elliptical_Cone" Width="60" Height="22.6198654" />
+            <TISSensorBeam Description="" id="" UniqueId="1094" BeamID="2" FilterBeamID="4" Range="50" OffsetWidth="0" OffsetHeight="0" Type="Elliptical_Cone" Width="22.62" Height="62" />
+          </TISSensorCustomBeams>
+        </Sensor>
+      </Sensors>
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Cylinder" Description="" id="Cylinder_1" UniqueId="1102" ColorCodeR="255" ColorCodeG="255" ColorCodeB="255" SensorIDDetection="false" NumericalID="1" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" CylinderRadius="0.01" CylinderHeight="20">
+      <Location X="10" Y="0" Z="6" />
+      <Orientation Bank="0" Tilt="90" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.02" Y="0.02" Z="20" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+    <Actor xsi:type="Cylinder" Description="" id="Cylinder_2" UniqueId="1103" ColorCodeR="0" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="false" NumericalID="3" ObjectTypeID="5" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" Color="IndianRed (FFCD5C5C)" CylinderRadius="0.01" CylinderHeight="20.396078054371142">
+      <Location X="10" Y="0" Z="8" />
+      <Orientation Bank="0" Tilt="78.690067525979785" Heading="0" />
+      <Origin X="0.5" Y="0.5" Z="0.5" />
+      <Size X="0.02" Y="0.02" Z="20.396078054371142" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_CalElement.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.1" EnableContactFriction="false" Mass="90" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="0.7" RollFriction="0.01" />
+      <Sensors />
+      <ConnectionPoints />
+      <Trajectories />
+      <Cameras />
+    </Actor>
+  </Actors>
+  <VehicleTypeSpecificDatas />
+  <CompilationSheetInfo Description="" id="CompilationSheetInfo" UniqueId="1" InterpretedSimulink="Demo_TISBeamShapes" />
+  <ModelGenerationSettings Description="" id="ModelGenerationSettings" UniqueId="11" RoadErrorDistance="0.15" RoadErrorAngleDeg="3" TrajectoryErrorDistance="0.15" TrajectoryErrorAngleDeg="0.005" />
+  <Environment Description="" id="Environment" UniqueId="2">
+    <Underlays />
+    <NatureElements />
+    <DirtSpots />
+  </Environment>
+  <GlobalPlacement>
+    <GpsLocation Altitude="0">
+      <Longitude Degrees="0" Minutes="0" Seconds="0" Heading="E" />
+      <Latitude Degrees="0" Minutes="0" Seconds="0" Heading="N" />
+    </GpsLocation>
+  </GlobalPlacement>
+  <InfraStructure Description="" id="Infrastructure" UniqueId="3">
+    <RoadSegments />
+    <RoadSegmentConnections />
+    <Buildings />
+    <AbstractObjects />
+    <TrafficSigns />
+    <InfraOthers />
+    <SensorHolders />
+  </InfraStructure>
+  <Paths />
+  <ArticulatedActors />
+  <PhysicsEnvironment AirDensity="1.28" Gravitation="9.81" AirTemperature="293.15" AtmPressure="101.325" AirHumidityPercentage="10" />
+  <UsedPreScanBuilds>
+    <Build Version="7.4.0 " BuildNumber="8796" BuildId="3a98bfedfad0" Architecture="64" />
+  </UsedPreScanBuilds>
+  <Resources />
+  <SceneLightSource Description="" id="SceneLightSource" UniqueId="4" UseShadows="true" UseSoftShadows="true" UseReflectiveTexture="true" UseNormalMapTexture="true" GlobalAmbientR="0" GlobalAmbientG="0" GlobalAmbientB="0" AmbientR="150" AmbientG="150" AmbientB="150" AmbientA="255" DiffuseR="105" DiffuseG="105" DiffuseB="105" DiffuseA="255" SpecularR="150" SpecularG="150" SpecularB="150" SpecularA="255" PositionX="-1" PositionY="-1" PositionZ="1" Intensity="1.4" AtmTurbFactor="2" Altitude="0" UseExplicitLightPositioning="true" UseImageBasedSky="true" GenerateSkyAlbedo="0.5" GeneratedSkyTurbidity="4" UseCurrentGPSLocation="true" Hours="0" Minutes="0" Seconds="0" UTCoffset="0" SceneShadowTextureSize="2048" SpotLightShadowTextureSize="256">
+    <Latitude Degrees="0" Minutes="0" Seconds="0" Heading="N" />
+    <Longitude Degrees="0" Minutes="0" Seconds="0" Heading="E" />
+    <Date>2011-05-06T00:00:00</Date>
+  </SceneLightSource>
+  <SensorSettings Description="" id="SensorSettings" UniqueId="5" CamSensorFarClippingDistance="750" CamSensorNearClippingDistance="0.1" LaneMarkerResolutionFactor="1" IROBUheight="0.1" IROBUlength="0.1" IROBUwidth="0.1" LidarDesiredAccuracy="2" LidarFarClippingDistance="10000" LidarNearClippingDistance="0.01" RadarDesiredAccuracy="2" RadarFarClippingDistance="10000" RadarNearClippingDistance="0.01" TISDesiredAccuracy="0.5" TISFarClippingDistance="1000" TISNearClippingDistance="0.01" UltraSonicDesiredAccuracy="2" UltraSonicFarClippingDistance="10000" UltraSonicNearClippingDistance="0.01" LegacySensorsSupport="false">
+    <IRBeaconPorts>
+      <Spare value="spare_1" />
+      <Spare value="spare_2" />
+      <Spare value="spare_3" />
+      <Spare value="spare_4" />
+      <Spare value="spare_5" />
+      <Spare value="spare_6" />
+      <Spare value="spare_7" />
+      <Spare value="spare_8" />
+      <Spare value="spare_9" />
+      <Spare value="spare_10" />
+      <Spare value="spare_11" />
+      <Spare value="spare_12" />
+      <Spare value="spare_13" />
+      <Spare value="spare_14" />
+      <Spare value="spare_15" />
+    </IRBeaconPorts>
+    <IROBUPorts>
+      <Spare value="spare_1" />
+      <Spare value="spare_2" />
+      <Spare value="spare_3" />
+      <Spare value="spare_4" />
+      <Spare value="spare_5" />
+      <Spare value="spare_6" />
+      <Spare value="spare_7" />
+      <Spare value="spare_8" />
+      <Spare value="spare_9" />
+      <Spare value="spare_10" />
+      <Spare value="spare_11" />
+      <Spare value="spare_12" />
+      <Spare value="spare_13" />
+      <Spare value="spare_14" />
+      <Spare value="spare_15" />
+    </IROBUPorts>
+    <RFBeaconPorts>
+      <Spare value="spare_1" />
+      <Spare value="spare_2" />
+      <Spare value="spare_3" />
+      <Spare value="spare_4" />
+      <Spare value="spare_5" />
+      <Spare value="spare_6" />
+      <Spare value="spare_7" />
+      <Spare value="spare_8" />
+      <Spare value="spare_9" />
+      <Spare value="spare_10" />
+      <Spare value="spare_11" />
+      <Spare value="spare_12" />
+      <Spare value="spare_13" />
+      <Spare value="spare_14" />
+      <Spare value="spare_15" />
+    </RFBeaconPorts>
+    <RFOBUPorts>
+      <Spare value="spare_1" />
+      <Spare value="spare_2" />
+      <Spare value="spare_3" />
+      <Spare value="spare_4" />
+      <Spare value="spare_5" />
+      <Spare value="spare_6" />
+      <Spare value="spare_7" />
+      <Spare value="spare_8" />
+      <Spare value="spare_9" />
+      <Spare value="spare_10" />
+      <Spare value="spare_11" />
+      <Spare value="spare_12" />
+      <Spare value="spare_13" />
+      <Spare value="spare_14" />
+      <Spare value="spare_15" />
+    </RFOBUPorts>
+  </SensorSettings>
+  <PreScanObjectTypeSettings Description="" id="PreScanObjectTypeSettings" UniqueId="1104">
+    <ObjectProperties>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Car" PreScanObjectTypeId="1" />
+        </key>
+        <value>
+          <double>50</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Motor" PreScanObjectTypeId="2" />
+        </key>
+        <value>
+          <double>50</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="TruckBus" PreScanObjectTypeId="3" />
+        </key>
+        <value>
+          <double>50</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Human" PreScanObjectTypeId="4" />
+        </key>
+        <value>
+          <double>30</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="CalibrationElement" PreScanObjectTypeId="5" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Trailer" PreScanObjectTypeId="7" />
+        </key>
+        <value>
+          <double>50</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="ActorOther" PreScanObjectTypeId="9" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Road" PreScanObjectTypeId="11" />
+        </key>
+        <value>
+          <double>20</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Building" PreScanObjectTypeId="12" />
+        </key>
+        <value>
+          <double>20</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="NatureElement" PreScanObjectTypeId="13" />
+        </key>
+        <value>
+          <double>40</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="TrafficSign" PreScanObjectTypeId="14" />
+        </key>
+        <value>
+          <double>80</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="AnimatedTrafficSign" PreScanObjectTypeId="15" />
+        </key>
+        <value>
+          <double>80</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="AbstractObject" PreScanObjectTypeId="16" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Underlay" PreScanObjectTypeId="17" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="InfraOther" PreScanObjectTypeId="19" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="StaticOther" PreScanObjectTypeId="21" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="MovingOther" PreScanObjectTypeId="22" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="LidarSensor" PreScanObjectType="Auxilary" PreScanObjectTypeId="23" />
+        </key>
+        <value>
+          <double>100</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Car" PreScanObjectTypeId="1" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Motor" PreScanObjectTypeId="2" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="TruckBus" PreScanObjectTypeId="3" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Human" PreScanObjectTypeId="4" />
+        </key>
+        <value>
+          <double>0.5</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="CalibrationElement" PreScanObjectTypeId="5" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Trailer" PreScanObjectTypeId="7" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="ActorOther" PreScanObjectTypeId="9" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Road" PreScanObjectTypeId="11" />
+        </key>
+        <value>
+          <double>0.05</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Building" PreScanObjectTypeId="12" />
+        </key>
+        <value>
+          <double>0.1</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="NatureElement" PreScanObjectTypeId="13" />
+        </key>
+        <value>
+          <double>0.4</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="TrafficSign" PreScanObjectTypeId="14" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="AnimatedTrafficSign" PreScanObjectTypeId="15" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="AbstractObject" PreScanObjectTypeId="16" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Underlay" PreScanObjectTypeId="17" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="InfraOther" PreScanObjectTypeId="19" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="StaticOther" PreScanObjectTypeId="21" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="MovingOther" PreScanObjectTypeId="22" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+      <item>
+        <key>
+          <SensorObjectTuple SensorType="UltrasonicSensor" PreScanObjectType="Auxilary" PreScanObjectTypeId="23" />
+        </key>
+        <value>
+          <double>0</double>
+        </value>
+      </item>
+    </ObjectProperties>
+  </PreScanObjectTypeSettings>
+  <SimulationConfiguration Description="" id="SimulationConfiguration" UniqueId="6" IntegrationEndTime="-1" IntegrationFrequency="20" VisualizationUpdateRatio="20" DisableVisualWorld="false" SimulationUpdateRatio="1" Solver="true" SimulationTimescale="0" SimulationMaxStepLag="0" VisScriptFile="Temp\Demo_TISBeamShapes.swi" TerminationVisScriptFile="Temp\Demo_TISBeamShapes.swt" />
+  <SpeedProfiles />
+  <TerrainTextureSize>
+    <Width>1</Width>
+    <Height>1</Height>
+  </TerrainTextureSize>
+  <TrajectorySettings Description="" id="TrajectorySettings" UniqueId="7" ApproximationTrackSamples="100" LateralAccelerationCalculationSampleTime="0.01" MaxSmoothAccelerationTimeEstimationError="0.000001" />
+  <Cameras />
+  <WeatherFogSettings Description="" id="Fog" UniqueId="8" Enabled="false" FogName="Default Normal">
+    <CurrentFogConfiguration Name="Current" Start="0" End="1E-05" Color="00000000" Mode="linear" Density="0" />
+  </WeatherFogSettings>
+  <WeatherRainSettings Description="" id="Rain" UniqueId="9" RainName="">
+    <CurrentRainConfiguration Name="Current" Density="0" PSize="0" Color="00000000" Animation="false" Time="0" ShutterTime="0" StartDistance="0" Hardness="0" DepthWrite="false" RenderBin="0" IsDefault="false">
+      <Direction X="0" Y="0" Z="-4.1999998092651367" />
+      <DeltaDropletRandomRange X="0" Y="0" Z="0" />
+    </CurrentRainConfiguration>
+  </WeatherRainSettings>
+  <WeatherSnowSettings Description="" id="Snow" UniqueId="10" SnowName="">
+    <CurrentSnowConfiguration Name="Current" Density="0" PSize="0" Color="00000000" Animation="false" Time="0" ShutterTime="0" StartDistance="0" Hardness="0" DepthWrite="false" RenderBin="0">
+      <Direction X="0" Y="0" Z="-1" />
+      <DeltaDropletRandomRange X="0.05000000074505806" Y="0.05000000074505806" Z="0" />
+      <OscillationPeriodRandomRange X="1.5" Y="1.5" Z="0" />
+      <OscillationAmplitudeRandomRange X="0.059999998658895493" Y="0.059999998658895493" Z="0" />
+    </CurrentSnowConfiguration>
+  </WeatherSnowSettings>
+</Experiment>

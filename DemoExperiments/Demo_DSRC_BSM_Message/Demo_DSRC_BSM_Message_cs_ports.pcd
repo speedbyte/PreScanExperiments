@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="118" rtYLength="93">
+    <BlockDef id="BMW_Z3_1">
+        <PortDef id="Position_BMW_Z3_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_BMW_Z3_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_BMW_Z3_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_BMW_Z3_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_BMW_Z3_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_BMW_Z3_1" index="0" type="0" width="8"/>
+        <PortDef id="DSRC_Rx_1" index="8" type="0" width="94"/>
+    </BlockDef>
+    <BlockDef id="Fiat_Bravo_1">
+        <PortDef id="Position_Fiat_Bravo_1" index="15" type="1" width="3"/>
+        <PortDef id="Velocity_Fiat_Bravo_1" index="18" type="1" width="3"/>
+        <PortDef id="Acceleration_Fiat_Bravo_1" index="21" type="1" width="3"/>
+        <PortDef id="RPY_Fiat_Bravo_1" index="24" type="1" width="3"/>
+        <PortDef id="velRPY_Fiat_Bravo_1" index="27" type="1" width="3"/>
+        <PortDef id="SELF_Fiat_Bravo_1" index="102" type="0" width="8"/>
+        <PortDef id="DSRC_Tx_1" index="30" type="1" width="24"/>
+    </BlockDef>
+    <BlockDef id="Citroen_C3_1">
+        <PortDef id="Position_Citroen_C3_1" index="54" type="1" width="3"/>
+        <PortDef id="Velocity_Citroen_C3_1" index="57" type="1" width="3"/>
+        <PortDef id="Acceleration_Citroen_C3_1" index="60" type="1" width="3"/>
+        <PortDef id="RPY_Citroen_C3_1" index="63" type="1" width="3"/>
+        <PortDef id="velRPY_Citroen_C3_1" index="66" type="1" width="3"/>
+        <PortDef id="SELF_Citroen_C3_1" index="110" type="0" width="8"/>
+        <PortDef id="DSRC_Tx_2" index="69" type="1" width="24"/>
+    </BlockDef>
+</ExperimentDef>

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ViewerSettings>
+	<Viewers>
+		<Viewer1 camera="Overview_Sideview"/>
+		<Viewer2 camera="Default View"/>
+		<Viewer3 camera="View_Overhang2_Front"/>
+		<Viewer4 camera="View_Overhang2_Rear"/>
+	</Viewers>
+	<Layout>
+		<splitter horizontal="True" left="1" right="0"/>
+		<splitter2 horizontal="True" left="1" right="1"/>
+		<splitter3 horizontal="False" left="1" right="1"/>
+	</Layout>
+</ViewerSettings>

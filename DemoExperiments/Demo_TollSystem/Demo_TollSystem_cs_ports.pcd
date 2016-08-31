@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="333" rtYLength="79">
+    <BlockDef id="Mazda_RX8_1">
+        <PortDef id="Position_Mazda_RX8_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_1" index="0" type="0" width="8"/>
+        <PortDef id="RFOBU_1" index="8" type="0" width="40"/>
+        <PortDef id="RFOBU_1" index="15" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_1">
+        <PortDef id="RFBeacon_1" index="48" type="0" width="95"/>
+        <PortDef id="RFBeacon_1" index="31" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_2">
+        <PortDef id="RFBeacon_2" index="143" type="0" width="95"/>
+        <PortDef id="RFBeacon_2" index="47" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_3">
+        <PortDef id="RFBeacon_3" index="238" type="0" width="95"/>
+        <PortDef id="RFBeacon_3" index="63" type="1" width="16"/>
+    </BlockDef>
+</ExperimentDef>

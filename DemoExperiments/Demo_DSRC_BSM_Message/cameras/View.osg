@@ -1,0 +1,11 @@
+CameraView {
+  name "View"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 31.622 -4.9725 86.2753
+  attitude 0.288165 -0.080306 -0.256158 0.919182
+  fieldOfView 30
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

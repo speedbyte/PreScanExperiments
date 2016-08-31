@@ -1,0 +1,77 @@
+MatrixTransform {
+  DataVariance STATIC
+  name "PriorityLineMarker_5"
+  nodeMask 0xfffffeef
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  Matrix {
+    1 0 0 0
+    0 1 0 0
+    0 0 1 0
+    0 0 0 1
+  }
+  num_children 1
+  Geode {
+    UniqueID Geode_0
+    nodeMask 0xffffff1f
+    cullingActive TRUE
+    StateSet {
+      UniqueID StateSet_1
+      DataVariance STATIC
+      rendering_hint DEFAULT_BIN
+      renderBinMode USE
+      binNumber -28
+      binName RenderBin
+      GL_CULL_FACE ON
+      GL_LIGHTING ON
+      GL_DEPTH_TEST ON
+      Material {
+        ColorMode OFF
+        ambientColor 0 0 0 1
+        diffuseColor 0 0 0 1
+        specularColor 0 0 0 1
+        emissionColor 0 1 0 1
+        shininess 0
+      }
+      Depth {
+        UniqueID Depth_2
+        function ALWAYS
+        writeMask FALSE
+        range 1 1
+      }
+    }
+    num_drawables 1
+    Geometry {
+      useDisplayList TRUE
+      useVertexBufferObjects FALSE
+      PrimitiveSets 1
+      {
+        DrawElementsUByte TRIANGLE_FAN 5
+        {
+          0 1 2 3 4 
+        }
+      }
+      VertexArray Vec3Array 5
+      {
+        0.15 0.1 0
+        0.15 3.65 0
+        -0.15 3.65 0
+        -0.15 0.1 0
+        0.15 0.1 0
+      }
+      NormalBinding OVERALL
+      NormalArray Vec3Array 1
+      {
+        0 0 1
+      }
+      TexCoordArray 0 Vec2Array 5
+      {
+        0.15 0.1
+        0.15 3.65
+        -0.15 3.65
+        -0.15 0.1
+        0.15 0.1
+      }
+    }
+  }
+}

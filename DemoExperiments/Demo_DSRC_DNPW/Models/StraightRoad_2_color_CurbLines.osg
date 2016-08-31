@@ -1,0 +1,93 @@
+MatrixTransform {
+    DataVariance STATIC
+    name "StraightRoad_2_color_CurbLines.osg"
+    nodeMask 0xff
+    cullingActive TRUE
+    referenceFrame RELATIVE
+    Matrix {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    }
+    num_children 1
+    Geode {
+        DataVariance STATIC
+        nodeMask 0xff
+        cullingActive TRUE
+        num_drawables 1
+        Geometry {
+            DataVariance DYNAMIC
+            StateSet {
+                UniqueID ColorStateSet
+                DataVariance STATIC
+                rendering_hint DEFAULT_BIN
+                renderBinMode INHERIT
+                GL_CULL_FACE ON
+                GL_LIGHTING ON
+                0xba1 ON
+                Material {
+                    DataVariance STATIC
+                    ColorMode OFF
+                    ambientColor 0 0 0 1
+                    diffuseColor 0 0 0 1
+                    specularColor 0 0 0 1
+                    emissionColor 0 1 0 1
+                    shininess 0
+                }
+            }
+            useDisplayList TRUE
+            useVertexBufferObjects FALSE
+            PrimitiveSets 1
+            {
+                DrawArrays TRIANGLES 0 12
+            }
+            VertexArray Vec3Array 12
+            {
+                50 3.45 0
+                0 3.55 0
+                0 3.45 0
+                50 3.55 0
+                0 3.55 0
+                50 3.45 0
+                50 -3.55001 0
+                50 -3.45 0
+                0 -3.55 0
+                50 -3.45 0
+                0 -3.45 0
+                0 -3.55 0
+            }
+            NormalBinding PER_VERTEX
+            NormalArray Vec3Array 12
+            {
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+                0 0 1
+            }
+            TexCoordArray 0 Vec2Array 12
+            {
+                5 0.345
+                0 0.355
+                0 0.345
+                5 0.355
+                0 0.355
+                5 0.345
+                5 -0.355001
+                5 -0.345
+                0 -0.355
+                5 -0.345
+                0 -0.345
+                0 -0.355
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ViewerSettings>
+	<Viewers>
+		<Viewer1 camera="ISO"/>
+		<Viewer2 camera="Top View"/>
+		<Viewer3 camera="First Traffic Lights"/>
+		<Viewer4 camera="Second Traffic Lights"/>
+	</Viewers>
+	<Layout>
+		<splitter horizontal="True" left="1292" right="0"/>
+		<splitter2 horizontal="True" left="646" right="646"/>
+		<splitter3 horizontal="False" left="421" right="421"/>
+	</Layout>
+</ViewerSettings>

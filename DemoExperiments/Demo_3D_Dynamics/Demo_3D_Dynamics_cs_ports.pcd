@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="8" rtYLength="43">
+    <BlockDef id="BMW_X5_1">
+        <PortDef id="Position_BMW_X5_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_BMW_X5_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_BMW_X5_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_BMW_X5_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_BMW_X5_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_BMW_X5_1" index="0" type="0" width="8"/>
+        <PortDef id="visu_TransWheelFL_0" index="15" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="18" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="22" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="25" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="29" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="32" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="36" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="39" type="1" width="4"/>
+    </BlockDef>
+</ExperimentDef>

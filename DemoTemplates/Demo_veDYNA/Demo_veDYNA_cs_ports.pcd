@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="30" rtYLength="289">
+    <BlockDef id="BMW_X5_1">
+        <PortDef id="Position_BMW_X5_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_BMW_X5_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_BMW_X5_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_BMW_X5_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_BMW_X5_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_BMW_X5_1" index="0" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Mazda_RX8_1">
+        <PortDef id="Position_Mazda_RX8_1" index="15" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_1" index="18" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_1" index="21" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_1" index="24" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_1" index="27" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_1" index="8" type="0" width="8"/>
+        <PortDef id="AIR_1" index="16" type="0" width="6"/>
+        <PortDef id="visu_TransWheelFL_0" index="30" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="33" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="37" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="40" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="44" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="47" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="51" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="54" type="1" width="4"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="58" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="74" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearLeft_0" index="90" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearRight_0" index="106" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="122" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="138" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="154" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="170" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="186" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="202" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="218" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightMiddle_0" index="234" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="250" type="1" width="16"/>
+        <PortDef id="visu_SteeringWheel_0" index="266" type="1" width="4"/>
+        <PortDef id="visu_SteeringColumn_0" index="270" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Nissan_Cabstar_1">
+        <PortDef id="Position_Nissan_Cabstar_1" index="274" type="1" width="3"/>
+        <PortDef id="Velocity_Nissan_Cabstar_1" index="277" type="1" width="3"/>
+        <PortDef id="Acceleration_Nissan_Cabstar_1" index="280" type="1" width="3"/>
+        <PortDef id="RPY_Nissan_Cabstar_1" index="283" type="1" width="3"/>
+        <PortDef id="velRPY_Nissan_Cabstar_1" index="286" type="1" width="3"/>
+        <PortDef id="SELF_Nissan_Cabstar_1" index="22" type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

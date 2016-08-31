@@ -1,0 +1,11 @@
+CameraView {
+  name "Top view Zoomed"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -5.14233 0.850855 91.7887
+  attitude 0 0 0 1
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

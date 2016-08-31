@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="672" rtYLength="1260">
+    <BlockDef id="Sphere_1">
+        <PortDef id="Position_Sphere_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_1" index="0" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_2">
+        <PortDef id="Position_Sphere_2" index="15" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_2" index="18" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_2" index="21" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_2" index="24" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_2" index="27" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_2" index="8" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_3">
+        <PortDef id="Position_Sphere_3" index="30" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_3" index="33" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_3" index="36" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_3" index="39" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_3" index="42" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_3" index="16" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_4">
+        <PortDef id="Position_Sphere_4" index="45" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_4" index="48" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_4" index="51" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_4" index="54" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_4" index="57" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_4" index="24" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_5">
+        <PortDef id="Position_Sphere_5" index="60" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_5" index="63" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_5" index="66" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_5" index="69" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_5" index="72" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_5" index="32" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_6">
+        <PortDef id="Position_Sphere_6" index="75" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_6" index="78" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_6" index="81" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_6" index="84" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_6" index="87" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_6" index="40" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_7">
+        <PortDef id="Position_Sphere_7" index="90" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_7" index="93" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_7" index="96" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_7" index="99" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_7" index="102" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_7" index="48" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_8">
+        <PortDef id="Position_Sphere_8" index="105" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_8" index="108" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_8" index="111" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_8" index="114" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_8" index="117" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_8" index="56" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_9">
+        <PortDef id="Position_Sphere_9" index="120" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_9" index="123" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_9" index="126" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_9" index="129" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_9" index="132" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_9" index="64" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_10">
+        <PortDef id="Position_Sphere_10" index="135" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_10" index="138" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_10" index="141" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_10" index="144" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_10" index="147" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_10" index="72" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_11">
+        <PortDef id="Position_Sphere_11" index="150" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_11" index="153" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_11" index="156" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_11" index="159" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_11" index="162" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_11" index="80" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_12">
+        <PortDef id="Position_Sphere_12" index="165" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_12" index="168" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_12" index="171" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_12" index="174" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_12" index="177" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_12" index="88" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_13">
+        <PortDef id="Position_Sphere_13" index="180" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_13" index="183" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_13" index="186" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_13" index="189" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_13" index="192" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_13" index="96" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_14">
+        <PortDef id="Position_Sphere_14" index="195" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_14" index="198" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_14" index="201" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_14" index="204" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_14" index="207" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_14" index="104" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_15">
+        <PortDef id="Position_Sphere_15" index="210" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_15" index="213" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_15" index="216" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_15" index="219" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_15" index="222" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_15" index="112" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_16">
+        <PortDef id="Position_Sphere_16" index="225" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_16" index="228" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_16" index="231" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_16" index="234" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_16" index="237" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_16" index="120" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_17">
+        <PortDef id="Position_Sphere_17" index="240" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_17" index="243" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_17" index="246" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_17" index="249" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_17" index="252" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_17" index="128" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_18">
+        <PortDef id="Position_Sphere_18" index="255" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_18" index="258" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_18" index="261" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_18" index="264" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_18" index="267" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_18" index="136" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_19">
+        <PortDef id="Position_Sphere_19" index="270" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_19" index="273" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_19" index="276" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_19" index="279" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_19" index="282" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_19" index="144" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_20">
+        <PortDef id="Position_Sphere_20" index="285" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_20" index="288" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_20" index="291" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_20" index="294" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_20" index="297" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_20" index="152" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_21">
+        <PortDef id="Position_Sphere_21" index="300" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_21" index="303" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_21" index="306" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_21" index="309" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_21" index="312" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_21" index="160" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_22">
+        <PortDef id="Position_Sphere_22" index="315" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_22" index="318" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_22" index="321" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_22" index="324" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_22" index="327" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_22" index="168" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_23">
+        <PortDef id="Position_Sphere_23" index="330" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_23" index="333" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_23" index="336" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_23" index="339" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_23" index="342" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_23" index="176" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_24">
+        <PortDef id="Position_Sphere_24" index="345" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_24" index="348" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_24" index="351" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_24" index="354" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_24" index="357" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_24" index="184" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_25">
+        <PortDef id="Position_Sphere_25" index="360" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_25" index="363" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_25" index="366" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_25" index="369" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_25" index="372" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_25" index="192" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_26">
+        <PortDef id="Position_Sphere_26" index="375" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_26" index="378" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_26" index="381" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_26" index="384" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_26" index="387" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_26" index="200" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_27">
+        <PortDef id="Position_Sphere_27" index="390" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_27" index="393" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_27" index="396" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_27" index="399" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_27" index="402" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_27" index="208" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_28">
+        <PortDef id="Position_Sphere_28" index="405" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_28" index="408" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_28" index="411" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_28" index="414" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_28" index="417" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_28" index="216" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_29">
+        <PortDef id="Position_Sphere_29" index="420" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_29" index="423" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_29" index="426" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_29" index="429" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_29" index="432" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_29" index="224" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_30">
+        <PortDef id="Position_Sphere_30" index="435" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_30" index="438" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_30" index="441" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_30" index="444" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_30" index="447" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_30" index="232" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_31">
+        <PortDef id="Position_Sphere_31" index="450" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_31" index="453" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_31" index="456" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_31" index="459" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_31" index="462" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_31" index="240" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_32">
+        <PortDef id="Position_Sphere_32" index="465" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_32" index="468" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_32" index="471" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_32" index="474" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_32" index="477" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_32" index="248" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_33">
+        <PortDef id="Position_Sphere_33" index="480" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_33" index="483" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_33" index="486" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_33" index="489" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_33" index="492" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_33" index="256" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_34">
+        <PortDef id="Position_Sphere_34" index="495" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_34" index="498" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_34" index="501" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_34" index="504" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_34" index="507" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_34" index="264" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_35">
+        <PortDef id="Position_Sphere_35" index="510" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_35" index="513" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_35" index="516" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_35" index="519" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_35" index="522" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_35" index="272" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_36">
+        <PortDef id="Position_Sphere_36" index="525" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_36" index="528" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_36" index="531" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_36" index="534" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_36" index="537" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_36" index="280" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_37">
+        <PortDef id="Position_Sphere_37" index="540" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_37" index="543" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_37" index="546" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_37" index="549" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_37" index="552" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_37" index="288" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_38">
+        <PortDef id="Position_Sphere_38" index="555" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_38" index="558" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_38" index="561" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_38" index="564" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_38" index="567" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_38" index="296" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_39">
+        <PortDef id="Position_Sphere_39" index="570" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_39" index="573" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_39" index="576" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_39" index="579" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_39" index="582" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_39" index="304" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_40">
+        <PortDef id="Position_Sphere_40" index="585" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_40" index="588" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_40" index="591" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_40" index="594" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_40" index="597" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_40" index="312" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_41">
+        <PortDef id="Position_Sphere_41" index="600" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_41" index="603" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_41" index="606" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_41" index="609" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_41" index="612" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_41" index="320" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_42">
+        <PortDef id="Position_Sphere_42" index="615" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_42" index="618" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_42" index="621" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_42" index="624" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_42" index="627" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_42" index="328" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_43">
+        <PortDef id="Position_Sphere_43" index="630" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_43" index="633" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_43" index="636" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_43" index="639" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_43" index="642" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_43" index="336" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_44">
+        <PortDef id="Position_Sphere_44" index="645" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_44" index="648" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_44" index="651" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_44" index="654" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_44" index="657" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_44" index="344" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_45">
+        <PortDef id="Position_Sphere_45" index="660" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_45" index="663" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_45" index="666" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_45" index="669" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_45" index="672" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_45" index="352" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_46">
+        <PortDef id="Position_Sphere_46" index="675" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_46" index="678" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_46" index="681" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_46" index="684" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_46" index="687" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_46" index="360" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_47">
+        <PortDef id="Position_Sphere_47" index="690" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_47" index="693" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_47" index="696" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_47" index="699" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_47" index="702" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_47" index="368" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_48">
+        <PortDef id="Position_Sphere_48" index="705" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_48" index="708" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_48" index="711" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_48" index="714" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_48" index="717" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_48" index="376" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_49">
+        <PortDef id="Position_Sphere_49" index="720" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_49" index="723" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_49" index="726" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_49" index="729" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_49" index="732" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_49" index="384" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_50">
+        <PortDef id="Position_Sphere_50" index="735" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_50" index="738" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_50" index="741" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_50" index="744" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_50" index="747" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_50" index="392" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_51">
+        <PortDef id="Position_Sphere_51" index="750" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_51" index="753" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_51" index="756" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_51" index="759" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_51" index="762" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_51" index="400" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_52">
+        <PortDef id="Position_Sphere_52" index="765" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_52" index="768" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_52" index="771" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_52" index="774" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_52" index="777" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_52" index="408" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_53">
+        <PortDef id="Position_Sphere_53" index="780" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_53" index="783" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_53" index="786" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_53" index="789" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_53" index="792" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_53" index="416" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_54">
+        <PortDef id="Position_Sphere_54" index="795" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_54" index="798" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_54" index="801" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_54" index="804" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_54" index="807" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_54" index="424" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_55">
+        <PortDef id="Position_Sphere_55" index="810" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_55" index="813" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_55" index="816" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_55" index="819" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_55" index="822" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_55" index="432" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_56">
+        <PortDef id="Position_Sphere_56" index="825" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_56" index="828" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_56" index="831" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_56" index="834" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_56" index="837" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_56" index="440" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_57">
+        <PortDef id="Position_Sphere_57" index="840" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_57" index="843" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_57" index="846" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_57" index="849" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_57" index="852" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_57" index="448" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_58">
+        <PortDef id="Position_Sphere_58" index="855" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_58" index="858" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_58" index="861" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_58" index="864" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_58" index="867" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_58" index="456" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_59">
+        <PortDef id="Position_Sphere_59" index="870" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_59" index="873" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_59" index="876" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_59" index="879" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_59" index="882" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_59" index="464" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_60">
+        <PortDef id="Position_Sphere_60" index="885" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_60" index="888" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_60" index="891" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_60" index="894" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_60" index="897" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_60" index="472" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_61">
+        <PortDef id="Position_Sphere_61" index="900" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_61" index="903" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_61" index="906" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_61" index="909" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_61" index="912" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_61" index="480" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_62">
+        <PortDef id="Position_Sphere_62" index="915" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_62" index="918" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_62" index="921" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_62" index="924" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_62" index="927" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_62" index="488" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_63">
+        <PortDef id="Position_Sphere_63" index="930" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_63" index="933" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_63" index="936" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_63" index="939" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_63" index="942" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_63" index="496" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_64">
+        <PortDef id="Position_Sphere_64" index="945" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_64" index="948" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_64" index="951" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_64" index="954" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_64" index="957" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_64" index="504" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_65">
+        <PortDef id="Position_Sphere_65" index="960" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_65" index="963" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_65" index="966" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_65" index="969" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_65" index="972" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_65" index="512" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_66">
+        <PortDef id="Position_Sphere_66" index="975" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_66" index="978" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_66" index="981" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_66" index="984" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_66" index="987" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_66" index="520" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_67">
+        <PortDef id="Position_Sphere_67" index="990" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_67" index="993" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_67" index="996" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_67" index="999" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_67" index="1002" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_67" index="528" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_68">
+        <PortDef id="Position_Sphere_68" index="1005" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_68" index="1008" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_68" index="1011" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_68" index="1014" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_68" index="1017" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_68" index="536" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_69">
+        <PortDef id="Position_Sphere_69" index="1020" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_69" index="1023" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_69" index="1026" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_69" index="1029" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_69" index="1032" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_69" index="544" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_70">
+        <PortDef id="Position_Sphere_70" index="1035" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_70" index="1038" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_70" index="1041" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_70" index="1044" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_70" index="1047" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_70" index="552" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_71">
+        <PortDef id="Position_Sphere_71" index="1050" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_71" index="1053" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_71" index="1056" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_71" index="1059" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_71" index="1062" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_71" index="560" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_72">
+        <PortDef id="Position_Sphere_72" index="1065" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_72" index="1068" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_72" index="1071" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_72" index="1074" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_72" index="1077" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_72" index="568" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_73">
+        <PortDef id="Position_Sphere_73" index="1080" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_73" index="1083" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_73" index="1086" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_73" index="1089" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_73" index="1092" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_73" index="576" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_74">
+        <PortDef id="Position_Sphere_74" index="1095" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_74" index="1098" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_74" index="1101" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_74" index="1104" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_74" index="1107" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_74" index="584" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_75">
+        <PortDef id="Position_Sphere_75" index="1110" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_75" index="1113" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_75" index="1116" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_75" index="1119" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_75" index="1122" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_75" index="592" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_76">
+        <PortDef id="Position_Sphere_76" index="1125" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_76" index="1128" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_76" index="1131" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_76" index="1134" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_76" index="1137" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_76" index="600" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_77">
+        <PortDef id="Position_Sphere_77" index="1140" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_77" index="1143" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_77" index="1146" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_77" index="1149" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_77" index="1152" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_77" index="608" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_78">
+        <PortDef id="Position_Sphere_78" index="1155" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_78" index="1158" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_78" index="1161" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_78" index="1164" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_78" index="1167" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_78" index="616" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_79">
+        <PortDef id="Position_Sphere_79" index="1170" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_79" index="1173" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_79" index="1176" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_79" index="1179" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_79" index="1182" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_79" index="624" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_80">
+        <PortDef id="Position_Sphere_80" index="1185" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_80" index="1188" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_80" index="1191" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_80" index="1194" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_80" index="1197" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_80" index="632" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_81">
+        <PortDef id="Position_Sphere_81" index="1200" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_81" index="1203" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_81" index="1206" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_81" index="1209" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_81" index="1212" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_81" index="640" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Cone_1">
+        <PortDef id="Position_Cone_1" index="1215" type="1" width="3"/>
+        <PortDef id="Velocity_Cone_1" index="1218" type="1" width="3"/>
+        <PortDef id="Acceleration_Cone_1" index="1221" type="1" width="3"/>
+        <PortDef id="RPY_Cone_1" index="1224" type="1" width="3"/>
+        <PortDef id="velRPY_Cone_1" index="1227" type="1" width="3"/>
+        <PortDef id="SELF_Cone_1" index="648" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Cylinder_1">
+        <PortDef id="Position_Cylinder_1" index="1230" type="1" width="3"/>
+        <PortDef id="Velocity_Cylinder_1" index="1233" type="1" width="3"/>
+        <PortDef id="Acceleration_Cylinder_1" index="1236" type="1" width="3"/>
+        <PortDef id="RPY_Cylinder_1" index="1239" type="1" width="3"/>
+        <PortDef id="velRPY_Cylinder_1" index="1242" type="1" width="3"/>
+        <PortDef id="SELF_Cylinder_1" index="656" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Cylinder_2">
+        <PortDef id="Position_Cylinder_2" index="1245" type="1" width="3"/>
+        <PortDef id="Velocity_Cylinder_2" index="1248" type="1" width="3"/>
+        <PortDef id="Acceleration_Cylinder_2" index="1251" type="1" width="3"/>
+        <PortDef id="RPY_Cylinder_2" index="1254" type="1" width="3"/>
+        <PortDef id="velRPY_Cylinder_2" index="1257" type="1" width="3"/>
+        <PortDef id="SELF_Cylinder_2" index="664" type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

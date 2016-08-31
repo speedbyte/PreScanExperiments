@@ -1,0 +1,11 @@
+CameraView {
+  name "First Traffic Lights"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 81.346 6.81716 4.73929
+  attitude 0.526172 -0.372043 -0.441472 0.624363
+  fieldOfView 30
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

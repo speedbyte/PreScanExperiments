@@ -1,0 +1,19 @@
+# create sensor mounts and cameras
+TIS_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_mount")
+scene.Toyota_Previa_1.addChild(TIS_1_mount)
+scene.getTransformChild("TIS_1_mount")
+TIS_1_mount.setTranslation(4, 0, 0.4)
+TIS_1_mount.setRotation(0, 1, 0, 0)
+
+TIS_2_mount = visnodes.VisTransform.createTransformNode(r"TIS_2_mount")
+scene.Toyota_Previa_1.addChild(TIS_2_mount)
+scene.getTransformChild("TIS_2_mount")
+TIS_2_mount.setTranslation(4, 0, 0.4)
+TIS_2_mount.setRotation(0, 1, 0, 0)
+
+TIS_3_mount = visnodes.VisTransform.createTransformNode(r"TIS_3_mount")
+scene.Toyota_Previa_1.addChild(TIS_3_mount)
+scene.getTransformChild("TIS_3_mount")
+TIS_3_mount.setTranslation(4, 0, 0.4)
+TIS_3_mount.setRotation(0, 1, 0, 0)
+

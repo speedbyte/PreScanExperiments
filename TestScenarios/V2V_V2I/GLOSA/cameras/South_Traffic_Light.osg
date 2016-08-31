@@ -1,0 +1,11 @@
+CameraView {
+  name "South Traffic Light"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 0.958809 -63.211 11.6205
+  attitude 0.613566 -0.00122472 -0.00157618 0.789641
+  fieldOfView 30
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

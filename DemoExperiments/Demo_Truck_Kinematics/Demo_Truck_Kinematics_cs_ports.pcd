@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="16" rtYLength="30">
+    <BlockDef id="Daf_95_1">
+        <PortDef id="Position_Daf_95_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Daf_95_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Daf_95_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Daf_95_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Daf_95_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Daf_95_1" index="0" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="ContainerTrailer_DoubleAxle_1">
+        <PortDef id="Position_ContainerTrailer_DoubleAxle_1" index="15"
+            type="1" width="3"/>
+        <PortDef id="Velocity_ContainerTrailer_DoubleAxle_1" index="18"
+            type="1" width="3"/>
+        <PortDef id="Acceleration_ContainerTrailer_DoubleAxle_1"
+            index="21" type="1" width="3"/>
+        <PortDef id="RPY_ContainerTrailer_DoubleAxle_1" index="24"
+            type="1" width="3"/>
+        <PortDef id="velRPY_ContainerTrailer_DoubleAxle_1" index="27"
+            type="1" width="3"/>
+        <PortDef id="SELF_ContainerTrailer_DoubleAxle_1" index="8"
+            type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

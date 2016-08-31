@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="2840" rtYLength="1696">
+    <BlockDef id="Audi_A8_1">
+        <PortDef id="Position_Audi_A8_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_1" index="0" type="0" width="8"/>
+        <PortDef id="Antenna_Rx_2" index="8" type="0" width="912"/>
+        <PortDef id="Antenna_Tx_2" index="15" type="1" width="205"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="220" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="236" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearLeft_0" index="252" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearRight_0" index="268" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="284" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="300" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="316" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="332" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="348" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="364" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="380" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="396" type="1" width="16"/>
+        <PortDef id="visu_TransWheelFL_0" index="412" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="415" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="419" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="422" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="426" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="429" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="433" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="436" type="1" width="4"/>
+        <PortDef id="visu_SteeringWheel_0" index="440" type="1" width="4"/>
+        <PortDef id="visu_SteeringColumn_0" index="444" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Mazda_RX8_1">
+        <PortDef id="Position_Mazda_RX8_1" index="448" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_1" index="451" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_1" index="454" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_1" index="457" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_1" index="460" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_1" index="920" type="0" width="8"/>
+        <PortDef id="Antenna_Rx_1" index="928" type="0" width="912"/>
+        <PortDef id="Antenna_Tx_1" index="463" type="1" width="205"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="668" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="684" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearLeft_0" index="700" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearRight_0" index="716" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="732" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="748" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="764" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="780" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="796" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="812" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="828" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightMiddle_0" index="844" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="860" type="1" width="16"/>
+        <PortDef id="visu_TransWheelFL_0" index="876" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="879" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="883" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="886" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="890" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="893" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="897" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="900" type="1" width="4"/>
+        <PortDef id="visu_SteeringWheel_0" index="904" type="1" width="4"/>
+        <PortDef id="visu_SteeringColumn_0" index="908" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Fiat_Bravo_1">
+        <PortDef id="Position_Fiat_Bravo_1" index="912" type="1" width="3"/>
+        <PortDef id="Velocity_Fiat_Bravo_1" index="915" type="1" width="3"/>
+        <PortDef id="Acceleration_Fiat_Bravo_1" index="918" type="1" width="3"/>
+        <PortDef id="RPY_Fiat_Bravo_1" index="921" type="1" width="3"/>
+        <PortDef id="velRPY_Fiat_Bravo_1" index="924" type="1" width="3"/>
+        <PortDef id="SELF_Fiat_Bravo_1" index="1840" type="0" width="8"/>
+        <PortDef id="Antenna_Rx_3" index="1848" type="0" width="912"/>
+        <PortDef id="Antenna_Tx_4" index="927" type="1" width="205"/>
+    </BlockDef>
+    <BlockDef id="Ford_FocusWagon_1">
+        <PortDef id="Position_Ford_FocusWagon_1" index="1132" type="1" width="3"/>
+        <PortDef id="Velocity_Ford_FocusWagon_1" index="1135" type="1" width="3"/>
+        <PortDef id="Acceleration_Ford_FocusWagon_1" index="1138"
+            type="1" width="3"/>
+        <PortDef id="RPY_Ford_FocusWagon_1" index="1141" type="1" width="3"/>
+        <PortDef id="velRPY_Ford_FocusWagon_1" index="1144" type="1" width="3"/>
+        <PortDef id="SELF_Ford_FocusWagon_1" index="2760" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Ford_Fiesta_1">
+        <PortDef id="Position_Ford_Fiesta_1" index="1147" type="1" width="3"/>
+        <PortDef id="Velocity_Ford_Fiesta_1" index="1150" type="1" width="3"/>
+        <PortDef id="Acceleration_Ford_Fiesta_1" index="1153" type="1" width="3"/>
+        <PortDef id="RPY_Ford_Fiesta_1" index="1156" type="1" width="3"/>
+        <PortDef id="velRPY_Ford_Fiesta_1" index="1159" type="1" width="3"/>
+        <PortDef id="SELF_Ford_Fiesta_1" index="2768" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Citroen_C3_1">
+        <PortDef id="Position_Citroen_C3_1" index="1162" type="1" width="3"/>
+        <PortDef id="Velocity_Citroen_C3_1" index="1165" type="1" width="3"/>
+        <PortDef id="Acceleration_Citroen_C3_1" index="1168" type="1" width="3"/>
+        <PortDef id="RPY_Citroen_C3_1" index="1171" type="1" width="3"/>
+        <PortDef id="velRPY_Citroen_C3_1" index="1174" type="1" width="3"/>
+        <PortDef id="SELF_Citroen_C3_1" index="2776" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Previa_1">
+        <PortDef id="Position_Toyota_Previa_1" index="1177" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Previa_1" index="1180" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Previa_1" index="1183" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Previa_1" index="1186" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Previa_1" index="1189" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Previa_1" index="2784" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Yaris_1">
+        <PortDef id="Position_Toyota_Yaris_1" index="1192" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Yaris_1" index="1195" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Yaris_1" index="1198" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Yaris_1" index="1201" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Yaris_1" index="1204" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Yaris_1" index="2792" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Mazda_RX8_2">
+        <PortDef id="Position_Mazda_RX8_2" index="1207" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_2" index="1210" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_2" index="1213" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_2" index="1216" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_2" index="1219" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_2" index="2800" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Male_Regular_wSuitcase_1">
+        <PortDef id="Position_Male_Regular_wSuitcase_1" index="1222"
+            type="1" width="3"/>
+        <PortDef id="Velocity_Male_Regular_wSuitcase_1" index="1225"
+            type="1" width="3"/>
+        <PortDef id="Acceleration_Male_Regular_wSuitcase_1" index="1228"
+            type="1" width="3"/>
+        <PortDef id="RPY_Male_Regular_wSuitcase_1" index="1231" type="1" width="3"/>
+        <PortDef id="velRPY_Male_Regular_wSuitcase_1" index="1234"
+            type="1" width="3"/>
+        <PortDef id="Anim_Male_Regular_wSuitcase_1" index="1237"
+            type="1" width="2"/>
+        <PortDef id="SELF_Male_Regular_wSuitcase_1" index="2808"
+            type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Female_Regular_wBuggy_1">
+        <PortDef id="Position_Female_Regular_wBuggy_1" index="1239"
+            type="1" width="3"/>
+        <PortDef id="Velocity_Female_Regular_wBuggy_1" index="1242"
+            type="1" width="3"/>
+        <PortDef id="Acceleration_Female_Regular_wBuggy_1" index="1245"
+            type="1" width="3"/>
+        <PortDef id="RPY_Female_Regular_wBuggy_1" index="1248" type="1" width="3"/>
+        <PortDef id="velRPY_Female_Regular_wBuggy_1" index="1251"
+            type="1" width="3"/>
+        <PortDef id="Anim_Female_Regular_wBuggy_1" index="1254" type="1" width="2"/>
+        <PortDef id="SELF_Female_Regular_wBuggy_1" index="2816" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Sphere_1">
+        <PortDef id="Position_Sphere_1" index="1256" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_1" index="1259" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_1" index="1262" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_1" index="1265" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_1" index="1268" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_1" index="2824" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Actros_2541_1">
+        <PortDef id="Position_Actros_2541_1" index="1271" type="1" width="3"/>
+        <PortDef id="Velocity_Actros_2541_1" index="1274" type="1" width="3"/>
+        <PortDef id="Acceleration_Actros_2541_1" index="1277" type="1" width="3"/>
+        <PortDef id="RPY_Actros_2541_1" index="1280" type="1" width="3"/>
+        <PortDef id="velRPY_Actros_2541_1" index="1283" type="1" width="3"/>
+        <PortDef id="SELF_Actros_2541_1" index="2832" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="TrafficSignPoleNL_1">
+        <PortDef id="Antenna_Tx_6" index="1286" type="1" width="205"/>
+    </BlockDef>
+    <BlockDef id="TrafficSignPoleNL_4">
+        <PortDef id="Antenna_Tx_7" index="1491" type="1" width="205"/>
+    </BlockDef>
+</ExperimentDef>

@@ -1,0 +1,64 @@
+MatrixTransform {
+    DataVariance STATIC
+    name "Sphere_1"
+    nodeMask 0xff
+    cullingActive TRUE
+    StateSet {
+        UniqueID ColorStateSet
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_CULL_FACE ON
+        GL_LIGHTING ON
+        0xba1 ON
+        Material {
+            DataVariance STATIC
+            ColorMode OFF
+            ambientColor 0 0 0 1
+            diffuseColor 0 0 0 1
+            specularColor 0 0 0 1
+            emissionColor 0 1 0 1
+            shininess 0
+        }
+    }
+    referenceFrame RELATIVE
+    Matrix {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+    }
+    num_children 1
+    Group {
+        DataVariance STATIC
+        name "Body"
+        nodeMask 0xff
+        cullingActive TRUE
+        num_children 1
+        MatrixTransform {
+            DataVariance STATIC
+            name "CoGoff"
+            nodeMask 0xff
+            cullingActive TRUE
+            num_children 1
+            Geode {
+                DataVariance STATIC
+                nodeMask 0xffffffff
+                cullingActive TRUE
+                num_drawables 1
+                ShapeDrawable {
+                    DataVariance DYNAMIC
+                    Use ColorStateSet
+                    Sphere {
+                        DataVariance DYNAMIC
+                        Center 0 0 0
+                        Radius 0.5
+                        Rotation 0 0 0 1
+                    }
+                    useDisplayList TRUE
+                    useVertexBufferObjects FALSE
+                }
+            }
+        }
+    }
+}

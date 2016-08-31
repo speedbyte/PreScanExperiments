@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="40" rtYLength="1236">
+    <BlockDef id="Box_1">
+        <PortDef id="Position_Box_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Box_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Box_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Box_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Box_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Box_1" index="0" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Box_2">
+        <PortDef id="Position_Box_2" index="15" type="1" width="3"/>
+        <PortDef id="Velocity_Box_2" index="18" type="1" width="3"/>
+        <PortDef id="Acceleration_Box_2" index="21" type="1" width="3"/>
+        <PortDef id="RPY_Box_2" index="24" type="1" width="3"/>
+        <PortDef id="velRPY_Box_2" index="27" type="1" width="3"/>
+        <PortDef id="SELF_Box_2" index="8" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Box_3">
+        <PortDef id="Position_Box_3" index="30" type="1" width="3"/>
+        <PortDef id="Velocity_Box_3" index="33" type="1" width="3"/>
+        <PortDef id="Acceleration_Box_3" index="36" type="1" width="3"/>
+        <PortDef id="RPY_Box_3" index="39" type="1" width="3"/>
+        <PortDef id="velRPY_Box_3" index="42" type="1" width="3"/>
+        <PortDef id="SELF_Box_3" index="16" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Box_4">
+        <PortDef id="Position_Box_4" index="45" type="1" width="3"/>
+        <PortDef id="Velocity_Box_4" index="48" type="1" width="3"/>
+        <PortDef id="Acceleration_Box_4" index="51" type="1" width="3"/>
+        <PortDef id="RPY_Box_4" index="54" type="1" width="3"/>
+        <PortDef id="velRPY_Box_4" index="57" type="1" width="3"/>
+        <PortDef id="SELF_Box_4" index="24" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Audi_A8_1">
+        <PortDef id="Position_Audi_A8_1" index="60" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_1" index="63" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_1" index="66" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_1" index="69" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_1" index="72" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_1" index="32" type="0" width="8"/>
+        <PortDef id="visu_TransWheelFL_0" index="75" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="78" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="82" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="85" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="89" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="92" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="96" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="99" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_1">
+        <PortDef id="MatrixSign_1" index="103" type="1" width="1"/>
+        <PortDef id="MatrixSign_2" index="104" type="1" width="1"/>
+        <PortDef id="MatrixSign_3" index="105" type="1" width="1"/>
+        <PortDef id="MatrixSign_4" index="106" type="1" width="1"/>
+        <PortDef id="MatrixSign_1_Light_1" index="107" type="1" width="16"/>
+        <PortDef id="MatrixSign_1_Light_2" index="123" type="1" width="16"/>
+        <PortDef id="MatrixSign_1_Light_3" index="139" type="1" width="16"/>
+        <PortDef id="MatrixSign_1_Light_4" index="155" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_1" index="171" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_2" index="187" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_3" index="203" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_4" index="219" type="1" width="16"/>
+        <PortDef id="MatrixSign_3_Light_1" index="235" type="1" width="16"/>
+        <PortDef id="MatrixSign_3_Light_2" index="251" type="1" width="16"/>
+        <PortDef id="MatrixSign_3_Light_3" index="267" type="1" width="16"/>
+        <PortDef id="MatrixSign_3_Light_4" index="283" type="1" width="16"/>
+        <PortDef id="MatrixSign_4_Light_1" index="299" type="1" width="16"/>
+        <PortDef id="MatrixSign_4_Light_2" index="315" type="1" width="16"/>
+        <PortDef id="MatrixSign_4_Light_3" index="331" type="1" width="16"/>
+        <PortDef id="MatrixSign_4_Light_4" index="347" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_2">
+        <PortDef id="MatrixSign_5" index="363" type="1" width="1"/>
+        <PortDef id="MatrixSign_6" index="364" type="1" width="1"/>
+        <PortDef id="MatrixSign_7" index="365" type="1" width="1"/>
+        <PortDef id="MatrixSign_5_Light_1" index="366" type="1" width="16"/>
+        <PortDef id="MatrixSign_5_Light_2" index="382" type="1" width="16"/>
+        <PortDef id="MatrixSign_5_Light_3" index="398" type="1" width="16"/>
+        <PortDef id="MatrixSign_5_Light_4" index="414" type="1" width="16"/>
+        <PortDef id="MatrixSign_6_Light_1" index="430" type="1" width="16"/>
+        <PortDef id="MatrixSign_6_Light_2" index="446" type="1" width="16"/>
+        <PortDef id="MatrixSign_6_Light_3" index="462" type="1" width="16"/>
+        <PortDef id="MatrixSign_6_Light_4" index="478" type="1" width="16"/>
+        <PortDef id="MatrixSign_7_Light_1" index="494" type="1" width="16"/>
+        <PortDef id="MatrixSign_7_Light_2" index="510" type="1" width="16"/>
+        <PortDef id="MatrixSign_7_Light_3" index="526" type="1" width="16"/>
+        <PortDef id="MatrixSign_7_Light_4" index="542" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_3">
+        <PortDef id="MatrixSign_10" index="558" type="1" width="1"/>
+        <PortDef id="MatrixSign_11" index="559" type="1" width="1"/>
+        <PortDef id="MatrixSign_12" index="560" type="1" width="1"/>
+        <PortDef id="MatrixSign_10_Light_1" index="561" type="1" width="16"/>
+        <PortDef id="MatrixSign_10_Light_2" index="577" type="1" width="16"/>
+        <PortDef id="MatrixSign_10_Light_3" index="593" type="1" width="16"/>
+        <PortDef id="MatrixSign_10_Light_4" index="609" type="1" width="16"/>
+        <PortDef id="MatrixSign_11_Light_1" index="625" type="1" width="16"/>
+        <PortDef id="MatrixSign_11_Light_2" index="641" type="1" width="16"/>
+        <PortDef id="MatrixSign_11_Light_3" index="657" type="1" width="16"/>
+        <PortDef id="MatrixSign_11_Light_4" index="673" type="1" width="16"/>
+        <PortDef id="MatrixSign_12_Light_1" index="689" type="1" width="16"/>
+        <PortDef id="MatrixSign_12_Light_2" index="705" type="1" width="16"/>
+        <PortDef id="MatrixSign_12_Light_3" index="721" type="1" width="16"/>
+        <PortDef id="MatrixSign_12_Light_4" index="737" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="HighwayOverhang_5">
+        <PortDef id="MatrixSign_18" index="753" type="1" width="1"/>
+        <PortDef id="MatrixSign_19" index="754" type="1" width="1"/>
+        <PortDef id="MatrixSign_20" index="755" type="1" width="1"/>
+        <PortDef id="MatrixSign_18_Light_1" index="756" type="1" width="16"/>
+        <PortDef id="MatrixSign_18_Light_2" index="772" type="1" width="16"/>
+        <PortDef id="MatrixSign_18_Light_3" index="788" type="1" width="16"/>
+        <PortDef id="MatrixSign_18_Light_4" index="804" type="1" width="16"/>
+        <PortDef id="MatrixSign_19_Light_1" index="820" type="1" width="16"/>
+        <PortDef id="MatrixSign_19_Light_2" index="836" type="1" width="16"/>
+        <PortDef id="MatrixSign_19_Light_3" index="852" type="1" width="16"/>
+        <PortDef id="MatrixSign_19_Light_4" index="868" type="1" width="16"/>
+        <PortDef id="MatrixSign_20_Light_1" index="884" type="1" width="16"/>
+        <PortDef id="MatrixSign_20_Light_2" index="900" type="1" width="16"/>
+        <PortDef id="MatrixSign_20_Light_3" index="916" type="1" width="16"/>
+        <PortDef id="MatrixSign_20_Light_4" index="932" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="TrafficLightRoadSideNL_1">
+        <PortDef id="visu_LightCasingGreen_0" index="948" type="1" width="16"/>
+        <PortDef id="visu_LightCasingOrange_0" index="964" type="1" width="16"/>
+        <PortDef id="visu_LightCasingRed_0" index="980" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="TrafficLightRoadSideNL_2">
+        <PortDef id="visu_LightCasingGreen_0" index="996" type="1" width="16"/>
+        <PortDef id="visu_LightCasingOrange_0" index="1012" type="1" width="16"/>
+        <PortDef id="visu_LightCasingRed_0" index="1028" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="TrafficLightRoadSideNL_3">
+        <PortDef id="visu_LightCasingGreen_0" index="1044" type="1" width="16"/>
+        <PortDef id="visu_LightCasingOrange_0" index="1060" type="1" width="16"/>
+        <PortDef id="visu_LightCasingRed_0" index="1076" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="TrafficLightRoadSideNL_5">
+        <PortDef id="visu_LightCasingGreen_0" index="1092" type="1" width="16"/>
+        <PortDef id="visu_LightCasingOrange_0" index="1108" type="1" width="16"/>
+        <PortDef id="visu_LightCasingRed_0" index="1124" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="TrafficLightRoadSideNL_6">
+        <PortDef id="visu_LightCasingGreen_0" index="1140" type="1" width="16"/>
+        <PortDef id="visu_LightCasingOrange_0" index="1156" type="1" width="16"/>
+        <PortDef id="visu_LightCasingRed_0" index="1172" type="1" width="16"/>
+    </BlockDef>
+    <BlockDef id="TrafficLightRoadSideNL_7">
+        <PortDef id="visu_LightCasingGreen_0" index="1188" type="1" width="16"/>
+        <PortDef id="visu_LightCasingOrange_0" index="1204" type="1" width="16"/>
+        <PortDef id="visu_LightCasingRed_0" index="1220" type="1" width="16"/>
+    </BlockDef>
+</ExperimentDef>

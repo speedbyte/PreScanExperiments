@@ -1,0 +1,11 @@
+CameraView {
+  name "Overview_Sideview"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -622.568 -722.772 261.717
+  attitude 0.567048 -0.234879 -0.302123 0.72939
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0.91
+}

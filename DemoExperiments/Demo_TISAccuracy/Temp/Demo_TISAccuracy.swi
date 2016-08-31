@@ -1,0 +1,20 @@
+# create sensor mounts and cameras
+TIS_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_mount")
+scene.Mazda_RX8_1.addChild(TIS_1_mount)
+scene.getTransformChild("TIS_1_mount")
+TIS_1_mount.setTranslation(4, 0, 0)
+TIS_1_mount.setRotation(0, 1, 0, 0)
+
+TIS_1_Beam_1 = visnodes.VisBeamPyramid_createPyramid(r"TIS_1_Beam_1", 50, 0.785398163397448, 0.785398163397448)
+TIS_1_Beam_1.setBeamColor(1, 0, 0, 0.25)
+TIS_1_Beam_1.setNodeMask(16384, False)
+TIS_1_Beam_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_Beam_1_mount")
+scene.TIS_1_mount.addChild(TIS_1_Beam_1_mount)
+scene.getTransformChild("TIS_1_Beam_1_mount")
+TIS_1_Beam_1_mount.setTranslation(0, 0, 0)
+TIS_1_Beam_1_mount.setRotation(0, 1, 0, 0)
+TIS_1_Beam_1.setRotationLegacyYUpAxes(1.5707963267948966, 0, 0, -1)
+TIS_1_Beam_1_mount.setNodeMask(32, False)
+TIS_1_Beam_1_mount.addChild(TIS_1_Beam_1)
+
+

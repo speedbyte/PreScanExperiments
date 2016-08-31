@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="28" rtYLength="75">
+    <BlockDef id="Audi_A8_1">
+        <PortDef id="Position_Audi_A8_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_1" index="0" type="0" width="8"/>
+        <PortDef id="FrictionSensor_Audi_A8_1" index="8" type="0" width="4"/>
+        <PortDef id="visu_TransWheelFL_0" index="15" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="18" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="22" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="25" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="29" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="32" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="36" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="39" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Female_RegularAni_1">
+        <PortDef id="Position_Female_RegularAni_1" index="43" type="1" width="3"/>
+        <PortDef id="Velocity_Female_RegularAni_1" index="46" type="1" width="3"/>
+        <PortDef id="Acceleration_Female_RegularAni_1" index="49"
+            type="1" width="3"/>
+        <PortDef id="RPY_Female_RegularAni_1" index="52" type="1" width="3"/>
+        <PortDef id="velRPY_Female_RegularAni_1" index="55" type="1" width="3"/>
+        <PortDef id="Anim_Female_RegularAni_1" index="58" type="1" width="2"/>
+        <PortDef id="SELF_Female_RegularAni_1" index="12" type="0" width="8"/>
+    </BlockDef>
+    <BlockDef id="Mazda_RX8_1">
+        <PortDef id="Position_Mazda_RX8_1" index="60" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_1" index="63" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_1" index="66" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_1" index="69" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_1" index="72" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_1" index="20" type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

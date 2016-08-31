@@ -1,0 +1,11 @@
+CameraView {
+  name "East Direction 4"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -43.9079 3.04869 1.8
+  attitude -0.48674 0.512917 0.512917 -0.48674
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0.32
+}

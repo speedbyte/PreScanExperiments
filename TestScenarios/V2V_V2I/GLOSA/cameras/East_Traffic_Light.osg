@@ -1,0 +1,11 @@
+CameraView {
+  name "East Traffic Light"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 35.3486 1.52216 7.33919
+  attitude 0.436068 0.437812 0.557061 0.554841
+  fieldOfView 30
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

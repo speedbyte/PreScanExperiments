@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4net>
+  <appender name="Console" type="log4net.Appender.ConsoleAppender">
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%thread] %-5level %F(%L) - %message%newline" />
+    </layout>
+  </appender>
+
+  <appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
+    <!-- WARNING: file line value needs to match with PreScan build environment to allow version replacement -->
+    <file type="log4net.Util.PatternString" value="%env{APPDATA}/TNO/PreScan/7.4.0/log/PreScan.log" />
+    <appendToFile value="true" />
+    <maximumFileSize value="100KB" />
+    <maxSizeRollBackups value="20" />
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%thread] %-5level %F(%L) - %message%newline" />
+    </layout>
+  </appender>
+
+  <appender name="PerExperimentAppender" type="log4net.Appender.FileAppender">
+    <file type="log4net.Util.PatternString" value="" />
+    <appendToFile value="true" />
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date [%thread] %-5level %F(%L) - %message%newline" />
+    </layout>
+  </appender>
+  
+  <root>
+    <level value="INFO" />
+    <appender-ref ref="Console" />
+    <appender-ref ref="RollingFile" />
+    <appender-ref ref="PerExperimentAppender" />
+  </root>
+</log4net>

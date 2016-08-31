@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="0" rtYLength="130">
+    <BlockDef id="HighwayOverhang_1">
+        <PortDef id="MatrixSign_1" index="0" type="1" width="1"/>
+        <PortDef id="MatrixSign_2" index="1" type="1" width="1"/>
+        <PortDef id="MatrixSign_1_Light_1" index="2" type="1" width="16"/>
+        <PortDef id="MatrixSign_1_Light_2" index="18" type="1" width="16"/>
+        <PortDef id="MatrixSign_1_Light_3" index="34" type="1" width="16"/>
+        <PortDef id="MatrixSign_1_Light_4" index="50" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_1" index="66" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_2" index="82" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_3" index="98" type="1" width="16"/>
+        <PortDef id="MatrixSign_2_Light_4" index="114" type="1" width="16"/>
+    </BlockDef>
+</ExperimentDef>

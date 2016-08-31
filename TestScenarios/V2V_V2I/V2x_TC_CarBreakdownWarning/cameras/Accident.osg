@@ -1,0 +1,11 @@
+CameraView {
+  name "Accident"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 231.917 76.9034 34.8194
+  attitude 0.308477 0.409845 0.68585 0.516217
+  fieldOfView 30
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

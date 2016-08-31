@@ -1,0 +1,19 @@
+# create sensor mounts and cameras
+Ultrasonic_1_mount = visnodes.VisTransform.createTransformNode(r"Ultrasonic_1_mount")
+scene.Audi_A8_1.addChild(Ultrasonic_1_mount)
+scene.getTransformChild("Ultrasonic_1_mount")
+Ultrasonic_1_mount.setTranslation(-1.15, 0, 0.5)
+Ultrasonic_1_mount.setRotation(3.1415926535897931, -0.25881904510252068, 1.5847572356139363E-17, 0.96592582628906831)
+
+Ultrasonic_2_mount = visnodes.VisTransform.createTransformNode(r"Ultrasonic_2_mount")
+scene.Audi_A8_1.addChild(Ultrasonic_2_mount)
+scene.getTransformChild("Ultrasonic_2_mount")
+Ultrasonic_2_mount.setTranslation(3.2448, -0.95, 0.5)
+Ultrasonic_2_mount.setRotation(1.5707963267948968, 0, 0, -1)
+
+Ultrasonic_3_mount = visnodes.VisTransform.createTransformNode(r"Ultrasonic_3_mount")
+scene.Audi_A8_1.addChild(Ultrasonic_3_mount)
+scene.getTransformChild("Ultrasonic_3_mount")
+Ultrasonic_3_mount.setTranslation(3.2448, 0.95, 0.5)
+Ultrasonic_3_mount.setRotation(1.5707963267948966, 0, 0, 1)
+

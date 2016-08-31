@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<ViewerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <General ViewerLayout="FullScreen" MovieFrameRate="10" HorizontalCaptureResolution="320" VerticalCaptureResolution="200" InactiveRefreshFreq="15" MaxVisRefreshFreq="100" />
+  <Cameras>
+    <Camera xsi:type="DefaultCamera">
+      <Name>default</Name>
+      <Predefined>true</Predefined>
+      <HeadLight>false</HeadLight>
+      <WireFrame>false</WireFrame>
+      <Dirty>true</Dirty>
+      <Location X="-111.84118112805663" Y="-203.46199831250488" Z="104.65902821661621" />
+      <Orientation Bank="0" Tilt="-15" Heading="45" />
+      <ParentName />
+      <Decouple>false</Decouple>
+      <HorAngle>45</HorAngle>
+      <VertAngle>45</VertAngle>
+      <NearPlane>0.01</NearPlane>
+      <FarPlane>1000</FarPlane>
+      <AutoDepth>true</AutoDepth>
+      <AutoAspect>true</AutoAspect>
+      <ZoomPercentage>0</ZoomPercentage>
+      <OriginalZoomPercentage>0</OriginalZoomPercentage>
+    </Camera>
+    <Camera xsi:type="DefaultCamera">
+      <Name>Top view</Name>
+      <Predefined>true</Predefined>
+      <HeadLight>false</HeadLight>
+      <WireFrame>false</WireFrame>
+      <Dirty>false</Dirty>
+      <Location X="97.476875305175781" Y="5.8560581207275391" Z="420.88369266360064" />
+      <Orientation Bank="0" Tilt="-90" Heading="90" />
+      <ParentName />
+      <Decouple>false</Decouple>
+      <HorAngle>45</HorAngle>
+      <VertAngle>45</VertAngle>
+      <NearPlane>0.01</NearPlane>
+      <FarPlane>1000</FarPlane>
+      <AutoDepth>true</AutoDepth>
+      <AutoAspect>true</AutoAspect>
+      <ZoomPercentage>0</ZoomPercentage>
+      <OriginalZoomPercentage>0</OriginalZoomPercentage>
+    </Camera>
+    <Camera xsi:type="DefaultCamera">
+      <Name>North Direction</Name>
+      <Predefined>true</Predefined>
+      <HeadLight>false</HeadLight>
+      <WireFrame>false</WireFrame>
+      <Dirty>false</Dirty>
+      <Location X="97.476875305175781" Y="-192.75536155700684" Z="1.7999999523162842" />
+      <Orientation Bank="0" Tilt="0" Heading="90" />
+      <ParentName />
+      <Decouple>false</Decouple>
+      <HorAngle>45</HorAngle>
+      <VertAngle>45</VertAngle>
+      <NearPlane>0.01</NearPlane>
+      <FarPlane>1000</FarPlane>
+      <AutoDepth>true</AutoDepth>
+      <AutoAspect>true</AutoAspect>
+      <ZoomPercentage>0</ZoomPercentage>
+      <OriginalZoomPercentage>0</OriginalZoomPercentage>
+    </Camera>
+    <Camera xsi:type="DefaultCamera">
+      <Name>South Direction</Name>
+      <Predefined>true</Predefined>
+      <HeadLight>false</HeadLight>
+      <WireFrame>false</WireFrame>
+      <Dirty>false</Dirty>
+      <Location X="97.476875305175781" Y="204.46747779846191" Z="1.7999999523162842" />
+      <Orientation Bank="0" Tilt="0" Heading="270" />
+      <ParentName />
+      <Decouple>false</Decouple>
+      <HorAngle>45</HorAngle>
+      <VertAngle>45</VertAngle>
+      <NearPlane>0.01</NearPlane>
+      <FarPlane>1000</FarPlane>
+      <AutoDepth>true</AutoDepth>
+      <AutoAspect>true</AutoAspect>
+      <ZoomPercentage>0</ZoomPercentage>
+      <OriginalZoomPercentage>0</OriginalZoomPercentage>
+    </Camera>
+    <Camera xsi:type="DefaultCamera">
+      <Name>West Direction</Name>
+      <Predefined>true</Predefined>
+      <HeadLight>false</HeadLight>
+      <WireFrame>false</WireFrame>
+      <Dirty>false</Dirty>
+      <Location X="236.43568086624146" Y="5.8560581207275391" Z="1.7999999523162842" />
+      <Orientation Bank="0" Tilt="0" Heading="180" />
+      <ParentName />
+      <Decouple>false</Decouple>
+      <HorAngle>45</HorAngle>
+      <VertAngle>45</VertAngle>
+      <NearPlane>0.01</NearPlane>
+      <FarPlane>1000</FarPlane>
+      <AutoDepth>true</AutoDepth>
+      <AutoAspect>true</AutoAspect>
+      <ZoomPercentage>0</ZoomPercentage>
+      <OriginalZoomPercentage>0</OriginalZoomPercentage>
+    </Camera>
+    <Camera xsi:type="DefaultCamera">
+      <Name>East Direction</Name>
+      <Predefined>true</Predefined>
+      <HeadLight>false</HeadLight>
+      <WireFrame>false</WireFrame>
+      <Dirty>false</Dirty>
+      <Location X="-41.481936931610107" Y="5.8560581207275391" Z="1.7999999523162842" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <ParentName />
+      <Decouple>false</Decouple>
+      <HorAngle>45</HorAngle>
+      <VertAngle>45</VertAngle>
+      <NearPlane>0.01</NearPlane>
+      <FarPlane>1000</FarPlane>
+      <AutoDepth>true</AutoDepth>
+      <AutoAspect>true</AutoAspect>
+      <ZoomPercentage>0</ZoomPercentage>
+      <OriginalZoomPercentage>0</OriginalZoomPercentage>
+    </Camera>
+    <Camera xsi:type="Viewpoint">
+      <Name>zoomed</Name>
+      <Predefined>false</Predefined>
+      <HeadLight>false</HeadLight>
+      <WireFrame>false</WireFrame>
+      <Dirty>false</Dirty>
+      <Location X="0" Y="0" Z="0" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <ParentName />
+      <Decouple>false</Decouple>
+      <HorAngle>45</HorAngle>
+      <VertAngle>45</VertAngle>
+      <NearPlane>0.01</NearPlane>
+      <FarPlane>1000</FarPlane>
+      <AutoDepth>true</AutoDepth>
+      <AutoAspect>true</AutoAspect>
+      <ZoomPercentage>43</ZoomPercentage>
+      <OriginalZoomPercentage>43</OriginalZoomPercentage>
+      <CameraSettings>
+        <PositionX>-111.830589</PositionX>
+        <PositionY>-203.454971</PositionY>
+        <PositionZ>104.655518</PositionZ>
+        <DirectionX>0.67098860655729242</DirectionX>
+        <DirectionY>0.694828719299499</DirectionY>
+        <DirectionZ>-0.25881912739772761</DirectionZ>
+        <UpVectorX>0.17979090323905134</UpVectorX>
+        <UpVectorY>0.1861788704966478</UpVectorY>
+        <UpVectorZ>0.96592580423813013</UpVectorZ>
+      </CameraSettings>
+      <ViewerSettings>
+        <WindowXPosition>0</WindowXPosition>
+        <WindowYPosition>0</WindowYPosition>
+        <WindowWidth>539</WindowWidth>
+        <WindowHeigth>458</WindowHeigth>
+        <WindowBorderActive>false</WindowBorderActive>
+      </ViewerSettings>
+    </Camera>
+  </Cameras>
+  <Viewers>
+    <Viewer>
+      <Name>viewer1</Name>
+      <CameraName>default</CameraName>
+    </Viewer>
+    <Viewer>
+      <Name>viewer2</Name>
+      <CameraName>default</CameraName>
+    </Viewer>
+    <Viewer>
+      <Name>viewer3</Name>
+      <CameraName>default</CameraName>
+    </Viewer>
+    <Viewer>
+      <Name>viewer4</Name>
+      <CameraName>default</CameraName>
+    </Viewer>
+  </Viewers>
+</ViewerSettings>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="16" rtYLength="258">
+    <BlockDef id="Audi_A8_1">
+        <PortDef id="Position_Audi_A8_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_1" index="0" type="0" width="8"/>
+        <PortDef id="visu_IndicatorLightsLeft_0" index="15" type="1" width="16"/>
+        <PortDef id="visu_IndicatorLightsRight_0" index="31" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearLeft_0" index="47" type="1" width="16"/>
+        <PortDef id="visu_FogLightRearRight_0" index="63" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontLeft_0" index="79" type="1" width="16"/>
+        <PortDef id="visu_FogLightFrontRight_0" index="95" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearLeft_0" index="111" type="1" width="16"/>
+        <PortDef id="visu_MainLightRearRight_0" index="127" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontLeft_0" index="143" type="1" width="16"/>
+        <PortDef id="visu_MainLightFrontRight_0" index="159" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightLeft_0" index="175" type="1" width="16"/>
+        <PortDef id="visu_BrakeLightRight_0" index="191" type="1" width="16"/>
+        <PortDef id="visu_TransWheelFL_0" index="207" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFL_0" index="210" type="1" width="4"/>
+        <PortDef id="visu_TransWheelFR_0" index="214" type="1" width="3"/>
+        <PortDef id="visu_RotWheelFR_0" index="217" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRL_0" index="221" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRL_0" index="224" type="1" width="4"/>
+        <PortDef id="visu_TransWheelRR_0" index="228" type="1" width="3"/>
+        <PortDef id="visu_RotWheelRR_0" index="231" type="1" width="4"/>
+        <PortDef id="visu_SteeringWheel_0" index="235" type="1" width="4"/>
+        <PortDef id="visu_SteeringColumn_0" index="239" type="1" width="4"/>
+    </BlockDef>
+    <BlockDef id="Sphere_1">
+        <PortDef id="Position_Sphere_1" index="243" type="1" width="3"/>
+        <PortDef id="Velocity_Sphere_1" index="246" type="1" width="3"/>
+        <PortDef id="Acceleration_Sphere_1" index="249" type="1" width="3"/>
+        <PortDef id="RPY_Sphere_1" index="252" type="1" width="3"/>
+        <PortDef id="velRPY_Sphere_1" index="255" type="1" width="3"/>
+        <PortDef id="SELF_Sphere_1" index="8" type="0" width="8"/>
+    </BlockDef>
+</ExperimentDef>

@@ -1,0 +1,11 @@
+CameraView {
+  name "New_SB2"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -9.4097 -18.0568 10.8738
+  attitude 0.527272 -0.304262 -0.396521 0.687154
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0.39
+}

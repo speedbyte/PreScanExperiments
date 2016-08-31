@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+ALMSSensor_1_mount = visnodes.VisTransform.createTransformNode(r"ALMSSensor_1_mount")
+scene.Mazda_RX8_1.addChild(ALMSSensor_1_mount)
+scene.getTransformChild("ALMSSensor_1_mount")
+ALMSSensor_1_mount.setTranslation(1.65, 0, 1.2)
+ALMSSensor_1_mount.setRotation(0, 1, 0, 0)
+

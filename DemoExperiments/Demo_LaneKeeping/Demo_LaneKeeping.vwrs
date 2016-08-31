@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ViewerSettings>
+	<Viewers>
+		<Viewer1 camera="Top View"/>
+		<Viewer2 camera="South Direction"/>
+		<Viewer3 camera="MAZDA_SideView"/>
+		<Viewer4 camera="MAZDA_TopView"/>
+	</Viewers>
+	<Layout>
+		<splitter horizontal="True" left="951" right="950"/>
+		<splitter2 horizontal="True" left="1901" right="0"/>
+		<splitter3 horizontal="False" left="1047" right="0"/>
+	</Layout>
+</ViewerSettings>

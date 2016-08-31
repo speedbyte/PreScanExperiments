@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentDef rtULength="218" rtYLength="285">
+    <BlockDef id="Mazda_RX8_1">
+        <PortDef id="Position_Mazda_RX8_1" index="0" type="1" width="3"/>
+        <PortDef id="Velocity_Mazda_RX8_1" index="3" type="1" width="3"/>
+        <PortDef id="Acceleration_Mazda_RX8_1" index="6" type="1" width="3"/>
+        <PortDef id="RPY_Mazda_RX8_1" index="9" type="1" width="3"/>
+        <PortDef id="velRPY_Mazda_RX8_1" index="12" type="1" width="3"/>
+        <PortDef id="SELF_Mazda_RX8_1" index="0" type="0" width="8"/>
+        <PortDef id="AIR_1" index="8" type="0" width="90"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Previa_1">
+        <PortDef id="Position_Toyota_Previa_1" index="15" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Previa_1" index="18" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Previa_1" index="21" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Previa_1" index="24" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Previa_1" index="27" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Previa_1" index="98" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="30" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="BMW_X5_1">
+        <PortDef id="Position_BMW_X5_1" index="33" type="1" width="3"/>
+        <PortDef id="Velocity_BMW_X5_1" index="36" type="1" width="3"/>
+        <PortDef id="Acceleration_BMW_X5_1" index="39" type="1" width="3"/>
+        <PortDef id="RPY_BMW_X5_1" index="42" type="1" width="3"/>
+        <PortDef id="velRPY_BMW_X5_1" index="45" type="1" width="3"/>
+        <PortDef id="SELF_BMW_X5_1" index="106" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="48" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Citroen_C3_1">
+        <PortDef id="Position_Citroen_C3_1" index="51" type="1" width="3"/>
+        <PortDef id="Velocity_Citroen_C3_1" index="54" type="1" width="3"/>
+        <PortDef id="Acceleration_Citroen_C3_1" index="57" type="1" width="3"/>
+        <PortDef id="RPY_Citroen_C3_1" index="60" type="1" width="3"/>
+        <PortDef id="velRPY_Citroen_C3_1" index="63" type="1" width="3"/>
+        <PortDef id="SELF_Citroen_C3_1" index="114" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="66" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Yaris_1">
+        <PortDef id="Position_Toyota_Yaris_1" index="69" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Yaris_1" index="72" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Yaris_1" index="75" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Yaris_1" index="78" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Yaris_1" index="81" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Yaris_1" index="122" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="84" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Audi_A8_1">
+        <PortDef id="Position_Audi_A8_1" index="87" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_1" index="90" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_1" index="93" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_1" index="96" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_1" index="99" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_1" index="130" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="102" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Previa_2">
+        <PortDef id="Position_Toyota_Previa_2" index="105" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Previa_2" index="108" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Previa_2" index="111" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Previa_2" index="114" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Previa_2" index="117" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Previa_2" index="138" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="120" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Audi_A8_2">
+        <PortDef id="Position_Audi_A8_2" index="123" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_2" index="126" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_2" index="129" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_2" index="132" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_2" index="135" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_2" index="146" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="138" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="BMW_X5_2">
+        <PortDef id="Position_BMW_X5_2" index="141" type="1" width="3"/>
+        <PortDef id="Velocity_BMW_X5_2" index="144" type="1" width="3"/>
+        <PortDef id="Acceleration_BMW_X5_2" index="147" type="1" width="3"/>
+        <PortDef id="RPY_BMW_X5_2" index="150" type="1" width="3"/>
+        <PortDef id="velRPY_BMW_X5_2" index="153" type="1" width="3"/>
+        <PortDef id="SELF_BMW_X5_2" index="154" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="156" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Citroen_C3_2">
+        <PortDef id="Position_Citroen_C3_2" index="159" type="1" width="3"/>
+        <PortDef id="Velocity_Citroen_C3_2" index="162" type="1" width="3"/>
+        <PortDef id="Acceleration_Citroen_C3_2" index="165" type="1" width="3"/>
+        <PortDef id="RPY_Citroen_C3_2" index="168" type="1" width="3"/>
+        <PortDef id="velRPY_Citroen_C3_2" index="171" type="1" width="3"/>
+        <PortDef id="SELF_Citroen_C3_2" index="162" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="174" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Previa_3">
+        <PortDef id="Position_Toyota_Previa_3" index="177" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Previa_3" index="180" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Previa_3" index="183" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Previa_3" index="186" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Previa_3" index="189" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Previa_3" index="170" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="192" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Citroen_C3_3">
+        <PortDef id="Position_Citroen_C3_3" index="195" type="1" width="3"/>
+        <PortDef id="Velocity_Citroen_C3_3" index="198" type="1" width="3"/>
+        <PortDef id="Acceleration_Citroen_C3_3" index="201" type="1" width="3"/>
+        <PortDef id="RPY_Citroen_C3_3" index="204" type="1" width="3"/>
+        <PortDef id="velRPY_Citroen_C3_3" index="207" type="1" width="3"/>
+        <PortDef id="SELF_Citroen_C3_3" index="178" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="210" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Citroen_C3_4">
+        <PortDef id="Position_Citroen_C3_4" index="213" type="1" width="3"/>
+        <PortDef id="Velocity_Citroen_C3_4" index="216" type="1" width="3"/>
+        <PortDef id="Acceleration_Citroen_C3_4" index="219" type="1" width="3"/>
+        <PortDef id="RPY_Citroen_C3_4" index="222" type="1" width="3"/>
+        <PortDef id="velRPY_Citroen_C3_4" index="225" type="1" width="3"/>
+        <PortDef id="SELF_Citroen_C3_4" index="186" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="228" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Previa_4">
+        <PortDef id="Position_Toyota_Previa_4" index="231" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Previa_4" index="234" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Previa_4" index="237" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Previa_4" index="240" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Previa_4" index="243" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Previa_4" index="194" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="246" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Toyota_Yaris_2">
+        <PortDef id="Position_Toyota_Yaris_2" index="249" type="1" width="3"/>
+        <PortDef id="Velocity_Toyota_Yaris_2" index="252" type="1" width="3"/>
+        <PortDef id="Acceleration_Toyota_Yaris_2" index="255" type="1" width="3"/>
+        <PortDef id="RPY_Toyota_Yaris_2" index="258" type="1" width="3"/>
+        <PortDef id="velRPY_Toyota_Yaris_2" index="261" type="1" width="3"/>
+        <PortDef id="SELF_Toyota_Yaris_2" index="202" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="264" type="1" width="3"/>
+    </BlockDef>
+    <BlockDef id="Audi_A8_3">
+        <PortDef id="Position_Audi_A8_3" index="267" type="1" width="3"/>
+        <PortDef id="Velocity_Audi_A8_3" index="270" type="1" width="3"/>
+        <PortDef id="Acceleration_Audi_A8_3" index="273" type="1" width="3"/>
+        <PortDef id="RPY_Audi_A8_3" index="276" type="1" width="3"/>
+        <PortDef id="velRPY_Audi_A8_3" index="279" type="1" width="3"/>
+        <PortDef id="SELF_Audi_A8_3" index="210" type="0" width="8"/>
+        <PortDef id="visu_TextureColor_0" index="282" type="1" width="3"/>
+    </BlockDef>
+</ExperimentDef>

@@ -1,0 +1,11 @@
+CameraView {
+  name "View_Overhang2_Rear"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position 52.1574 -1.63398 10.8738
+  attitude -0.42298 0.437811 0.570566 -0.551238
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0.39
+}

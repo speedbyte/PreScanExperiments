@@ -1,0 +1,11 @@
+CameraView {
+  name "MatrixSigns"
+  nodeMask 0xffffffff
+  cullingActive TRUE
+  referenceFrame RELATIVE
+  position -7.16806 2.83274e-006 5.91852
+  attitude 0.5 -0.5 -0.5 0.5
+  fieldOfView 45
+  fieldOfViewMode VERTICAL
+  focalLength 0
+}

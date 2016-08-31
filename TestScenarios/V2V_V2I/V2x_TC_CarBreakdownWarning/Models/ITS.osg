@@ -1,0 +1,181 @@
+MatrixTransform {
+	DataVariance STATIC
+	name "ITS"
+	nodeMask 0xff
+	cullingActive TRUE
+	StateSet {
+		UniqueID StateSet_0
+		DataVariance STATIC
+		rendering_hint DEFAULT_BIN
+		renderBinMode INHERIT
+		GL_LIGHTING ON
+	}
+	referenceFrame RELATIVE
+	Matrix {
+		1 0 0 0
+		0 1 0 0
+		0 0 1 0
+		0 0 0 1
+	}
+	num_children 1
+	Group {
+		DataVariance STATIC
+		name "Body"
+		nodeMask 0xffffffff
+		cullingActive TRUE
+		num_children 1
+		Geode {
+			DataVariance STATIC
+			nodeMask 0xef
+			cullingActive TRUE
+			num_children 1
+			Geometry {
+				DataVariance DYNAMIC
+				StateSet {
+					DataVariance STATIC
+					rendering_hint DEFAULT_BIN
+					renderBinMode INHERIT
+					GL_CULL_FACE OFF
+					GL_LIGHTING ON
+					Material {
+							DataVariance STATIC
+							ColorMode OFF
+							ambientColor 0.588235 0.588235 0.588235 1
+							diffuseColor 1 1 1 1
+							specularColor 0 0 0 1
+							emissionColor 0 0 0 1
+							shininess 0
+						}
+						textureUnit 0 {
+							GL_TEXTURE_2D ON
+							Texture2D {
+								DataVariance DYNAMIC
+								file "DodgerBlue_2.png"
+								wrap_s REPEAT
+								wrap_t REPEAT
+								wrap_r CLAMP
+								min_filter LINEAR_MIPMAP_LINEAR
+								mag_filter LINEAR
+								maxAnisotropy 1
+								borderColor 0 0 0 0
+								borderWidth 0
+								useHardwareMipMapGeneration TRUE
+								unRefImageDataAfterApply FALSE
+								internalFormatMode USE_IMAGE_DATA_FORMAT
+								resizeNonPowerOfTwo TRUE
+							}
+						}
+				}
+				useDisplayList TRUE
+				useVertexBufferObjects FALSE
+				PrimitiveSets 1
+				{
+					DrawArrays POLYGON 0 4
+					DrawArrays POLYGON 4 4
+					DrawArrays POLYGON 8 4
+					DrawArrays POLYGON 12 4
+					DrawArrays POLYGON 16 5
+					DrawArrays POLYGON 21 5
+				}
+				VertexArray Vec3Array 26
+				{
+					-0.1 -0.1 0
+					0.1 -0.1 0
+					0.1 -0.1 0.2
+					-0.1 -0.1 0.2
+
+					-0.1 0.1 0
+					-0.1 0.1 0.2
+					0.1 0.1 0.2
+					0.1 0.1 0
+
+					-0.1 -0.1 0.2
+					0.1 -0.1 0.2
+					0.1 0 0.2
+					-0.1 0 0.2
+
+					-0.1 0.1 0.2
+					-0.1 0 0.2
+					0.1 0 0.2
+					0.1 0.1 0.2
+					
+					0.1 -0.1 0
+					0.1 0.1 0
+					0.1 0.1 0.2
+					0.1 0 0.2
+					0.1 -0.1 0.2
+
+					-0.1 0.1 0
+					-0.1 -0.1 0
+					-0.1 -0.1 0.2
+					-0.1 0 0.2
+					-0.1 0.1 0.2
+				}
+				NormalBinding PER_VERTEX
+				NormalArray Vec3Array 26
+				{
+					0 -1 0
+					0 -1 0
+					0 -1 0
+					0 -1 0
+					
+					0 1 0
+					0 1 0
+					0 1 0
+					0 1 0
+					
+					0 0 1
+					0 0 1
+					0 0 1
+					0 0 1
+					
+					0 0 1
+					0 0 1
+					0 0 1
+					0 0 1
+					
+					1 0 0
+					1 0 0
+					1 0 0
+					1 0 0
+					1 0 0
+					
+					-1 0 0
+					-1 0 0
+					-1 0 0
+					-1 0 0
+					-1 0 0
+				}
+				TexCoordArray 0 Vec2Array 26
+				{
+					0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+				}					
+			}
+		}
+	}
+}

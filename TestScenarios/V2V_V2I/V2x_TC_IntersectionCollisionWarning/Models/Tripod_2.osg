@@ -1,0 +1,107 @@
+MatrixTransform {
+	DataVariance STATIC
+	name "Tripod_2"
+	nodeMask 0xff
+	cullingActive TRUE
+	StateSet {
+		UniqueID StateSet_0
+		DataVariance STATIC
+		rendering_hint DEFAULT_BIN
+		renderBinMode INHERIT
+		GL_LIGHTING ON
+	}
+	referenceFrame RELATIVE
+	Matrix {
+		1 0 0 0
+		0 1 0 0
+		0 0 1 0
+		0 0 0 1
+	}
+	num_children 1
+	Group {
+		DataVariance STATIC
+		name "Body"
+		nodeMask 0xffffffff
+		cullingActive TRUE
+		num_children 1
+		Geode {
+			DataVariance STATIC
+			nodeMask 0xff
+			cullingActive TRUE
+			StateSet {
+				DataVariance STATIC
+				rendering_hint DEFAULT_BIN
+				renderBinMode INHERIT
+				GL_CULL_FACE OFF
+				GL_LIGHTING ON
+			}
+			num_children 2
+			Geometry {
+				DataVariance DYNAMIC
+				useDisplayList TRUE
+				useVertexBufferObjects FALSE
+				PrimitiveSets 1
+				{
+					DrawArrays POLYGON 0 4
+					DrawArrays POLYGON 4 4
+					DrawArrays POLYGON 8 4					
+				}
+				VertexArray Vec3Array 12
+				{
+					-0.7 -0.02 0
+					0 -0.02 1
+					0 0.02 1
+					-0.7 0.02 0
+
+					0.37 -0.6 0
+					0.33 -0.62 0
+					-0.017 -0.01 1
+					0.0170 0.01 1
+
+					0.37 0.6 0
+					0.33 0.62 0
+					-0.017 0.01 1
+					0.0170 -0.01 1
+
+				
+				}
+				NormalBinding PER_VERTEX
+				NormalArray Vec3Array 12
+				{
+					0 -1 -1
+					0 -1 -1
+					0 -1 -1
+					0 -1 -1
+					
+					0 1 0
+					0 1 0
+					0 1 0
+					0 1 0
+					
+					0 1 0
+					0 1 0
+					0 1 0
+					0 1 0								
+				}
+				ColorBinding OVERALL
+				ColorArray Vec4Array 1
+				{
+					0.6627451 0.6627451 0.6627451 1
+				}
+			}		
+			ShapeDrawable {
+				DataVariance DYNAMIC
+				Cylinder {
+					DataVariance DYNAMIC
+					Center 0 0 0.99
+					Radius 0.025
+					Height 0.02
+					Rotation 0 0 0 1
+				}
+				useDisplayList TRUE
+				useVertexBufferObjects FALSE				
+				Use TessellationHints_1
+			}				
+		}
+	}
+}
