@@ -7,7 +7,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.156"
+    ComputedModelVersion    "1.155"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -36,7 +36,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [494.0, 84.0, 890.0, 993.0]
+      Location		      [199.0, 52.0, 890.0, 993.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -61,8 +61,8 @@ Model {
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
 	Extents			[647.0, 819.0]
-	ZoomFactor		[0.8]
-	Offset			[-81.000000000000057, -53.0]
+	ZoomFactor		[1.0]
+	Offset			[0.0, 0.0]
       }
     }
   }
@@ -72,9 +72,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "agrawal"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Aug 31 13:46:31 2016"
-  RTWModifiedTimeStamp	  394551991
-  ModelVersionFormat	  "1.%<AutoIncrement:156>"
+  LastModifiedDate	  "Wed Aug 31 13:38:07 2016"
+  RTWModifiedTimeStamp	  394551486
+  ModelVersionFormat	  "1.%<AutoIncrement:155>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -1080,7 +1080,7 @@ Model {
   }
   System {
     Name		    "Demo_DSRC_BSM_Message_cs"
-    Location		    [494, 84, 1384, 1077]
+    Location		    [199, 52, 1089, 1045]
     Open		    on
     ModelBrowserVisibility  on
     ModelBrowserWidth	    200
@@ -1092,7 +1092,7 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "80"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "3267"
     Block {
@@ -1136,7 +1136,7 @@ Model {
       }
       System {
 	Name			"BMW_Z3_1"
-	Location		[494, 84, 1384, 1077]
+	Location		[172, 52, 1704, 1161]
 	Open			off
 	ModelBrowserVisibility	on
 	ModelBrowserWidth	200
@@ -1148,7 +1148,7 @@ Model {
 	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"250"
+	ZoomFactor		"100"
 	Block {
 	  BlockType		  Inport
 	  Name			  "SELF_BMW_Z3_1"
@@ -1188,11 +1188,11 @@ Model {
 	  BlockType		  BusSelector
 	  Name			  "Bus\nSelector"
 	  SID			  "5"
-	  Ports			  [1, 6]
+	  Ports			  [1, 5]
 	  Position		  [580, 442, 585, 518]
 	  ZOrder		  -3
 	  ShowName		  off
-	  OutputSignals		  "MsgId,MsgCount,Lateral,Longitudinal,Accuracy,Heading"
+	  OutputSignals		  "MsgId,MsgCount,Lateral,Longitudinal,Accuracy"
 	  Port {
 	    PortNumber		    1
 	    Name		    "<MsgId>"
@@ -1220,12 +1220,6 @@ Model {
 	  Port {
 	    PortNumber		    5
 	    Name		    "<Accuracy>"
-	    RTWStorageClass	    "Auto"
-	    DataLoggingNameMode	    "SignalName"
-	  }
-	  Port {
-	    PortNumber		    6
-	    Name		    "<Heading>"
 	    RTWStorageClass	    "Auto"
 	    DataLoggingNameMode	    "SignalName"
 	  }
@@ -1336,6 +1330,8 @@ Model {
 	      Port {
 		PortNumber		13
 		Name			"L7"
+		PropagatedSignals	"spare_1, spare_2, spare_3, spare_4, spare_5, spare_6, spare_7, spare_8, spare_9, spare_10, spare_"
+		"11, spare_12, spare_13, spare_14, spare_15, spare_16, spare_17, spare_18, spare_19"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
@@ -3037,7 +3033,7 @@ Model {
 	  BlockType		  Scope
 	  Name			  "Example of a subset \nof DSRC Receiver\nBSM Message"
 	  SID			  "81"
-	  Ports			  [6]
+	  Ports			  [5]
 	  Position		  [710, 442, 740, 518]
 	  ZOrder		  -5
 	  ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extmgr."
@@ -3045,46 +3041,45 @@ Model {
 	  "','WiredSimulink',true,'DataLoggingVariableName','ScopeData1','DataLoggingSaveFormat','StructureWithTime','DataLogg"
 	  "ingMaxPoints','50000','DataLoggingLimitDataPoints',true,'DataLoggingDecimation','1','DataLoggingDecimateData',true)"
 	  ",extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal','0','MaxYLimReal','2'"
-	  ",'YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','Off','XGrid',true,'YGrid',true,'PlotMagPhas"
+	  ",'YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhas"
 	  "e',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',["
 	  "1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.39215686274509"
 	  "8 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07450980392"
 	  "15686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLin"
-	  "es',2,'LineNames',{{'<MsgId>:1','<MsgId>:2'}},'ShowContent',true,'Placement',1),struct('MinYLimReal','0','MaxYLimRe"
-	  "al','150','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'Pl"
-	  "otMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'Colo"
-	  "rOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.39215"
-	  "6862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.07"
-	  "45098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}"
-	  "},'NumLines',2,'LineNames',{{'<MsgCount>:1','<MsgCount>:2'}},'ShowContent',true,'Placement',2),struct('MinYLimReal'"
-	  ",'0','MaxYLimReal','6000','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,"
-	  "'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274"
-	  "509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.160784"
-	  "31372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.05882352941"
-	  "17647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedC"
-	  "hannelNames',{{}},'NumLines',2,'LineNames',{{'<Lateral>:1','<Lateral>:2'}},'ShowContent',true,'Placement',3),struct"
-	  "('MinYLimReal','0','MaxYLimReal','8000','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off'"
-	  ",'XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.6862745098"
-	  "03922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.4117647058"
-	  "82353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1"
-	  ";0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}}"
-	  ",'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames',{{'<Longitudinal>:1','<Longitudinal>:2'}},'ShowContent',tr"
-	  "ue,'Placement',4),struct('MinYLimReal','0','MaxYLimReal','80000','YLabelReal','','MinYLimMag','0','MaxYLimMag','10'"
-	  ",'LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686"
-	  "274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.6235294"
-	  "11764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.7176470588"
-	  "23529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','"
-	  "LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',4,'LineNames',{{'<Accuracy>:1','<Accuracy>:2','"
-	  "<Heading>:1','<Heading>:2'}},'ShowContent',true,'Placement',5)},'DisplayPropertyDefaults',struct('MinYLimReal','0',"
-	  "'MaxYLimReal','2','YLabelReal','','MinYLimMag','0','MaxYLimMag','10','AxesColor',[0 0 0],'AxesTickColor',[0.6862745"
-	  "09803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.62352941176"
-	  "4706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.71764705882352"
-	  "9 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','Line"
-	  "PropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement'"
-	  ",1),'DisplayLayoutDimensions',[5 1],'TimeRangeSamples','10','TimeRangeFrames','10'),extmgr.Configuration('Tools','P"
-	  "lot Navigation',true,'OnceAtStop',false),extmgr.Configuration('Tools','Measurements',true,'Version','2016a')),'Vers"
-	  "ion','2016a','Location',[1091 83 1706 964])"
-	  NumInputPorts		  "6"
+	  "es',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1),struct('MinYLimReal','0','MaxYLimReal','150','YLabelReal"
+	  "','','MinYLimMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'Ax"
+	  "esColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.066666"
+	  "6666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.83137254"
+	  "9019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.6509"
+	  "80392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineN"
+	  "ames',{{[]}},'ShowContent',true,'Placement',2),struct('MinYLimReal','0','MaxYLimReal','6000','YLabelReal','','MinYL"
+	  "imMag','0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0"
+	  " 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;"
+	  "0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0"
+	  "745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863"
+	  "],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}"
+	  "},'ShowContent',true,'Placement',3),struct('MinYLimReal','0','MaxYLimReal','8000','YLabelReal','','MinYLimMag','0',"
+	  "'MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'Axes"
+	  "TickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.074509803"
+	  "9215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.074509803921"
+	  "5686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','"
+	  "%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowCont"
+	  "ent',true,'Placement',4),struct('MinYLimReal','0','MaxYLimReal','80000','YLabelReal','','MinYLimMag','0','MaxYLimMa"
+	  "g','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor'"
+	  ",[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0."
+	  "623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717"
+	  "647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLa"
+	  "bel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,"
+	  "'Placement',5)},'DisplayPropertyDefaults',struct('MinYLimReal','0','MaxYLimReal','2','YLabelReal','','MinYLimMag','"
+	  "0','MaxYLimMag','10','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'A"
+	  "xesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.074509"
+	  "8039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.074509803"
+	  "9215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title"
+	  "','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowC"
+	  "ontent',true,'Placement',1),'DisplayLayoutDimensions',[5 1],'TimeRangeSamples','10','TimeRangeFrames','10'),extmgr."
+	  "Configuration('Tools','Plot Navigation',true,'OnceAtStop',false),extmgr.Configuration('Tools','Measurements',true,'"
+	  "Version','2016a')),'Version','2016a','Location',[1091 57 1665 1008],'VisibleAtModelOpen','on')"
+	  NumInputPorts		  "5"
 	}
 	Block {
 	  BlockType		  SubSystem
@@ -3107,7 +3102,7 @@ Model {
 	  }
 	  System {
 	    Name		    "J2735 Decoder\nBasic Safety Message"
-	    Location		    [567, 87, 1457, 1080]
+	    Location		    [16, 52, 1771, 1205]
 	    Open		    off
 	    ModelBrowserVisibility  on
 	    ModelBrowserWidth	    200
@@ -3119,7 +3114,7 @@ Model {
 	    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "60"
+	    ZoomFactor		    "100"
 	    Block {
 	      BlockType		      Inport
 	      Name		      "Data"
@@ -7341,7 +7336,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L2"
-	      ZOrder		      7
+	      ZOrder		      4
 	      Labels		      [0, 0]
 	      SrcBlock		      "Trajectory_1"
 	      SrcPort		      1
@@ -7351,7 +7346,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L3"
-	      ZOrder		      8
+	      ZOrder		      5
 	      Labels		      [0, 0]
 	      SrcBlock		      "Trajectory_1_Offset"
 	      SrcPort		      1
@@ -7361,7 +7356,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L4"
-	      ZOrder		      9
+	      ZOrder		      6
 	      Labels		      [0, 0]
 	      SrcBlock		      "Traj2State1"
 	      SrcPort		      1
@@ -7565,18 +7560,9 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  Name			  "<Heading>"
-	  ZOrder		  32
-	  Labels		  [0, 0]
-	  SrcBlock		  "Bus\nSelector"
-	  SrcPort		  6
-	  DstBlock		  "Example of a subset \nof DSRC Receiver\nBSM Message"
-	  DstPort		  6
-	}
-	Line {
 	  Name			  " "
 	  Tag			  "L6"
-	  ZOrder		  33
+	  ZOrder		  25
 	  Labels		  [0, 0]
 	  SrcBlock		  "SELF_BMW_Z3_1"
 	  SrcPort		  1
@@ -7584,7 +7570,7 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  34
+	  ZOrder		  26
 	  SrcBlock		  "DSRC Receiver"
 	  SrcPort		  1
 	  Points		  [135, 0; 0, -17]
@@ -7594,7 +7580,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L7"
-	  ZOrder		  35
+	  ZOrder		  27
 	  Labels		  [0, 0]
 	  SrcBlock		  "DSRC Receiver"
 	  SrcPort		  2
@@ -7604,7 +7590,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L8"
-	  ZOrder		  36
+	  ZOrder		  28
 	  Labels		  [0, 0]
 	  SrcBlock		  "DSRC_Rx_1"
 	  SrcPort		  1
@@ -7614,7 +7600,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L10"
-	  ZOrder		  37
+	  ZOrder		  29
 	  Labels		  [0, 0]
 	  SrcBlock		  "Trajectories"
 	  SrcPort		  1
@@ -7656,7 +7642,7 @@ Model {
       }
       System {
 	Name			"Citroen_C3_1"
-	Location		[567, 87, 1457, 1080]
+	Location		[172, 52, 1928, 1181]
 	Open			off
 	ModelBrowserVisibility	on
 	ModelBrowserWidth	200
@@ -7764,7 +7750,6 @@ Model {
 	  Port {
 	    PortNumber		    1
 	    Name		    " "
-	    PropagatedSignals	    "l60"
 	    RTWStorageClass	    "Auto"
 	    DataLoggingNameMode	    "SignalName"
 	  }
@@ -7845,12 +7830,15 @@ Model {
 	      Port {
 		PortNumber		1
 		Name			"l60"
+		PropagatedSignals	"l46, l47, l48, l49, l50, l58"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
 	      Port {
 		PortNumber		2
 		Name			"L29"
+		PropagatedSignals	"spare_1, spare_2, spare_3, spare_4, spare_5, spare_6, spare_7, spare_8, spare_9, spare_10, spare_"
+		"11, spare_12, spare_13, spare_14, spare_15, spare_16, spare_17, spare_18, spare_19"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
@@ -9161,7 +9149,6 @@ Model {
 	  Port {
 	    PortNumber		    2
 	    Name		    " "
-	    PropagatedSignals	    "y"
 	    RTWStorageClass	    "Auto"
 	    DataLoggingNameMode	    "SignalName"
 	  }
@@ -9443,7 +9430,7 @@ Model {
 		  FunctionName		  "sf_sfun"
 		  PortCounts		  "[19 2]"
 		  SFunctionDeploymentMode off
-		  EnableBusSupport	  on
+		  EnableBusSupport	  off
 		  Port {
 		    PortNumber		    2
 		    Name		    "y"
@@ -13321,7 +13308,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L21"
-	      ZOrder		      7
+	      ZOrder		      4
 	      Labels		      [0, 0]
 	      SrcBlock		      "Trajectory_3"
 	      SrcPort		      1
@@ -13331,7 +13318,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L22"
-	      ZOrder		      8
+	      ZOrder		      5
 	      Labels		      [0, 0]
 	      SrcBlock		      "Trajectory_3_Offset"
 	      SrcPort		      1
@@ -13341,7 +13328,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L23"
-	      ZOrder		      9
+	      ZOrder		      6
 	      Labels		      [0, 0]
 	      SrcBlock		      "Traj2State1"
 	      SrcPort		      1
@@ -13793,7 +13780,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L25"
-	  ZOrder		  49
+	  ZOrder		  45
 	  Labels		  [0, 0]
 	  SrcBlock		  "SELF_Citroen_C3_1"
 	  SrcPort		  1
@@ -13801,7 +13788,7 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  50
+	  ZOrder		  46
 	  SrcBlock		  "J2735 Encoder\nBasic Safety Message"
 	  SrcPort		  1
 	  Points		  [55, 0; 0, -20]
@@ -13811,7 +13798,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L26"
-	  ZOrder		  51
+	  ZOrder		  47
 	  Labels		  [0, 0]
 	  SrcBlock		  "J2735 Encoder\nBasic Safety Message"
 	  SrcPort		  2
@@ -13821,7 +13808,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L28"
-	  ZOrder		  52
+	  ZOrder		  48
 	  Labels		  [0, 0]
 	  SrcBlock		  "Trajectories"
 	  SrcPort		  1
@@ -13942,7 +13929,6 @@ Model {
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "SimCoreSensors"
-	  TagVisibility		  "global"
 	}
 	Block {
 	  BlockType		  Selector
@@ -14344,7 +14330,7 @@ Model {
       }
       System {
 	Name			"Fiat_Bravo_1"
-	Location		[814, 220, 1704, 1213]
+	Location		[172, 52, 1928, 1181]
 	Open			off
 	ModelBrowserVisibility	on
 	ModelBrowserWidth	200
@@ -14452,13 +14438,12 @@ Model {
 	  Port {
 	    PortNumber		    1
 	    Name		    " "
-	    PropagatedSignals	    "l60"
 	    RTWStorageClass	    "Auto"
 	    DataLoggingNameMode	    "SignalName"
 	  }
 	  System {
 	    Name		    "DSRC Transmitter"
-	    Location		    [36, 14, 926, 1007]
+	    Location		    [254, 52, 1704, 1161]
 	    Open		    off
 	    ModelBrowserVisibility  on
 	    ModelBrowserWidth	    200
@@ -14533,12 +14518,15 @@ Model {
 	      Port {
 		PortNumber		1
 		Name			"l60"
+		PropagatedSignals	"l46, l47, l48, l49, l50, l58"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
 	      Port {
 		PortNumber		2
 		Name			"L29"
+		PropagatedSignals	"spare_1, spare_2, spare_3, spare_4, spare_5, spare_6, spare_7, spare_8, spare_9, spare_10, spare_"
+		"11, spare_12, spare_13, spare_14, spare_15, spare_16, spare_17, spare_18, spare_19"
 		RTWStorageClass		"Auto"
 		DataLoggingNameMode	"SignalName"
 	      }
@@ -15849,7 +15837,6 @@ Model {
 	  Port {
 	    PortNumber		    2
 	    Name		    " "
-	    PropagatedSignals	    "y"
 	    RTWStorageClass	    "Auto"
 	    DataLoggingNameMode	    "SignalName"
 	  }
@@ -16131,7 +16118,7 @@ Model {
 		  FunctionName		  "sf_sfun"
 		  PortCounts		  "[19 2]"
 		  SFunctionDeploymentMode off
-		  EnableBusSupport	  on
+		  EnableBusSupport	  off
 		  Port {
 		    PortNumber		    2
 		    Name		    "y"
@@ -20009,7 +19996,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L12"
-	      ZOrder		      7
+	      ZOrder		      4
 	      Labels		      [0, 0]
 	      SrcBlock		      "Trajectory_2"
 	      SrcPort		      1
@@ -20019,7 +20006,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L13"
-	      ZOrder		      8
+	      ZOrder		      5
 	      Labels		      [0, 0]
 	      SrcBlock		      "Trajectory_2_Offset"
 	      SrcPort		      1
@@ -20029,7 +20016,7 @@ Model {
 	    Line {
 	      Name		      " "
 	      Tag		      "L14"
-	      ZOrder		      9
+	      ZOrder		      6
 	      Labels		      [0, 0]
 	      SrcBlock		      "Traj2State1"
 	      SrcPort		      1
@@ -20481,7 +20468,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L16"
-	  ZOrder		  49
+	  ZOrder		  45
 	  Labels		  [0, 0]
 	  SrcBlock		  "SELF_Fiat_Bravo_1"
 	  SrcPort		  1
@@ -20489,17 +20476,17 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  50
+	  ZOrder		  46
 	  SrcBlock		  "J2735 Encoder\nBasic Safety Message"
 	  SrcPort		  1
-	  Points		  [50, 0; 0, -20]
+	  Points		  [55, 0; 0, -20]
 	  DstBlock		  "DSRC Transmitter"
 	  DstPort		  enable
 	}
 	Line {
 	  Name			  " "
 	  Tag			  "L17"
-	  ZOrder		  51
+	  ZOrder		  47
 	  Labels		  [0, 0]
 	  SrcBlock		  "J2735 Encoder\nBasic Safety Message"
 	  SrcPort		  2
@@ -20509,7 +20496,7 @@ Model {
 	Line {
 	  Name			  " "
 	  Tag			  "L19"
-	  ZOrder		  52
+	  ZOrder		  48
 	  Labels		  [0, 0]
 	  SrcBlock		  "Trajectories"
 	  SrcPort		  1
@@ -20725,7 +20712,6 @@ Model {
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "SimCoreSensors"
-	  TagVisibility		  "global"
 	}
 	Block {
 	  BlockType		  Selector
@@ -20874,7 +20860,6 @@ Model {
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "SimCoreSensors"
-	  TagVisibility		  "global"
 	}
 	Block {
 	  BlockType		  Selector
@@ -21023,7 +21008,6 @@ Model {
 	  ShowName		  off
 	  CloseFcn		  "tagdialog Close"
 	  GotoTag		  "SimCoreSensors"
-	  TagVisibility		  "global"
 	}
 	Block {
 	  BlockType		  Selector
@@ -24575,7 +24559,6 @@ Model {
 	  Position		  [60, 94, 145, 126]
 	  ZOrder		  -2
 	  GotoTag		  "SimCoreInfo"
-	  TagVisibility		  "global"
 	}
 	Block {
 	  BlockType		  Scope
@@ -24643,7 +24626,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L1"
-      ZOrder		      20
+      ZOrder		      11
       Labels		      [0, 0]
       SrcBlock		      "BMW_Z3_1"
       SrcPort		      1
@@ -24653,7 +24636,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L5"
-      ZOrder		      21
+      ZOrder		      12
       Labels		      [0, 0]
       SrcBlock		      "SELF_BMW_Z3_1"
       SrcPort		      1
@@ -24663,7 +24646,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L9"
-      ZOrder		      22
+      ZOrder		      13
       Labels		      [0, 0]
       SrcBlock		      "DSRC_Rx_1"
       SrcPort		      1
@@ -24673,7 +24656,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L11"
-      ZOrder		      23
+      ZOrder		      14
       Labels		      [0, 0]
       SrcBlock		      "Fiat_Bravo_1"
       SrcPort		      1
@@ -24683,7 +24666,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L15"
-      ZOrder		      24
+      ZOrder		      15
       Labels		      [0, 0]
       SrcBlock		      "SELF_Fiat_Bravo_1"
       SrcPort		      1
@@ -24693,7 +24676,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L18"
-      ZOrder		      25
+      ZOrder		      16
       Labels		      [0, 0]
       SrcBlock		      "Fiat_Bravo_1"
       SrcPort		      2
@@ -24703,7 +24686,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L20"
-      ZOrder		      26
+      ZOrder		      17
       Labels		      [0, 0]
       SrcBlock		      "Citroen_C3_1"
       SrcPort		      1
@@ -24713,7 +24696,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L24"
-      ZOrder		      27
+      ZOrder		      18
       Labels		      [0, 0]
       SrcBlock		      "SELF_Citroen_C3_1"
       SrcPort		      1
@@ -24723,7 +24706,7 @@ Model {
     Line {
       Name		      " "
       Tag		      "L27"
-      ZOrder		      28
+      ZOrder		      19
       Labels		      [0, 0]
       SrcBlock		      "Citroen_C3_1"
       SrcPort		      2
@@ -25458,6 +25441,7 @@ Stateflow {
     firstJunction	    24
     viewObj		    2
     machine		    1
+    toolbarMode		    LIBRARY_TOOLBAR
     ssIdHighWaterMark	    31
     decomposition	    CLUSTER_CHART
     type		    EML_CHART
@@ -26038,6 +26022,7 @@ Stateflow {
     firstJunction	    49
     viewObj		    27
     machine		    1
+    toolbarMode		    LIBRARY_TOOLBAR
     ssIdHighWaterMark	    31
     decomposition	    CLUSTER_CHART
     type		    EML_CHART

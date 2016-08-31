@@ -3,12 +3,12 @@
 	<Viewers>
 		<Viewer1 camera="HumanView_1"/>
 		<Viewer2 camera="Default View"/>
-		<Viewer3 camera="North Direction"/>
-		<Viewer4 camera="East Direction"/>
+		<Viewer3 camera="HumanView_2"/>
+		<Viewer4 camera="Top View"/>
 	</Viewers>
 	<Layout>
 		<splitter horizontal="True" left="970" right="0"/>
-		<splitter2 horizontal="True" left="970" right="0"/>
-		<splitter3 horizontal="False" left="509" right="0"/>
+		<splitter2 horizontal="True" left="485" right="485"/>
+		<splitter3 horizontal="False" left="255" right="254"/>
 	</Layout>
 </ViewerSettings>

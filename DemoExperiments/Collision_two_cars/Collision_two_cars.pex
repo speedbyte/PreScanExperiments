@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Experiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Description="" id="Collision_two_cars" UniqueId="0" Authors="Weikas" TotalSimulationTime="11.8" Built="false" EnableCollisionDetection="false" EnableTestAutomation="false" ExperimentDescription="Collision between two cars" Generate3DTrajectories="false" VisualizeSensorBeams="false" VisualizeBoundingBoxes="false" Parsed="false" PrecipitationRandomSeed="0" PRESCANVersion="7.4.0" ResourcesDir="Resources" SensorRandomSeed="0" SimulationGenerationHash="57B131832D25F489322B4710AE8E0D3F10AD7B064E2F799937D899A6B61E3442" SkyBoxName="SKY_Air" TerrainColor="FF0080FF" TerrainTexture="Air_terrain.png" UniqueExperimentIdentifier="761dda4a-27ca-4737-8c83-624015b8398b" UniqueIdCounter="1148" UseTerrain="true" VisuAidMaxRenderingDistance="750" VisuAidMinRenderingDistance="0.1" WeatherTypeName="None">
+<Experiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Description="" id="Collision_two_cars" UniqueId="0" Authors="Weikas" TotalSimulationTime="11.8" Built="true" EnableCollisionDetection="true" EnableTestAutomation="false" ExperimentDescription="Collision between two cars" Generate3DTrajectories="false" VisualizeSensorBeams="false" VisualizeBoundingBoxes="false" Parsed="true" PrecipitationRandomSeed="0" PRESCANVersion="7.4.0" ResourcesDir="Resources" SensorRandomSeed="0" SimulationGenerationHash="67AF5871462453FCBCA80D783E334AE63F1EB264E496824CB10DCA9A4A380249" SkyBoxName="SKY_Air" TerrainColor="FF0080FF" TerrainTexture="Air_terrain.png" UniqueExperimentIdentifier="8aba8dc5-3d98-48c3-8503-35c57058ba31" UniqueIdCounter="1178" UseTerrain="true" VisuAidMaxRenderingDistance="750" VisuAidMinRenderingDistance="0.1" WeatherTypeName="None">
   <Actors>
     <Actor xsi:type="Audi_A8" Description="" id="Audi_A8_1" UniqueId="152" ColorCodeR="255" ColorCodeG="255" ColorCodeB="255" SensorIDDetection="true" NumericalID="1" ObjectTypeID="1" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="true" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" PhysicsSimpleDynamicsInteraction="PhysicsInheritsFromSD" TextureColor="DarkGray (FFA9A9A9)">
       <Location X="377.900390625" Y="-8.5285453796386719" Z="0.55" />
@@ -111,9 +111,9 @@
       </ObjectSimulatorInfo>
       <Physics Drag="0.270000010728836" EnableContactFriction="false" Mass="1820" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.33256411552429" RollFriction="0.01" />
       <Sensors>
-        <Sensor xsi:type="AIRSensor" Description="" id="AIR_1" UniqueId="161" PreventDragging="true" CurrentAttachmentPoint="Actor" Visualize="false" VisualizedAlpha="25" BeamColor="Green (FF008000)" FovAzimuth="45" FovElevation="45" EntitiesOut="1" DetectionType="BBox" BeamLength="50">
+        <Sensor xsi:type="AIRSensor" Description="" id="AIR_1" UniqueId="161" PreventDragging="true" CurrentAttachmentPoint="Actor" Visualize="false" VisualizedAlpha="25" BeamColor="Green (FF008000)" FovAzimuth="45" FovElevation="45" EntitiesOut="4" DetectionType="BBox" BeamLength="50">
           <Location X="3.916416" Y="0" Z="0.419999986886978" />
-          <Orientation Bank="0" Tilt="0" Heading="330" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
           <Origin X="0" Y="1" Z="0" />
           <Size X="4.2608499526977539" Y="1.6562497615814209" Z="0.10000000149011612" />
           <CoGOffset X="0" Y="0" Z="0" />
@@ -135,7 +135,7 @@
         </ConnectionPoint>
       </ConnectionPoints>
       <Trajectories>
-        <TrajectoryBase xsi:type="Trajectory" Description="" id="Trajectory_1" UniqueId="154" GenerateAbstractTrajectory="false" IsActive="true" MatFile="Trajectory_1_Synced.mat" MatPosFile="" ReferencePathName="PathObject_1" SampleFrequency="20" SampleSpacing="2" SpeedProfileName="SpeedProfile_1" SyncTimePoint="1.87" TrajectoryColor="FFFF9933" CompareActorToTrajectory="false">
+        <TrajectoryBase xsi:type="Trajectory" Description="" id="Trajectory_1" UniqueId="154" GenerateAbstractTrajectory="false" IsActive="true" MatFile="Trajectory_1_Synced.mat" MatPosFile="" ReferencePathName="PathObject_1" SampleFrequency="20" SampleSpacing="2" SpeedProfileName="SpeedProfile_1" SyncTimePoint="3" TrajectoryColor="FFFF9933" CompareActorToTrajectory="false">
           <Location X="0" Y="0" Z="0" />
           <Orientation Bank="0" Tilt="0" Heading="0" />
           <Origin X="0.5" Y="0.5" Z="0" />
@@ -145,16 +145,7 @@
           <StartOrientation Bank="0" Tilt="0" Heading="0" />
         </TrajectoryBase>
       </Trajectories>
-      <Cameras>
-        <Camera xsi:type="HumanView" Description="" id="HumanView_1" UniqueId="162" PreventDragging="true" CurrentAttachmentPoint="Actor" NearDistance="0.1" FarDistance="750" HorizontalAngle="120" VerticalAngle="90" BeamColor="Blue (FF0000FF)" OutputCameraImage="false">
-          <Location X="1.7" Y="0.4" Z="1.15" />
-          <Orientation Bank="0" Tilt="0" Heading="0" />
-          <Origin X="0.5" Y="0.5" Z="0" />
-          <Size X="0.19999999999999996" Y="0.30000000000000004" Z="0" />
-          <CoGOffset X="0" Y="0" Z="0" />
-          <Position>DriverLeft</Position>
-        </Camera>
-      </Cameras>
+      <Cameras />
       <UserSpecDyn Jxx="210" Jyy="3278" M="1820" Jzz="3746" Krear="121449" Kfront="72653" SteeringRatio="25" MaxSwa="500" L="2.94" A="1.17000008" />
       <PathFollowerSettings PreviewTime="1" DelayTime="0.1" LowSpeedLimit="20" MaxSteeringRate="1200" FrequencyFactor="1" />
       <LightElements>
@@ -221,7 +212,7 @@
       <BumperHeightRear>0.42</BumperHeightRear>
       <VehicleGeometry TrackWidthFront="1.624" TrackWidthRear="1.624" TyreRadius="0.358" Wheelbase="2.947" />
     </Actor>
-    <Actor xsi:type="BMW_X5" Description="" id="BMW_X5_1" UniqueId="158" ColorCodeR="255" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="true" NumericalID="2" ObjectTypeID="1" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" PhysicsSimpleDynamicsInteraction="PhysicsInheritsFromSD" TextureColor="DarkGray (FFA9A9A9)">
+    <Actor xsi:type="BMW_X5" Description="" id="BMW_X5_1" UniqueId="158" ColorCodeR="255" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="true" NumericalID="2" ObjectTypeID="1" ParticipateInCollisionDetection="true" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" PhysicsSimpleDynamicsInteraction="PhysicsInheritsFromSD" TextureColor="DarkGray (FFA9A9A9)">
       <Location X="479.06998617115" Y="3.3927311126021" Z="0.69" />
       <Orientation Bank="0" Tilt="0" Heading="131.55940473391" />
       <Origin X="0.219" Y="0.5" Z="0.003" />
@@ -329,8 +320,42 @@
           </VisualizationActuator>
         </VisualizationActuators>
       </ObjectSimulatorInfo>
-      <Physics Drag="0.36000001430511475" EnableContactFriction="false" Mass="2220" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.826251745223999" RollFriction="0.01" />
-      <Sensors />
+      <Physics Drag="0.360000014305115" EnableContactFriction="false" Mass="2220" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.826251745224" RollFriction="0.01" />
+      <Sensors>
+        <Sensor xsi:type="DSRCTransmitter" Description="" id="DSRC_Tx_1" UniqueId="1151" PreventDragging="true" CurrentAttachmentPoint="Actor" Visualize="false" VisualizedAlpha="25" BeamColor="DeepPink (FFFF1493)" Protocol="SAE J2735 (BSM)" BeamLength="-1" Channel="1" ValueRepresentingBooleans="0" MBoxFrequencyString="[0 0 0 0 0 0 0 0 0 0]" OptionalFrequencies="10_10_10_10_10_10_10">
+          <Location X="1.048791" Y="0" Z="1.716" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0" Y="1" Z="0" />
+          <Size X="8.152125358581543" Y="1.6562497615814209" Z="0.10000000149011612" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <TestAutomationVariables>
+            <TestAutomationVariable VariableName="Location" VariableState="false" />
+            <TestAutomationVariable VariableName="Orientation" VariableState="false" />
+            <TestAutomationVariable VariableName="Range" VariableState="false" />
+          </TestAutomationVariables>
+          <SparePorts>
+            <Spare value="spare_1" />
+            <Spare value="spare_2" />
+            <Spare value="spare_3" />
+            <Spare value="spare_4" />
+            <Spare value="spare_5" />
+            <Spare value="spare_6" />
+            <Spare value="spare_7" />
+            <Spare value="spare_8" />
+            <Spare value="spare_9" />
+            <Spare value="spare_10" />
+            <Spare value="spare_11" />
+            <Spare value="spare_12" />
+            <Spare value="spare_13" />
+            <Spare value="spare_14" />
+            <Spare value="spare_15" />
+            <Spare value="spare_16" />
+            <Spare value="spare_17" />
+            <Spare value="spare_18" />
+            <Spare value="spare_19" />
+          </SparePorts>
+        </Sensor>
+      </Sensors>
       <ConnectionPoints />
       <Trajectories>
         <TrajectoryBase xsi:type="Trajectory" Description="" id="Trajectory_2" UniqueId="160" GenerateAbstractTrajectory="false" IsActive="true" MatFile="Trajectory_2_Synced.mat" MatPosFile="" ReferencePathName="PathObject_2" SampleFrequency="20" SampleSpacing="2" SpeedProfileName="SpeedProfile_2" SyncTimePoint="0" TrajectoryColor="FF6666CC" CompareActorToTrajectory="false">
@@ -409,6 +434,448 @@
       <BumperHeightFront>0.52</BumperHeightFront>
       <BumperHeightRear>0.59</BumperHeightRear>
       <VehicleGeometry TrackWidthFront="1.636" TrackWidthRear="1.636" TyreRadius="0.3855" Wheelbase="2.816" />
+    </Actor>
+    <Actor xsi:type="Toyota_Yaris" Description="" id="Toyota_Yaris_1" UniqueId="1154" ColorCodeR="0" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="true" NumericalID="4" ObjectTypeID="1" ParticipateInCollisionDetection="true" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" PhysicsSimpleDynamicsInteraction="PhysicsInheritsFromSD" TextureColor="DarkGray (FFA9A9A9)">
+      <Location X="377.900390625" Y="-8.5285453796386719" Z="0.57" />
+      <Orientation Bank="0" Tilt="0" Heading="0" />
+      <Origin X="0.124" Y="0.502" Z="0" />
+      <Size X="3.486" Y="1.793" Z="1.577" />
+      <CoGOffset X="1.42" Y="0" Z="0.57" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_Car.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuLights" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions>
+              <LightMeshPosition>IndicatorLightsLeft</LightMeshPosition>
+              <LightMeshPosition>IndicatorLightsRight</LightMeshPosition>
+              <LightMeshPosition>FogLightRearLeft</LightMeshPosition>
+              <LightMeshPosition>FogLightRearRight</LightMeshPosition>
+              <LightMeshPosition>FogLightFrontLeft</LightMeshPosition>
+              <LightMeshPosition>FogLightFrontRight</LightMeshPosition>
+              <LightMeshPosition>MainLightRearLeft</LightMeshPosition>
+              <LightMeshPosition>MainLightRearRight</LightMeshPosition>
+              <LightMeshPosition>MainLightFrontLeft</LightMeshPosition>
+              <LightMeshPosition>MainLightFrontRight</LightMeshPosition>
+              <LightMeshPosition>BrakeLightLeft</LightMeshPosition>
+              <LightMeshPosition>BrakeLightRight</LightMeshPosition>
+            </LightMeshPositions>
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuTextureColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuWheels" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuSteer" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuSeats" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightLeftHB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightLeftLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightRightHB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightRightLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightRightHBLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightLeftHBLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuRearLightL" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuRearLightR" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuFogLightLeftF" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuFogLightRightF" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuFogLightLeftR" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuFogLightRightR" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuBrakeLightL" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuBrakeLightR" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.28999999165535" EnableContactFriction="false" Mass="1005" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.31030511856079" RollFriction="0.01" />
+      <Sensors>
+        <Sensor xsi:type="DSRCReceiver" Description="" id="DSRC_Rx_1" UniqueId="1156" PreventDragging="true" CurrentAttachmentPoint="Actor" Visualize="false" VisualizedAlpha="25" BeamColor="DeepPink (FFFF1493)" Protocol="SAE J2735 (BSM)" BeamLength="-1" Channel="1" ValueRepresentingBooleans="0" NrOfEntitiesOut="1" SpecifiedNrOfEntitiesOut="false">
+          <Location X="0.432264" Y="0" Z="1.577" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0" Y="1" Z="0" />
+          <Size X="8.3044681549072266" Y="1.6562497615814209" Z="0.10000000149011612" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <TestAutomationVariables>
+            <TestAutomationVariable VariableName="Location" VariableState="false" />
+            <TestAutomationVariable VariableName="Orientation" VariableState="false" />
+            <TestAutomationVariable VariableName="Channel" VariableState="false" />
+          </TestAutomationVariables>
+          <SparePorts>
+            <Spare value="spare_1" />
+            <Spare value="spare_2" />
+            <Spare value="spare_3" />
+            <Spare value="spare_4" />
+            <Spare value="spare_5" />
+            <Spare value="spare_6" />
+            <Spare value="spare_7" />
+            <Spare value="spare_8" />
+            <Spare value="spare_9" />
+            <Spare value="spare_10" />
+            <Spare value="spare_11" />
+            <Spare value="spare_12" />
+            <Spare value="spare_13" />
+            <Spare value="spare_14" />
+            <Spare value="spare_15" />
+            <Spare value="spare_16" />
+            <Spare value="spare_17" />
+            <Spare value="spare_18" />
+            <Spare value="spare_19" />
+          </SparePorts>
+        </Sensor>
+      </Sensors>
+      <ConnectionPoints />
+      <Trajectories>
+        <TrajectoryBase xsi:type="Trajectory" Description="" id="Trajectory_3" UniqueId="1155" GenerateAbstractTrajectory="false" IsActive="true" MatFile="Trajectory_3_Synced.mat" MatPosFile="" ReferencePathName="PathObject_1" SampleFrequency="20" SampleSpacing="2" SpeedProfileName="SpeedProfile_3" SyncTimePoint="1.87" TrajectoryColor="FF996600" CompareActorToTrajectory="false">
+          <Location X="0" Y="0" Z="0" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0.5" Y="0.5" Z="0" />
+          <Size X="0" Y="0" Z="0" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <StartLocation X="377.900390625" Y="-8.5285453796386719" Z="0.57" />
+          <StartOrientation Bank="0" Tilt="0" Heading="0" />
+        </TrajectoryBase>
+      </Trajectories>
+      <Cameras>
+        <Camera xsi:type="HumanView" Description="" id="HumanView_1" UniqueId="162" PreventDragging="true" CurrentAttachmentPoint="Actor" NearDistance="0.1" FarDistance="750" HorizontalAngle="120" VerticalAngle="90" BeamColor="Blue (FF0000FF)" OutputCameraImage="false">
+          <Location X="1.7" Y="0.4" Z="1.15" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0.5" Y="0.5" Z="0" />
+          <Size X="0.19999999999999996" Y="0.30000000000000004" Z="0" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <Position>DriverLeft</Position>
+        </Camera>
+      </Cameras>
+      <UserSpecDyn Jxx="85" Jyy="1173" M="1005" Jzz="1341" Krear="67041" Kfront="45454" SteeringRatio="25" MaxSwa="500" L="2.37" A="0.9499999" />
+      <PathFollowerSettings PreviewTime="1" DelayTime="0.1" LowSpeedLimit="20" MaxSteeringRate="1200" FrequencyFactor="1" />
+      <LightElements>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="63873" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightLeftHBLB" MSCDIntensity="0.10" Name="Headlight HB &amp; LB Left" RightAngle="43" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightLeftHBLB">
+          <Location X="3.00577" Y="0.612" Z="0.689" />
+          <Orientation Bank="0" Tilt="2" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="63873" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightRightHBLB" MSCDIntensity="0.10" Name="Headlight HB &amp; LB Right" RightAngle="43" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightRightHBLB">
+          <Location X="3.00577" Y="-0.612" Z="0.689" />
+          <Orientation Bank="0" Tilt="0" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-4" ColorTemperature="4000" Intensity="63680" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-25" LightID="0" LightPosition="VehicleHeadLightLeftHB" MSCDIntensity="0.10" Name="Headlight HB Left" RightAngle="25" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightLeftHB">
+          <Location X="3.00577" Y="0.612" Z="0.689" />
+          <Orientation Bank="0" Tilt="2" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-4" ColorTemperature="4000" Intensity="63680" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-25" LightID="0" LightPosition="VehicleHeadLightRightHB" MSCDIntensity="0.10" Name="Headlight HB Right" RightAngle="25" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightRightHB">
+          <Location X="3.00577" Y="-0.612" Z="0.689" />
+          <Orientation Bank="0" Tilt="0" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="24142" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightLeftLB" MSCDIntensity="0.10" Name="Headlight LB Left" RightAngle="43" TopAngle="3" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightLeftLB">
+          <Location X="3.00577" Y="0.612" Z="0.689" />
+          <Orientation Bank="0" Tilt="2" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="24142" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightRightLB" MSCDIntensity="0.10" Name="Headlight LB Right" RightAngle="43" TopAngle="3" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightRightLB">
+          <Location X="3.00577" Y="-0.612" Z="0.689" />
+          <Orientation Bank="0" Tilt="0" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="67" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleBrakeLightLeft" MSCDIntensity="0.10" Name="Brake light Left" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuBrakeLightL">
+          <Location X="-0.380948" Y="0.579" Z="0.807" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="67" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleBrakeLightRight" MSCDIntensity="0.10" Name="Brake light Right" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuBrakeLightR">
+          <Location X="-0.380948" Y="-0.579" Z="0.807" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="2.1" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleRearLightLeft" MSCDIntensity="0.10" Name="Rear light Left" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuRearLightL">
+          <Location X="-0.358948" Y="0.664" Z="0.912" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="2.1" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleRearLightRight" MSCDIntensity="0.10" Name="Rear light Right" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuRearLightR">
+          <Location X="-0.358948" Y="-0.664" Z="0.912" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-10" ColorTemperature="4000" Intensity="12809" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-44" LightID="0" LightPosition="VehicleFogLightFrontLeft" MSCDIntensity="0.10" Name="Fog light Front Left" RightAngle="44" TopAngle="0" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuFogLightLeftF">
+          <Location X="3.02186" Y="0.703" Z="0.319" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-10" ColorTemperature="4000" Intensity="12809" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-44" LightID="0" LightPosition="VehicleFogLightFrontRight" MSCDIntensity="0.10" Name="Fog light Front Right" RightAngle="44" TopAngle="0" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuFogLightRightF">
+          <Location X="3.02186" Y="-0.703" Z="0.319" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="67" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleFogLightRearLeft" MSCDIntensity="0.10" Name="Fog light Rear Left" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuFogLightLeftR">
+          <Location X="-0.443953" Y="0.432" Z="0.46" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="67" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleFogLightRearRight" MSCDIntensity="0.10" Name="Fog light Rear Right" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuFogLightRightR">
+          <Location X="-0.443953" Y="-0.402" Z="0.46" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+      </LightElements>
+      <LightMeshes />
+      <UseReflectiveTexture>false</UseReflectiveTexture>
+      <BumperHeightFront>0.44</BumperHeightFront>
+      <BumperHeightRear>0.58</BumperHeightRear>
+      <VehicleGeometry TrackWidthFront="1.48" TrackWidthRear="1.48" TyreRadius="0.315" Wheelbase="2.57" />
+    </Actor>
+    <Actor xsi:type="Citroen_C3" Description="" id="Citroen_C3_1" UniqueId="1161" ColorCodeR="255" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="true" NumericalID="5" ObjectTypeID="1" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="false" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" PhysicsSimpleDynamicsInteraction="PhysicsInheritsFromSD" TextureColor="DarkGray (FFA9A9A9)">
+      <Location X="487.20651245117187" Y="10.811664581298828" Z="0.58" />
+      <Orientation Bank="0" Tilt="0" Heading="131.74091981990082" />
+      <Origin X="0.162" Y="0.5" Z="0" />
+      <Size X="3.84" Y="1.709" Z="1.49" />
+      <CoGOffset X="1.48" Y="0" Z="0.58" />
+      <SensorInfo>
+        <TISSensorInfo DefaultORMFile="dfltORM_Car.txt">
+          <UserSpecifiedModels />
+        </TISSensorInfo>
+      </SensorInfo>
+      <ObjectSimulatorInfo RealObjectType="vehicle" RealObjectShape="BLOCKSHAPE" StateActuator="true" SelfSensor="true">
+        <VisualizationActuators>
+          <VisualizationActuator ActuatorName="VisuGhostColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuLights" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions>
+              <LightMeshPosition>IndicatorLightsLeft</LightMeshPosition>
+              <LightMeshPosition>IndicatorLightsRight</LightMeshPosition>
+              <LightMeshPosition>FogLightFrontLeft</LightMeshPosition>
+              <LightMeshPosition>FogLightFrontRight</LightMeshPosition>
+              <LightMeshPosition>MainLightRearLeft</LightMeshPosition>
+              <LightMeshPosition>MainLightRearRight</LightMeshPosition>
+              <LightMeshPosition>MainLightFrontLeft</LightMeshPosition>
+              <LightMeshPosition>MainLightFrontRight</LightMeshPosition>
+              <LightMeshPosition>BrakeLightLeft</LightMeshPosition>
+              <LightMeshPosition>BrakeLightRight</LightMeshPosition>
+            </LightMeshPositions>
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuTextureColor" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuWheels" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuSteer" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuSeats" EnableActuator="false" ShowInAnimationList="true">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightLeftHB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightLeftLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightRightHB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightRightLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightRightHBLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuHeadLightLeftHBLB" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuRearLightL" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuRearLightR" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuFogLightLeftF" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuFogLightRightF" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuBrakeLightL" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+          <VisualizationActuator ActuatorName="VisuBrakeLightR" EnableActuator="false" ShowInAnimationList="false">
+            <LightMeshPositions />
+            <VisuPortElements />
+          </VisualizationActuator>
+        </VisualizationActuators>
+      </ObjectSimulatorInfo>
+      <Physics Drag="0.30000001192092896" EnableContactFriction="false" Mass="1103" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.1411299705505371" RollFriction="0.01" />
+      <Sensors>
+        <Sensor xsi:type="TISSensor" Description="" id="TIS_1" UniqueId="1165" PreventDragging="true" CurrentAttachmentPoint="Actor" Visualize="false" VisualizedAlpha="25" BeamColor="Red (FFFF0000)" FovAzimuth="45" FovElevation="45" HorizontalResolution="77" VerticalResolution="77" OutputCameraImage="true" BeamCountHor="5" BeamCountVert="1" BeamType="Cone" ScanPattern="LineMode" AtmAttenuation="0" MaxDetectableObjects="5" ReportClosestObjectFirst="true" BeamWidth="3.5" BeamHeight="3.5" ORMFiltered="false" ORMPorts="false" ORMTechnologyFilter="" OverrideBeams="true" CoherentSystem="false" ActualBeamCount="5" CaptureFrequency="4" SweepRateScaleFactor="1" SweepDirectionLine="Left to Right / Top to Bottom" SweepDirectionGrid="TopLeft to BottomRight" SensorSweepDirectionOrientation="Horizontal" ScanManner="BeamWise" DriftAzimuthType="None" DriftElevationType="None" DriftRangeType="None" DriftAzimuthGaussianSigma="0" DriftAzimuthUnidirectionalRate="0" DriftElevationGaussianSigma="0" DriftElevationUnidirectionalRate="0" DriftRangeGaussianSigma="0" DriftRangeUnidirectionalRate="0" NoiseAngularAzimuthResolutionCellSize="0" NoiseAngularElevationResolutionCellSize="0" NoiseAzimuthIllumination="0" NoiseElevationIllumination="0" NoiseAzimuthReflection="0" NoiseElevationReflection="0" NoiseRange="0" NoiseRangeCellSize="0" SourceType="Single" MSourceHorizontalGridSpacing="5" MSourceVerticalGridSpacing="5" PencilBeamAngle="1E-05" NoiseAziIlluType="Additive" NoiseElevIlluType="Additive" NoiseAziReflectType="Additive" NoiseElevReflectType="Additive" NoiseRangeType="Multiplicative" BeamLength="50">
+          <Location X="3.21792" Y="0" Z="0.46000000834465" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0" Y="1" Z="0" />
+          <Size X="4.1085062026977539" Y="1.6562497615814209" Z="0.10000000149011612" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <TestAutomationVariables>
+            <TestAutomationVariable VariableName="Location" VariableState="false" />
+            <TestAutomationVariable VariableName="Orientation" VariableState="false" />
+            <TestAutomationVariable VariableName="Range" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAzimuthIllumination" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAziIlluType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevationIllumination" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevIlluType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAzimuthReflection" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAziReflectType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevationReflection" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevReflectType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseRange" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseRangeType" VariableState="false" />
+          </TestAutomationVariables>
+          <TISSensorCustomBeams>
+            <TISSensorBeam Description="" id="" UniqueId="1171" BeamID="1" FilterBeamID="0" Range="50" OffsetWidth="-20.75" OffsetHeight="0" Type="Cone" Width="3.5" Height="3.5" />
+            <TISSensorBeam Description="" id="" UniqueId="1172" BeamID="2" FilterBeamID="1" Range="50" OffsetWidth="-10.375" OffsetHeight="0" Type="Cone" Width="3.5" Height="3.5" />
+            <TISSensorBeam Description="" id="" UniqueId="1173" BeamID="3" FilterBeamID="2" Range="50" OffsetWidth="0" OffsetHeight="0" Type="Cone" Width="3.5" Height="3.5" />
+            <TISSensorBeam Description="" id="" UniqueId="1174" BeamID="4" FilterBeamID="3" Range="50" OffsetWidth="10.375" OffsetHeight="0" Type="Cone" Width="3.5" Height="3.5" />
+            <TISSensorBeam Description="" id="" UniqueId="1175" BeamID="5" FilterBeamID="4" Range="50" OffsetWidth="20.75" OffsetHeight="0" Type="Cone" Width="3.5" Height="3.5" />
+          </TISSensorCustomBeams>
+        </Sensor>
+      </Sensors>
+      <ConnectionPoints />
+      <Trajectories>
+        <TrajectoryBase xsi:type="Trajectory" Description="" id="Trajectory_4" UniqueId="1164" GenerateAbstractTrajectory="false" IsActive="true" MatFile="Trajectory_4_Synced.mat" MatPosFile="" ReferencePathName="PathObject_3" SampleFrequency="20" SampleSpacing="2" SpeedProfileName="SpeedProfile_4" SyncTimePoint="0" TrajectoryColor="FFFF3300" CompareActorToTrajectory="false">
+          <Location X="0" Y="0" Z="0" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0.5" Y="0.5" Z="0" />
+          <Size X="0" Y="0" Z="0" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <StartLocation X="487.20651245117187" Y="10.811664581298828" Z="0.58" />
+          <StartOrientation Bank="0" Tilt="0" Heading="131.74091981990082" />
+        </TrajectoryBase>
+      </Trajectories>
+      <Cameras>
+        <Camera xsi:type="HumanView" Description="" id="HumanView_2" UniqueId="1177" PreventDragging="true" CurrentAttachmentPoint="Actor" NearDistance="0.1" FarDistance="750" HorizontalAngle="120" VerticalAngle="90" BeamColor="Blue (FF0000FF)" OutputCameraImage="false">
+          <Location X="1.5" Y="0.4" Z="1.17" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0.5" Y="0.5" Z="0" />
+          <Size X="0.19999999999999996" Y="0.30000000000000004" Z="0" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <Position>DriverLeft</Position>
+        </Camera>
+      </Cameras>
+      <UserSpecDyn Jxx="93" Jyy="1387" M="1103" Jzz="1585" Krear="73579" Kfront="48869" SteeringRatio="25" MaxSwa="500" L="2.46" A="0.98" />
+      <PathFollowerSettings PreviewTime="1" DelayTime="0.1" LowSpeedLimit="20" MaxSteeringRate="1200" FrequencyFactor="1" />
+      <LightElements>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="63873" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightLeftHBLB" MSCDIntensity="0.10" Name="Headlight HB &amp; LB Left" RightAngle="43" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightLeftHBLB">
+          <Location X="3.00687" Y="0.526" Z="0.725" />
+          <Orientation Bank="0" Tilt="2" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="63873" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightRightHBLB" MSCDIntensity="0.10" Name="Headlight HB &amp; LB Right" RightAngle="43" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightRightHBLB">
+          <Location X="3.00687" Y="-0.526" Z="0.725" />
+          <Orientation Bank="0" Tilt="0" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-4" ColorTemperature="4000" Intensity="63680" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-25" LightID="0" LightPosition="VehicleHeadLightLeftHB" MSCDIntensity="0.10" Name="Headlight HB Left" RightAngle="25" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightLeftHB">
+          <Location X="3.00687" Y="0.526" Z="0.725" />
+          <Orientation Bank="0" Tilt="2" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-4" ColorTemperature="4000" Intensity="63680" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-25" LightID="0" LightPosition="VehicleHeadLightRightHB" MSCDIntensity="0.10" Name="Headlight HB Right" RightAngle="25" TopAngle="9" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightRightHB">
+          <Location X="3.00687" Y="-0.526" Z="0.725" />
+          <Orientation Bank="0" Tilt="0" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="24142" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightLeftLB" MSCDIntensity="0.10" Name="Headlight LB Left" RightAngle="43" TopAngle="3" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightLeftLB">
+          <Location X="3.00687" Y="0.526" Z="0.725" />
+          <Orientation Bank="0" Tilt="2" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-9" ColorTemperature="4000" Intensity="24142" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-43" LightID="0" LightPosition="VehicleHeadLightRightLB" MSCDIntensity="0.10" Name="Headlight LB Right" RightAngle="43" TopAngle="3" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuHeadLightRightLB">
+          <Location X="3.00687" Y="-0.526" Z="0.725" />
+          <Orientation Bank="0" Tilt="0" Heading="358" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="67" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleBrakeLightLeft" MSCDIntensity="0.10" Name="Brake light Left" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuBrakeLightL">
+          <Location X="-0.435748" Y="0.579" Z="0.754" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="67" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleBrakeLightRight" MSCDIntensity="0.10" Name="Brake light Right" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuBrakeLightR">
+          <Location X="-0.435748" Y="-0.579" Z="0.754" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="2.1" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleRearLightLeft" MSCDIntensity="0.10" Name="Rear light Left" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuRearLightL">
+          <Location X="-0.426748" Y="0.581" Z="0.916" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFF0000" BottomAngle="-55" ColorTemperature="2000" Intensity="2.1" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-55" LightID="0" LightPosition="VehicleRearLightRight" MSCDIntensity="0.10" Name="Rear light Right" RightAngle="55" TopAngle="55" UsesMSCDIntensity="false" UsesRGBColorTemp="true" VisuActuatorName="VisuRearLightR">
+          <Location X="-0.426748" Y="-0.581" Z="0.916" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-10" ColorTemperature="4000" Intensity="12809" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-44" LightID="0" LightPosition="VehicleFogLightFrontLeft" MSCDIntensity="0.10" Name="Fog light Front Left" RightAngle="44" TopAngle="0" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuFogLightLeftF">
+          <Location X="3.11687" Y="0.532" Z="0.396" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+        <LightElement AmbientRGBAColor="FFFFFFFF" BottomAngle="-10" ColorTemperature="4000" Intensity="12809" IsActive="true" IsProjective="true" IsOn="false" LeftAngle="-44" LightID="0" LightPosition="VehicleFogLightFrontRight" MSCDIntensity="0.10" Name="Fog light Front Right" RightAngle="44" TopAngle="0" UsesMSCDIntensity="false" UsesRGBColorTemp="false" VisuActuatorName="VisuFogLightRightF">
+          <Location X="3.11687" Y="-0.532" Z="0.396" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+        </LightElement>
+      </LightElements>
+      <LightMeshes />
+      <UseReflectiveTexture>false</UseReflectiveTexture>
+      <BumperHeightFront>0.46</BumperHeightFront>
+      <BumperHeightRear>0.54</BumperHeightRear>
+      <VehicleGeometry TrackWidthFront="1.2605" TrackWidthRear="1.2605" TyreRadius="0.302" Wheelbase="2.455" />
     </Actor>
   </Actors>
   <VehicleTypeSpecificDatas>
@@ -608,6 +1075,446 @@
         <Y>5148</Y>
       </DampingFrontYValues>
     </Vehicletype>
+    <Vehicletype Description="" id="Toyota_Yaris_VehicleTypeSpecificData" UniqueId="-1" RadialStiffNess="500000" RadialDamping="300">
+      <StiffnessRearXValues>
+        <X>-0.065</X>
+        <X>-0.059</X>
+        <X>-0.054</X>
+        <X>-0.049</X>
+        <X>-0.043</X>
+        <X>-0.038</X>
+        <X>-0.032</X>
+        <X>-0.027</X>
+        <X>-0.022</X>
+        <X>-0.016</X>
+        <X>-0.011</X>
+        <X>-0.005</X>
+        <X>0</X>
+        <X>0.005</X>
+        <X>0.011</X>
+        <X>0.016</X>
+        <X>0.022</X>
+        <X>0.027</X>
+        <X>0.032</X>
+        <X>0.038</X>
+        <X>0.043</X>
+        <X>0.049</X>
+        <X>0.054</X>
+        <X>0.059</X>
+        <X>0.065</X>
+      </StiffnessRearXValues>
+      <StiffnessRearYValues>
+        <Y>-11386.9</Y>
+        <Y>-8436.5</Y>
+        <Y>-7482.3</Y>
+        <Y>-6572.37</Y>
+        <Y>-5731.79</Y>
+        <Y>-4975.17</Y>
+        <Y>-4343.87</Y>
+        <Y>-3900.55</Y>
+        <Y>-3592.3</Y>
+        <Y>-3303.18</Y>
+        <Y>-3021.63</Y>
+        <Y>-2755.51</Y>
+        <Y>-2504</Y>
+        <Y>-2252.49</Y>
+        <Y>-1986.37</Y>
+        <Y>-1704.82</Y>
+        <Y>-1415.7</Y>
+        <Y>-1107.45</Y>
+        <Y>-664.13</Y>
+        <Y>-32.83</Y>
+        <Y>723.79</Y>
+        <Y>1564.37</Y>
+        <Y>2474.31</Y>
+        <Y>3428.53</Y>
+        <Y>5678.94</Y>
+      </StiffnessRearYValues>
+      <StiffnessFrontXValues>
+        <X>-0.065</X>
+        <X>-0.064</X>
+        <X>-0.062</X>
+        <X>-0.059</X>
+        <X>-0.054</X>
+        <X>-0.049</X>
+        <X>-0.043</X>
+        <X>-0.038</X>
+        <X>-0.032</X>
+        <X>-0.027</X>
+        <X>-0.022</X>
+        <X>-0.016</X>
+        <X>-0.011</X>
+        <X>-0.005</X>
+        <X>0</X>
+        <X>0.005</X>
+        <X>0.011</X>
+        <X>0.016</X>
+        <X>0.022</X>
+        <X>0.027</X>
+        <X>0.032</X>
+        <X>0.038</X>
+        <X>0.043</X>
+        <X>0.049</X>
+        <X>0.054</X>
+        <X>0.059</X>
+        <X>0.065</X>
+      </StiffnessFrontXValues>
+      <StiffnessFrontYValues>
+        <Y>-17000</Y>
+        <Y>-14340</Y>
+        <Y>-11820</Y>
+        <Y>-9950</Y>
+        <Y>-8482.3</Y>
+        <Y>-7572.37</Y>
+        <Y>-6731.79</Y>
+        <Y>-5975.17</Y>
+        <Y>-5343.87</Y>
+        <Y>-4900.55</Y>
+        <Y>-4592.3</Y>
+        <Y>-4303.18</Y>
+        <Y>-4021.63</Y>
+        <Y>-3755.51</Y>
+        <Y>-3504</Y>
+        <Y>-3252.49</Y>
+        <Y>-2986.37</Y>
+        <Y>-2704.82</Y>
+        <Y>-2415.7</Y>
+        <Y>-2107.45</Y>
+        <Y>-1664.13</Y>
+        <Y>-1032.83</Y>
+        <Y>-276.21</Y>
+        <Y>564.37</Y>
+        <Y>1474.31</Y>
+        <Y>2428.53</Y>
+        <Y>4678.94</Y>
+      </StiffnessFrontYValues>
+      <DampingRearXValues>
+        <X>-1.05</X>
+        <X>-0.96</X>
+        <X>-0.87</X>
+        <X>-0.79</X>
+        <X>-0.7</X>
+        <X>-0.61</X>
+        <X>-0.52</X>
+        <X>-0.44</X>
+        <X>-0.35</X>
+        <X>-0.26</X>
+        <X>-0.17</X>
+        <X>-0.09</X>
+        <X>0</X>
+        <X>0.1</X>
+        <X>0.19</X>
+        <X>0.29</X>
+        <X>0.38</X>
+        <X>0.48</X>
+        <X>0.58</X>
+        <X>0.67</X>
+        <X>0.77</X>
+        <X>0.86</X>
+        <X>0.96</X>
+        <X>1.06</X>
+        <X>1.15</X>
+      </DampingRearXValues>
+      <DampingRearYValues>
+        <Y>-1494</Y>
+        <Y>-1376.95</Y>
+        <Y>-1277.69</Y>
+        <Y>-1188.25</Y>
+        <Y>-1100.68</Y>
+        <Y>-1007.03</Y>
+        <Y>-899.33</Y>
+        <Y>-771.81</Y>
+        <Y>-627.19</Y>
+        <Y>-467.52</Y>
+        <Y>-308.05</Y>
+        <Y>-217.67</Y>
+        <Y>0</Y>
+        <Y>662.48</Y>
+        <Y>854.52</Y>
+        <Y>1035.38</Y>
+        <Y>1190.87</Y>
+        <Y>1360.19</Y>
+        <Y>1530.34</Y>
+        <Y>1692.17</Y>
+        <Y>1858.63</Y>
+        <Y>2041.12</Y>
+        <Y>2235.14</Y>
+        <Y>2429.38</Y>
+        <Y>2620.6</Y>
+      </DampingRearYValues>
+      <DampingFrontXValues>
+        <X>-1.15</X>
+        <X>-1.06</X>
+        <X>-0.96</X>
+        <X>-0.86</X>
+        <X>-0.77</X>
+        <X>-0.67</X>
+        <X>-0.58</X>
+        <X>-0.48</X>
+        <X>-0.38</X>
+        <X>-0.29</X>
+        <X>-0.19</X>
+        <X>-0.1</X>
+        <X>0</X>
+        <X>0.09</X>
+        <X>0.17</X>
+        <X>0.26</X>
+        <X>0.35</X>
+        <X>0.44</X>
+        <X>0.52</X>
+        <X>0.61</X>
+        <X>0.7</X>
+        <X>0.79</X>
+        <X>0.87</X>
+        <X>0.96</X>
+        <X>1.05</X>
+      </DampingFrontXValues>
+      <DampingFrontYValues>
+        <Y>-2267.84</Y>
+        <Y>-2113.94</Y>
+        <Y>-1960.8</Y>
+        <Y>-1807.01</Y>
+        <Y>-1652.16</Y>
+        <Y>-1498.23</Y>
+        <Y>-1352.92</Y>
+        <Y>-1224.07</Y>
+        <Y>-1100.7</Y>
+        <Y>-973.27</Y>
+        <Y>-868.58</Y>
+        <Y>-553.6</Y>
+        <Y>0</Y>
+        <Y>357.42</Y>
+        <Y>822.16</Y>
+        <Y>1318.78</Y>
+        <Y>1660.46</Y>
+        <Y>1951.53</Y>
+        <Y>2242.48</Y>
+        <Y>2471.42</Y>
+        <Y>2648.92</Y>
+        <Y>2805.44</Y>
+        <Y>2971.48</Y>
+        <Y>3177.5</Y>
+        <Y>3454</Y>
+      </DampingFrontYValues>
+    </Vehicletype>
+    <Vehicletype Description="" id="Citroen_C3_VehicleTypeSpecificData" UniqueId="-1" RadialStiffNess="500000" RadialDamping="300">
+      <StiffnessRearXValues>
+        <X>-0.059</X>
+        <X>-0.054</X>
+        <X>-0.049</X>
+        <X>-0.043</X>
+        <X>-0.038</X>
+        <X>-0.032</X>
+        <X>-0.027</X>
+        <X>-0.022</X>
+        <X>-0.016</X>
+        <X>-0.011</X>
+        <X>-0.005</X>
+        <X>0</X>
+        <X>0.005</X>
+        <X>0.011</X>
+        <X>0.016</X>
+        <X>0.022</X>
+        <X>0.027</X>
+        <X>0.032</X>
+        <X>0.038</X>
+        <X>0.043</X>
+        <X>0.049</X>
+        <X>0.054</X>
+        <X>0.059</X>
+      </StiffnessRearXValues>
+      <StiffnessRearYValues>
+        <Y>-14095.8</Y>
+        <Y>-7682.3</Y>
+        <Y>-6772.37</Y>
+        <Y>-5931.79</Y>
+        <Y>-5175.17</Y>
+        <Y>-4543.87</Y>
+        <Y>-4100.55</Y>
+        <Y>-3792.3</Y>
+        <Y>-3503.18</Y>
+        <Y>-3221.63</Y>
+        <Y>-2955.51</Y>
+        <Y>-2704</Y>
+        <Y>-2452.49</Y>
+        <Y>-2186.37</Y>
+        <Y>-1904.82</Y>
+        <Y>-1615.7</Y>
+        <Y>-1307.45</Y>
+        <Y>-864.13</Y>
+        <Y>-232.83</Y>
+        <Y>523.79</Y>
+        <Y>1364.37</Y>
+        <Y>2274.31</Y>
+        <Y>8687.81</Y>
+      </StiffnessRearYValues>
+      <StiffnessFrontXValues>
+        <X>-0.07</X>
+        <X>-0.065</X>
+        <X>-0.059</X>
+        <X>-0.054</X>
+        <X>-0.049</X>
+        <X>-0.043</X>
+        <X>-0.038</X>
+        <X>-0.032</X>
+        <X>-0.027</X>
+        <X>-0.022</X>
+        <X>-0.016</X>
+        <X>-0.011</X>
+        <X>-0.005</X>
+        <X>0</X>
+        <X>0.005</X>
+        <X>0.011</X>
+        <X>0.016</X>
+        <X>0.022</X>
+        <X>0.027</X>
+        <X>0.032</X>
+        <X>0.038</X>
+        <X>0.043</X>
+        <X>0.049</X>
+        <X>0.054</X>
+        <X>0.059</X>
+        <X>0.065</X>
+        <X>0.07</X>
+      </StiffnessFrontXValues>
+      <StiffnessFrontYValues>
+        <Y>-20450</Y>
+        <Y>-12686.9</Y>
+        <Y>-9736.5</Y>
+        <Y>-8782.3</Y>
+        <Y>-7872.37</Y>
+        <Y>-7031.79</Y>
+        <Y>-6275.17</Y>
+        <Y>-5643.87</Y>
+        <Y>-5200.55</Y>
+        <Y>-4892.3</Y>
+        <Y>-4603.18</Y>
+        <Y>-4321.63</Y>
+        <Y>-4055.51</Y>
+        <Y>-3804</Y>
+        <Y>-3552.49</Y>
+        <Y>-3286.37</Y>
+        <Y>-3004.82</Y>
+        <Y>-2715.7</Y>
+        <Y>-2407.45</Y>
+        <Y>-1964.13</Y>
+        <Y>-1332.83</Y>
+        <Y>-576.21</Y>
+        <Y>264.37</Y>
+        <Y>1174.31</Y>
+        <Y>2128.53</Y>
+        <Y>4378.94</Y>
+        <Y>12042.04</Y>
+      </StiffnessFrontYValues>
+      <DampingRearXValues>
+        <X>-1.05</X>
+        <X>-0.96</X>
+        <X>-0.87</X>
+        <X>-0.79</X>
+        <X>-0.7</X>
+        <X>-0.61</X>
+        <X>-0.52</X>
+        <X>-0.44</X>
+        <X>-0.35</X>
+        <X>-0.26</X>
+        <X>-0.17</X>
+        <X>-0.09</X>
+        <X>0</X>
+        <X>0.1</X>
+        <X>0.19</X>
+        <X>0.29</X>
+        <X>0.38</X>
+        <X>0.48</X>
+        <X>0.58</X>
+        <X>0.67</X>
+        <X>0.77</X>
+        <X>0.86</X>
+        <X>0.96</X>
+        <X>1.06</X>
+        <X>1.15</X>
+      </DampingRearXValues>
+      <DampingRearYValues>
+        <Y>-1494</Y>
+        <Y>-1376.95</Y>
+        <Y>-1277.69</Y>
+        <Y>-1188.25</Y>
+        <Y>-1100.68</Y>
+        <Y>-1007.03</Y>
+        <Y>-899.33</Y>
+        <Y>-771.81</Y>
+        <Y>-627.19</Y>
+        <Y>-467.52</Y>
+        <Y>-308.05</Y>
+        <Y>-217.67</Y>
+        <Y>0</Y>
+        <Y>662.48</Y>
+        <Y>854.52</Y>
+        <Y>1035.38</Y>
+        <Y>1190.87</Y>
+        <Y>1360.19</Y>
+        <Y>1530.34</Y>
+        <Y>1692.17</Y>
+        <Y>1858.63</Y>
+        <Y>2041.12</Y>
+        <Y>2235.14</Y>
+        <Y>2429.38</Y>
+        <Y>2620.6</Y>
+      </DampingRearYValues>
+      <DampingFrontXValues>
+        <X>-1.15</X>
+        <X>-1.06</X>
+        <X>-0.96</X>
+        <X>-0.86</X>
+        <X>-0.77</X>
+        <X>-0.67</X>
+        <X>-0.58</X>
+        <X>-0.48</X>
+        <X>-0.38</X>
+        <X>-0.29</X>
+        <X>-0.19</X>
+        <X>-0.1</X>
+        <X>0</X>
+        <X>0.09</X>
+        <X>0.17</X>
+        <X>0.26</X>
+        <X>0.35</X>
+        <X>0.44</X>
+        <X>0.52</X>
+        <X>0.61</X>
+        <X>0.7</X>
+        <X>0.79</X>
+        <X>0.87</X>
+        <X>0.96</X>
+        <X>1.05</X>
+      </DampingFrontXValues>
+      <DampingFrontYValues>
+        <Y>-2267.84</Y>
+        <Y>-2113.94</Y>
+        <Y>-1960.8</Y>
+        <Y>-1807.01</Y>
+        <Y>-1652.16</Y>
+        <Y>-1498.23</Y>
+        <Y>-1352.92</Y>
+        <Y>-1224.07</Y>
+        <Y>-1100.7</Y>
+        <Y>-973.27</Y>
+        <Y>-868.58</Y>
+        <Y>-553.6</Y>
+        <Y>0</Y>
+        <Y>357.42</Y>
+        <Y>822.16</Y>
+        <Y>1318.78</Y>
+        <Y>1660.46</Y>
+        <Y>1951.53</Y>
+        <Y>2242.48</Y>
+        <Y>2471.42</Y>
+        <Y>2648.92</Y>
+        <Y>2805.44</Y>
+        <Y>2971.48</Y>
+        <Y>3177.5</Y>
+        <Y>3454</Y>
+      </DampingFrontYValues>
+    </Vehicletype>
   </VehicleTypeSpecificDatas>
   <CompilationSheetInfo Description="" id="CompilationSheetInfo" UniqueId="1" InterpretedSimulink="Collision_two_cars" />
   <ModelGenerationSettings Description="" id="ModelGenerationSettings" UniqueId="2" RoadErrorDistance="0.15" RoadErrorAngleDeg="3" TrajectoryErrorDistance="0.15" TrajectoryErrorAngleDeg="0.005" />
@@ -705,7 +1612,7 @@
           </RoadCrossSection>
         </CrossSections>
       </RoadSegment>
-      <RoadSegment xsi:type="StraightRoad" Description="" id="StraightRoad_2" UniqueId="17" PreventDragging="true" ColorCodeR="0" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="false" NumericalID="6" ObjectTypeID="11" ParticipateInCollisionDetection="false" UseGlossFadeMap="false" CenterLineMarkerEnabled="true" LaneLineMarkerEnabled="true" LaneLineMarkerDistributeEvenly="false" CurbLineMarkerEnabled="true" EmbankmentEnabled="false" EmbankmentWidth="1" RoadThickness="0.1" SidewalkEnabled="false" SidewalkHeight="0.2" SidewalkWidth="3" MaxSpeed="120" BankAngleDegStart="0" BankAngleDegEnd="0" DirectionChangeAfterLane="1" NumberOfLanes="4" LaneWidth="3.5" RoadLength="120">
+      <RoadSegment xsi:type="StraightRoad" Description="" id="StraightRoad_2" UniqueId="17" PreventDragging="true" ColorCodeR="255" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="false" NumericalID="6" ObjectTypeID="11" ParticipateInCollisionDetection="false" UseGlossFadeMap="false" CenterLineMarkerEnabled="true" LaneLineMarkerEnabled="true" LaneLineMarkerDistributeEvenly="false" CurbLineMarkerEnabled="true" EmbankmentEnabled="false" EmbankmentWidth="1" RoadThickness="0.1" SidewalkEnabled="false" SidewalkHeight="0.2" SidewalkWidth="3" MaxSpeed="120" BankAngleDegStart="0" BankAngleDegEnd="0" DirectionChangeAfterLane="1" NumberOfLanes="4" LaneWidth="3.5" RoadLength="120">
         <Location X="403.39084894747242" Y="96.6677582585632" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="311.5594047339099" />
         <Origin X="0" Y="0.5" Z="0" />
@@ -720,7 +1627,7 @@
           <VisualizationActuators />
         </ObjectSimulatorInfo>
         <LinePlacements>
-          <LinePlacementBase xsi:type="LinePlacedMarker" Description="" id="LinePlacedMarker_1" UniqueId="117" ColorCodeR="255" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="false" NumericalID="12" ObjectTypeID="19" ParticipateInCollisionDetection="false" Section="0" BasePathOffset="0" IgnoreSlope="false" Target="CurbLines">
+          <LinePlacementBase xsi:type="LinePlacedMarker" Description="" id="LinePlacedMarker_1" UniqueId="117" ColorCodeR="127" ColorCodeG="127" ColorCodeB="127" SensorIDDetection="false" NumericalID="12" ObjectTypeID="19" ParticipateInCollisionDetection="false" Section="0" BasePathOffset="0" IgnoreSlope="false" Target="CurbLines">
             <Location X="0" Y="0" Z="0" />
             <Orientation Bank="0" Tilt="0" Heading="0" />
             <Origin X="0.5" Y="0.5" Z="0" />
@@ -741,7 +1648,7 @@
               </MarkerPatterns>
             </LineMarkerDef>
           </LinePlacementBase>
-          <LinePlacementBase xsi:type="LinePlacedMarker" Description="" id="LinePlacedMarker_2" UniqueId="118" ColorCodeR="255" ColorCodeG="0" ColorCodeB="255" SensorIDDetection="false" NumericalID="13" ObjectTypeID="19" ParticipateInCollisionDetection="false" Section="1" BasePathOffset="0" IgnoreSlope="false" Target="CurbLines">
+          <LinePlacementBase xsi:type="LinePlacedMarker" Description="" id="LinePlacedMarker_2" UniqueId="118" ColorCodeR="127" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="false" NumericalID="13" ObjectTypeID="19" ParticipateInCollisionDetection="false" Section="1" BasePathOffset="0" IgnoreSlope="false" Target="CurbLines">
             <Location X="0" Y="0" Z="0" />
             <Orientation Bank="0" Tilt="0" Heading="0" />
             <Origin X="0.5" Y="0.5" Z="0" />
@@ -823,10 +1730,28 @@
       </RoadSegment>
     </RoadSegments>
     <RoadSegmentConnections />
-    <Buildings />
+    <Buildings>
+      <Building xsi:type="FireBrigade" Description="" id="FireBrigade_1" UniqueId="796" ColorCodeR="0" ColorCodeG="255" ColorCodeB="255" SensorIDDetection="true" NumericalID="10" ObjectTypeID="12" ParticipateInCollisionDetection="false" UserSpecifiedControl="false">
+        <Location X="411.15478515625" Y="54.331958770751953" Z="0" />
+        <Orientation Bank="0" Tilt="0" Heading="0.10978248945515674" />
+        <Origin X="0.5" Y="0.49942855834960936" Z="0.014556041216291534" />
+        <Size X="34.279998779296875" Y="8.75" Z="6.869999885559082" />
+        <CoGOffset X="0" Y="0" Z="0" />
+        <SensorInfo>
+          <TISSensorInfo DefaultORMFile="dfltORM_BasicInfra.txt">
+            <UserSpecifiedModels />
+          </TISSensorInfo>
+        </SensorInfo>
+        <ObjectSimulatorInfo RealObjectType="decoration" RealObjectShape="BLOCKSHAPE" StateActuator="false" SelfSensor="false">
+          <VisualizationActuators />
+        </ObjectSimulatorInfo>
+        <Sensors />
+        <Cameras />
+      </Building>
+    </Buildings>
     <AbstractObjects />
     <TrafficSigns>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 50" id="TrafficSignPoleNL_6" UniqueId="1108" ColorCodeR="0" ColorCodeG="255" ColorCodeB="255" SensorIDDetection="false" NumericalID="58" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 50" id="TrafficSignPoleNL_6" UniqueId="1108" ColorCodeR="0" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="false" NumericalID="58" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="110.4152588291515" Y="111.06279343523124" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="272.11405884657347" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -846,7 +1771,7 @@
           <RoundPlate ImperfectionTexture="" PlateTexture="A01050.png" PlateThickness="0.01" PlateCategory="CatB" ImperfectionType="None" ImperfectionCoverage="0" ImperfectionOpacity="0" PlateDiameter="0.60000002384185791" />
         </Plates>
       </TrafficSign>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_10" UniqueId="1112" ColorCodeR="127" ColorCodeG="127" ColorCodeB="127" SensorIDDetection="false" NumericalID="62" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_10" UniqueId="1112" ColorCodeR="0" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="false" NumericalID="62" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="-160.4948501079009" Y="111.49639541035988" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="287.3535779885168" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -866,7 +1791,7 @@
           <RoundPlate ImperfectionTexture="" PlateTexture="A01030.png" PlateThickness="0.01" PlateCategory="CatB" ImperfectionType="None" ImperfectionCoverage="0" ImperfectionOpacity="0" PlateDiameter="0.60000002384185791" />
         </Plates>
       </TrafficSign>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_11" UniqueId="1113" ColorCodeR="127" ColorCodeG="0" ColorCodeB="0" SensorIDDetection="false" NumericalID="63" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_11" UniqueId="1113" ColorCodeR="127" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="false" NumericalID="63" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="-152.33790268854889" Y="98.717856868392559" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="177.86916586410132" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -886,7 +1811,7 @@
           <RoundPlate ImperfectionTexture="" PlateTexture="A01030.png" PlateThickness="0.01" PlateCategory="CatB" ImperfectionType="None" ImperfectionCoverage="0" ImperfectionOpacity="0" PlateDiameter="0.60000002384185791" />
         </Plates>
       </TrafficSign>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 50" id="TrafficSignPoleNL_24" UniqueId="1126" ColorCodeR="0" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="false" NumericalID="76" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 50" id="TrafficSignPoleNL_24" UniqueId="1126" ColorCodeR="127" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="false" NumericalID="76" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="-169.5807122688787" Y="6.9341915508751759" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="280.89966721772987" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -906,7 +1831,7 @@
           <RoundPlate ImperfectionTexture="" PlateTexture="A01050.png" PlateThickness="0.01" PlateCategory="CatB" ImperfectionType="None" ImperfectionCoverage="0" ImperfectionOpacity="0" PlateDiameter="0.60000002384185791" />
         </Plates>
       </TrafficSign>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_25" UniqueId="1127" ColorCodeR="0" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="false" NumericalID="77" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_25" UniqueId="1127" ColorCodeR="0" ColorCodeG="127" ColorCodeB="127" SensorIDDetection="false" NumericalID="77" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="26.978727726529023" Y="111.86220020050928" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="222.75275986073927" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -926,7 +1851,7 @@
           <RoundPlate ImperfectionTexture="" PlateTexture="A01030.png" PlateThickness="0.01" PlateCategory="CatB" ImperfectionType="None" ImperfectionCoverage="0" ImperfectionOpacity="0" PlateDiameter="0.60000002384185791" />
         </Plates>
       </TrafficSign>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 50" id="TrafficSignPoleNL_26" UniqueId="1128" ColorCodeR="127" ColorCodeG="127" ColorCodeB="0" SensorIDDetection="false" NumericalID="78" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 50" id="TrafficSignPoleNL_26" UniqueId="1128" ColorCodeR="127" ColorCodeG="255" ColorCodeB="0" SensorIDDetection="false" NumericalID="78" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="-159.46717722699395" Y="-16.299396856331441" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="137.90222320828775" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -946,7 +1871,7 @@
           <RoundPlate ImperfectionTexture="" PlateTexture="A01050.png" PlateThickness="0.01" PlateCategory="CatB" ImperfectionType="None" ImperfectionCoverage="0" ImperfectionOpacity="0" PlateDiameter="0.60000002384185791" />
         </Plates>
       </TrafficSign>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_39" UniqueId="1141" ColorCodeR="127" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="false" NumericalID="91" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_39" UniqueId="1141" ColorCodeR="255" ColorCodeG="0" ColorCodeB="127" SensorIDDetection="false" NumericalID="91" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="-165.40092827843088" Y="92.967529849389436" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="93.755487383728621" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -966,7 +1891,7 @@
           <RoundPlate ImperfectionTexture="" PlateTexture="A01030.png" PlateThickness="0.01" PlateCategory="CatB" ImperfectionType="None" ImperfectionCoverage="0" ImperfectionOpacity="0" PlateDiameter="0.60000002384185791" />
         </Plates>
       </TrafficSign>
-      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_40" UniqueId="1142" ColorCodeR="0" ColorCodeG="127" ColorCodeB="127" SensorIDDetection="false" NumericalID="92" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
+      <TrafficSign xsi:type="TrafficSignPoleNL" Description="Maxspeed 30" id="TrafficSignPoleNL_40" UniqueId="1142" ColorCodeR="0" ColorCodeG="127" ColorCodeB="255" SensorIDDetection="false" NumericalID="92" ObjectTypeID="14" ParticipateInCollisionDetection="false" UserSpecifiedControl="false" TrafficSignPoleHeight="2.2000000476837158" PoleRadius="0.05" PoleColor="FF969696">
         <Location X="-136.97890321758726" Y="49.326303411593685" Z="0" />
         <Orientation Bank="0" Tilt="0" Heading="357.81556997825453" />
         <Origin X="0.5" Y="0.5" Z="0" />
@@ -1079,6 +2004,20 @@
         <SelectionPoint NumberSegments="1" Lane="4" RoadSegmentId="StraightRoad_2" CrossSectionIndex="0" />
       </SelectionPoints>
       <SubStatePath>AddSegment</SubStatePath>
+    </Path>
+    <Path xsi:type="PathObject" Description="" id="PathObject_3" UniqueId="1162" StartAngle="131.74092103247938">
+      <Location X="487.20651245117187" Y="10.811664581298828" Z="0" />
+      <Orientation Bank="0" Tilt="0" Heading="131.74092103247938" />
+      <Origin X="0.5" Y="0.5" Z="0" />
+      <Size X="0" Y="0" Z="0" />
+      <CoGOffset X="0" Y="0" Z="0" />
+      <Segments>
+        <Segment xsi:type="PolylineLink" MaxSpeedLimit="0" ID="Link65">
+          <RelativeEndPoint Length="120.0031919986798" Height="0" AngleDeg="-1.2125784394356742E-06" CurvatureDeg="-1.2125784394356742E-06" />
+          <RelativeSupportPoints />
+        </Segment>
+      </Segments>
+      <LinePlacements />
     </Path>
   </Paths>
   <ArticulatedActors />
@@ -1471,6 +2410,26 @@
       <PhysicsEnvironment AirDensity="1.28" Gravitation="9.81" AirTemperature="293.15" AtmPressure="101.325" AirHumidityPercentage="10" />
       <Slots>
         <Slot xsi:type="UserDefinedSlot" EndStateChange="false" ID="Slot14" CalculationType1="Speed" CalculationType2="EndOfSegmentID" CalculationValue1="15" CalculationValue2="1">
+          <StartState Distance="0" Situation="Reached" Speed="15" Time="0" />
+        </Slot>
+      </Slots>
+      <StartState Distance="0" Situation="Reached" Speed="15" Time="0" />
+    </SpeedProfileBase>
+    <SpeedProfileBase xsi:type="SpeedProfile" Description="" id="SpeedProfile_3" UniqueId="153">
+      <Physics Drag="0.27000001072883606" EnableContactFriction="false" Mass="1820" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.332564115524292" RollFriction="0.01" />
+      <PhysicsEnvironment AirDensity="1.28" Gravitation="9.81" AirTemperature="293.15" AtmPressure="101.325" AirHumidityPercentage="10" />
+      <Slots>
+        <Slot xsi:type="UserDefinedSlot" EndStateChange="false" ID="Slot12" CalculationType1="Speed" CalculationType2="EndOfSegmentID" CalculationValue1="15" CalculationValue2="2">
+          <StartState Distance="0" Situation="Reached" Speed="15" Time="0" />
+        </Slot>
+      </Slots>
+      <StartState Distance="0" Situation="Reached" Speed="15" Time="0" />
+    </SpeedProfileBase>
+    <SpeedProfileBase xsi:type="SpeedProfile" Description="" id="SpeedProfile_4" UniqueId="1163">
+      <Physics Drag="0.30000001192092896" EnableContactFriction="false" Mass="1103" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.1411299705505371" RollFriction="0.01" />
+      <PhysicsEnvironment AirDensity="1.28" Gravitation="9.81" AirTemperature="293.15" AtmPressure="101.325" AirHumidityPercentage="10" />
+      <Slots>
+        <Slot xsi:type="UserDefinedSlot" EndStateChange="false" ID="Slot21978" CalculationType1="Speed" CalculationType2="EndOfSegmentID" CalculationValue1="15" CalculationValue2="1">
           <StartState Distance="0" Situation="Reached" Speed="15" Time="0" />
         </Slot>
       </Slots>

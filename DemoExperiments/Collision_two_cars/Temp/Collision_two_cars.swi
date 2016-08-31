@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+TIS_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_mount")
+scene.Citroen_C3_1.addChild(TIS_1_mount)
+scene.getTransformChild("TIS_1_mount")
+TIS_1_mount.setTranslation(3.21792, 0, 0.46000000834465)
+TIS_1_mount.setRotation(0, 1, 0, 0)
+

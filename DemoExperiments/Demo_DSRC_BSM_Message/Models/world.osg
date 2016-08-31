@@ -243,6 +243,7 @@ Group {
       nodeMask 0xffffffff
       cullingActive TRUE
       StateSet {
+        UniqueID StateSet_1
         DataVariance STATIC
         rendering_hint DEFAULT_BIN
         renderBinMode USE
@@ -287,7 +288,7 @@ Group {
       }
       num_children 18
       Geode {
-        UniqueID Geode_1
+        UniqueID Geode_2
         name "StraightRoad_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -408,7 +409,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_2
+        UniqueID Geode_3
         name "StraightRoad_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -449,7 +450,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_3
+        UniqueID Geode_4
         name "StraightRoad_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -490,7 +491,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_4
+        UniqueID Geode_5
         name "StraightRoad_2_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -611,7 +612,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_5
+        UniqueID Geode_6
         name "StraightRoad_2_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -652,7 +653,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_6
+        UniqueID Geode_7
         name "StraightRoad_2_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -693,7 +694,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_7
+        UniqueID Geode_8
         name "StraightRoad_3_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -814,7 +815,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_8
+        UniqueID Geode_9
         name "StraightRoad_3_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -855,7 +856,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_9
+        UniqueID Geode_10
         name "StraightRoad_3_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -896,7 +897,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_10
+        UniqueID Geode_11
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -969,7 +970,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_11
+        UniqueID Geode_12
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -1042,7 +1043,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_12
+        UniqueID Geode_13
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -1115,7 +1116,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_13
+        UniqueID Geode_14
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -1188,7 +1189,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_14
+        UniqueID Geode_15
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -6807,7 +6808,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_15
+        UniqueID Geode_16
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -12302,7 +12303,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_16
+        UniqueID Geode_17
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -17795,7 +17796,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_17
+        UniqueID Geode_18
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -23424,7 +23425,7 @@ Group {
         }
       }
       Geode {
-        UniqueID Geode_18
+        UniqueID Geode_19
         name "XCrossing_1_RoadMarkers_Geode"
         nodeMask 0x1280
         cullingActive TRUE
@@ -23514,7 +23515,7 @@ Group {
       }
     }
     Geode {
-      UniqueID Geode_19
+      UniqueID Geode_20
       name "StraightRoad_2_Asphalt_Geode"
       nodeMask 0x3080
       cullingActive TRUE
@@ -23745,7 +23746,7 @@ Group {
       }
     }
     Geode {
-      UniqueID Geode_20
+      UniqueID Geode_21
       name "StraightRoad_3_Asphalt_Geode"
       nodeMask 0x3080
       cullingActive TRUE
@@ -23976,7 +23977,7 @@ Group {
       }
     }
     Geode {
-      UniqueID Geode_21
+      UniqueID Geode_22
       name "XCrossing_1_Asphalt_Geode"
       nodeMask 0x3080
       cullingActive TRUE
@@ -24614,6 +24615,7 @@ Group {
       nodeMask 0xffffffff
       cullingActive TRUE
       StateSet {
+        UniqueID StateSet_23
         DataVariance STATIC
         rendering_hint DEFAULT_BIN
         renderBinMode INHERIT
@@ -24656,113 +24658,9 @@ Group {
         }
       }
       num_children 3
-      Use Geode_1
       Use Geode_2
       Use Geode_3
-    }
-    Group {
-      nodeMask 0xffffffff
-      cullingActive TRUE
-      StateSet {
-        DataVariance STATIC
-        rendering_hint DEFAULT_BIN
-        renderBinMode INHERIT
-        GL_CULL_FACE ON
-        GL_LIGHTING ON
-        Material {
-          ColorMode EMISSION
-          ambientColor 0 0 0 1
-          diffuseColor 0 0 0 1
-          specularColor 0 0 0 1
-          emissionColor 0 1 0 1
-          shininess 0
-        }
-        textureUnit 0 {
-          TexEnvCombine {
-            combine_RGB REPLACE
-            combine_Alpha MODULATE
-            source0_RGB CONSTANT
-            source1_RGB PREVIOUS
-            source2_RGB CONSTANT
-            source0_Alpha TEXTURE
-            source1_Alpha PREVIOUS
-            source2_Alpha CONSTANT
-            operand0_RGB SRC_COLOR
-            operand1_RGB SRC_COLOR
-            operand2_RGB SRC_ALPHA
-            operand0_Alpha SRC_ALPHA
-            operand1_Alpha SRC_ALPHA
-            operand2_Alpha SRC_ALPHA
-            scale_RGB 1
-            scale_Alpha 1
-            constantColor 0 1 0 1
-          }
-          TexMat {
-            0.1 0 0 0
-            0 0.1 0 0
-            0 0 1 0
-            0 0 0 1
-          }
-        }
-        textureUnit 1 {
-          GL_TEXTURE_2D OVERRIDE|OFF
-        }
-        textureUnit 2 {
-          GL_TEXTURE_2D OVERRIDE|OFF
-        }
-      }
-      num_children 1
-      Use Geode_19
-    }
-    Group {
-      nodeMask 0xffffffff
-      cullingActive TRUE
-      StateSet {
-        DataVariance STATIC
-        rendering_hint DEFAULT_BIN
-        renderBinMode INHERIT
-        GL_CULL_FACE ON
-        GL_LIGHTING ON
-        Material {
-          ColorMode EMISSION
-          ambientColor 0 0 0 1
-          diffuseColor 0 0 0 1
-          specularColor 0 0 0 1
-          emissionColor 0 1 0 1
-          shininess 0
-        }
-        textureUnit 0 {
-          TexEnvCombine {
-            combine_RGB REPLACE
-            combine_Alpha MODULATE
-            source0_RGB CONSTANT
-            source1_RGB PREVIOUS
-            source2_RGB CONSTANT
-            source0_Alpha TEXTURE
-            source1_Alpha PREVIOUS
-            source2_Alpha CONSTANT
-            operand0_RGB SRC_COLOR
-            operand1_RGB SRC_COLOR
-            operand2_RGB SRC_ALPHA
-            operand0_Alpha SRC_ALPHA
-            operand1_Alpha SRC_ALPHA
-            operand2_Alpha SRC_ALPHA
-            scale_RGB 1
-            scale_Alpha 1
-            constantColor 0 1 0 1
-          }
-        }
-        textureUnit 1 {
-          GL_TEXTURE_2D OVERRIDE|OFF
-        }
-        textureUnit 2 {
-          GL_TEXTURE_2D OVERRIDE|OFF
-        }
-      }
-      num_children 3
       Use Geode_4
-      Use Geode_5
-      Use Geode_6
     }
     Group {
       nodeMask 0xffffffff
@@ -24778,7 +24676,7 @@ Group {
           ambientColor 0 0 0 1
           diffuseColor 0 0 0 1
           specularColor 0 0 0 1
-          emissionColor 0 0 1 1
+          emissionColor 0 1 0 1
           shininess 0
         }
         textureUnit 0 {
@@ -24799,7 +24697,7 @@ Group {
             operand2_Alpha SRC_ALPHA
             scale_RGB 1
             scale_Alpha 1
-            constantColor 0 0 1 1
+            constantColor 0 1 0 1
           }
           TexMat {
             0.1 0 0 0
@@ -24822,6 +24720,112 @@ Group {
       nodeMask 0xffffffff
       cullingActive TRUE
       StateSet {
+        UniqueID StateSet_24
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_CULL_FACE ON
+        GL_LIGHTING ON
+        Material {
+          ColorMode EMISSION
+          ambientColor 0 0 0 1
+          diffuseColor 0 0 0 1
+          specularColor 0 0 0 1
+          emissionColor 0 1 0 1
+          shininess 0
+        }
+        textureUnit 0 {
+          TexEnvCombine {
+            combine_RGB REPLACE
+            combine_Alpha MODULATE
+            source0_RGB CONSTANT
+            source1_RGB PREVIOUS
+            source2_RGB CONSTANT
+            source0_Alpha TEXTURE
+            source1_Alpha PREVIOUS
+            source2_Alpha CONSTANT
+            operand0_RGB SRC_COLOR
+            operand1_RGB SRC_COLOR
+            operand2_RGB SRC_ALPHA
+            operand0_Alpha SRC_ALPHA
+            operand1_Alpha SRC_ALPHA
+            operand2_Alpha SRC_ALPHA
+            scale_RGB 1
+            scale_Alpha 1
+            constantColor 0 1 0 1
+          }
+        }
+        textureUnit 1 {
+          GL_TEXTURE_2D OVERRIDE|OFF
+        }
+        textureUnit 2 {
+          GL_TEXTURE_2D OVERRIDE|OFF
+        }
+      }
+      num_children 3
+      Use Geode_5
+      Use Geode_6
+      Use Geode_7
+    }
+    Group {
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      StateSet {
+        DataVariance STATIC
+        rendering_hint DEFAULT_BIN
+        renderBinMode INHERIT
+        GL_CULL_FACE ON
+        GL_LIGHTING ON
+        Material {
+          ColorMode EMISSION
+          ambientColor 0 0 0 1
+          diffuseColor 0 0 0 1
+          specularColor 0 0 0 1
+          emissionColor 0 0 1 1
+          shininess 0
+        }
+        textureUnit 0 {
+          TexEnvCombine {
+            combine_RGB REPLACE
+            combine_Alpha MODULATE
+            source0_RGB CONSTANT
+            source1_RGB PREVIOUS
+            source2_RGB CONSTANT
+            source0_Alpha TEXTURE
+            source1_Alpha PREVIOUS
+            source2_Alpha CONSTANT
+            operand0_RGB SRC_COLOR
+            operand1_RGB SRC_COLOR
+            operand2_RGB SRC_ALPHA
+            operand0_Alpha SRC_ALPHA
+            operand1_Alpha SRC_ALPHA
+            operand2_Alpha SRC_ALPHA
+            scale_RGB 1
+            scale_Alpha 1
+            constantColor 0 0 1 1
+          }
+          TexMat {
+            0.1 0 0 0
+            0 0.1 0 0
+            0 0 1 0
+            0 0 0 1
+          }
+        }
+        textureUnit 1 {
+          GL_TEXTURE_2D OVERRIDE|OFF
+        }
+        textureUnit 2 {
+          GL_TEXTURE_2D OVERRIDE|OFF
+        }
+      }
+      num_children 1
+      Use Geode_21
+    }
+    Group {
+      nodeMask 0xffffffff
+      cullingActive TRUE
+      StateSet {
+        UniqueID StateSet_25
         DataVariance STATIC
         rendering_hint DEFAULT_BIN
         renderBinMode INHERIT
@@ -24864,9 +24868,9 @@ Group {
         }
       }
       num_children 3
-      Use Geode_7
       Use Geode_8
       Use Geode_9
+      Use Geode_10
     }
     Group {
       nodeMask 0xffffffff
@@ -24920,12 +24924,13 @@ Group {
         }
       }
       num_children 1
-      Use Geode_21
+      Use Geode_22
     }
     Group {
       nodeMask 0xffffffff
       cullingActive TRUE
       StateSet {
+        UniqueID StateSet_26
         DataVariance STATIC
         rendering_hint DEFAULT_BIN
         renderBinMode INHERIT
@@ -24968,7 +24973,6 @@ Group {
         }
       }
       num_children 9
-      Use Geode_10
       Use Geode_11
       Use Geode_12
       Use Geode_13
@@ -24977,6 +24981,7 @@ Group {
       Use Geode_16
       Use Geode_17
       Use Geode_18
+      Use Geode_19
     }
   }
 }
