@@ -1,4 +1,10 @@
 # create sensor mounts and cameras
+Radar_1_mount = visnodes.VisTransform.createTransformNode(r"Radar_1_mount")
+scene.Toyota_Yaris_1.addChild(Radar_1_mount)
+scene.getTransformChild("Radar_1_mount")
+Radar_1_mount.setTranslation(3.053736, 0, 0.439999997615814)
+Radar_1_mount.setRotation(0, 1, 0, 0)
+
 TIS_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_mount")
 scene.Citroen_C3_1.addChild(TIS_1_mount)
 scene.getTransformChild("TIS_1_mount")

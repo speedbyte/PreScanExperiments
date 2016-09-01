@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Experiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Description="" id="Collision_two_cars" UniqueId="0" Authors="Weikas" TotalSimulationTime="11.8" Built="true" EnableCollisionDetection="true" EnableTestAutomation="false" ExperimentDescription="Collision between two cars" Generate3DTrajectories="false" VisualizeSensorBeams="false" VisualizeBoundingBoxes="false" Parsed="true" PrecipitationRandomSeed="0" PRESCANVersion="7.4.0" ResourcesDir="Resources" SensorRandomSeed="0" SimulationGenerationHash="67AF5871462453FCBCA80D783E334AE63F1EB264E496824CB10DCA9A4A380249" SkyBoxName="SKY_Air" TerrainColor="FF0080FF" TerrainTexture="Air_terrain.png" UniqueExperimentIdentifier="8aba8dc5-3d98-48c3-8503-35c57058ba31" UniqueIdCounter="1178" UseTerrain="true" VisuAidMaxRenderingDistance="750" VisuAidMinRenderingDistance="0.1" WeatherTypeName="None">
+<Experiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Description="" id="Collision_two_cars" UniqueId="0" Authors="Weikas" TotalSimulationTime="11.8" Built="true" EnableCollisionDetection="true" EnableTestAutomation="false" ExperimentDescription="Collision between two cars" Generate3DTrajectories="false" VisualizeSensorBeams="false" VisualizeBoundingBoxes="false" Parsed="true" PrecipitationRandomSeed="0" PRESCANVersion="7.4.0" ResourcesDir="Resources" SensorRandomSeed="0" SimulationGenerationHash="67644D34971474D039EB4CA3E5B237FF740FDF4044D9B89779978FFAEAD3ECCB" SkyBoxName="SKY_Air" TerrainColor="FF0080FF" TerrainTexture="Air_terrain.png" UniqueExperimentIdentifier="6d97adb3-546a-4021-94ab-2c0993bfc954" UniqueIdCounter="1183" UseTerrain="true" VisuAidMaxRenderingDistance="750" VisuAidMinRenderingDistance="0.1" WeatherTypeName="None">
   <Actors>
     <Actor xsi:type="Audi_A8" Description="" id="Audi_A8_1" UniqueId="152" ColorCodeR="255" ColorCodeG="255" ColorCodeB="255" SensorIDDetection="true" NumericalID="1" ObjectTypeID="1" ParticipateInCollisionDetection="false" DriverModelType="None" DynamicsConfiguration="None" DiscreteModeActivated="false" Reference="true" UserSpecifiedControl="false" JavaClass="" GhostColor="64646464" PhysicsSimpleDynamicsInteraction="PhysicsInheritsFromSD" TextureColor="DarkGray (FFA9A9A9)">
       <Location X="377.900390625" Y="-8.5285453796386719" Z="0.55" />
@@ -577,6 +577,30 @@
             <Spare value="spare_18" />
             <Spare value="spare_19" />
           </SparePorts>
+        </Sensor>
+        <Sensor xsi:type="RadarSensor" Description="" id="Radar_1" UniqueId="1182" PreventDragging="true" CurrentAttachmentPoint="Actor" Visualize="false" VisualizedAlpha="25" BeamColor="GreenYellow (FFADFF2F)" FovAzimuth="45" FovElevation="45" HorizontalResolution="77" VerticalResolution="77" OutputCameraImage="true" ImplicitAtmAttenuation="false" BeamCountHor="1" BeamCountVert="1" BeamType="Elliptical_Cone" ScanPattern="LineMode" AtmAttenuation="0" MaxDetectableObjects="7" BeamWidth="10" BeamHeight="10" ORMFiltered="false" ORMPorts="false" ORMTechnologyFilter="" OverrideBeams="false" ActualBeamCount="1" CaptureFrequency="4" SweepRateScaleFactor="5" SweepDirectionLine="Left to Right / Top to Bottom" SweepDirectionGrid="TopLeft to BottomRight" SensorSweepDirectionOrientation="Horizontal" ScanManner="BeamWise" DriftAzimuthType="None" DriftElevationType="None" DriftRangeType="None" DriftAzimuthGaussianSigma="0" DriftAzimuthUnidirectionalRate="0" DriftElevationGaussianSigma="0" DriftElevationUnidirectionalRate="0" DriftRangeGaussianSigma="0" DriftRangeUnidirectionalRate="0" NoiseAngularAzimuthResolutionCellSize="0" NoiseAngularElevationResolutionCellSize="0" NoiseAzimuthIllumination="0" NoiseElevationIllumination="0" NoiseAzimuthReflection="0" NoiseElevationReflection="0" NoiseRange="0" NoiseRangeCellSize="0" SourceType="Single" MSourceHorizontalGridSpacing="5" MSourceVerticalGridSpacing="5" PencilBeamAngle="1E-05" NoiseAziIlluType="Additive" NoiseElevIlluType="Additive" NoiseAziReflectType="Additive" NoiseElevReflectType="Additive" NoiseRangeType="Multiplicative" BeamLength="50" FoVAzimuthL="22.5" FoVAzimuthR="22.5" FoVElevationB="22.5" FoVElevationT="22.5" AntennaPatternType="userDefined" ThreeDbBeamWidth="0.5" ApertureRadius="0.01" UsesFixedScanPattern="true" OperatingFrequency="25000000000">
+          <Location X="3.053736" Y="0" Z="0.439999997615814" />
+          <Orientation Bank="0" Tilt="0" Heading="0" />
+          <Origin X="0" Y="1" Z="0" />
+          <Size X="5.7113704681396484" Y="1.6562497615814209" Z="0.10000000149011612" />
+          <CoGOffset X="0" Y="0" Z="0" />
+          <TestAutomationVariables>
+            <TestAutomationVariable VariableName="Location" VariableState="false" />
+            <TestAutomationVariable VariableName="Orientation" VariableState="false" />
+            <TestAutomationVariable VariableName="Range" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAzimuthIllumination" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAziIlluType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevationIllumination" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevIlluType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAzimuthReflection" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseAziReflectType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevationReflection" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseElevReflectType" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseRange" VariableState="false" />
+            <TestAutomationVariable VariableName="NoiseRangeType" VariableState="false" />
+          </TestAutomationVariables>
+          <UserSpecifiedAGM_Model File="UserSpecified\AGM\SENSOR_AGM__408ca0a9-09f7-44a6-99bb-ea286cd58ce7.txt" Name="" />
+          <TIS_SpecSensorCustomBeams />
         </Sensor>
       </Sensors>
       <ConnectionPoints />
@@ -1738,8 +1762,10 @@
         <Size X="34.279998779296875" Y="8.75" Z="6.869999885559082" />
         <CoGOffset X="0" Y="0" Z="0" />
         <SensorInfo>
-          <TISSensorInfo DefaultORMFile="dfltORM_BasicInfra.txt">
-            <UserSpecifiedModels />
+          <TISSensorInfo DefaultORMFile="">
+            <UserSpecifiedModels>
+              <ORMFile File="UserSpecified\ORM\TIS_ORM_Grass_796.txt" TechnologyFilter="Grass" />
+            </UserSpecifiedModels>
           </TISSensorInfo>
         </SensorInfo>
         <ObjectSimulatorInfo RealObjectType="decoration" RealObjectShape="BLOCKSHAPE" StateActuator="false" SelfSensor="false">
@@ -2396,7 +2422,7 @@
   <SimulationConfiguration Description="" id="SimulationConfiguration" UniqueId="3" IntegrationEndTime="-1" IntegrationFrequency="20" VisualizationUpdateRatio="20" DisableVisualWorld="false" SimulationUpdateRatio="1" Solver="true" SimulationTimescale="0" SimulationMaxStepLag="0" VisScriptFile="Temp\Collision_two_cars.swi" TerminationVisScriptFile="Temp\Collision_two_cars.swt" />
   <SpeedProfiles>
     <SpeedProfileBase xsi:type="SpeedProfile" Description="" id="SpeedProfile_1" UniqueId="153">
-      <Physics Drag="0.27000001072883606" EnableContactFriction="false" Mass="1820" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.332564115524292" RollFriction="0.01" />
+      <Physics Drag="0.270000010728836" EnableContactFriction="false" Mass="1820" MaxAcceleration="0.3" MaxDeceleration="1" ReferenceArea="2.33256411552429" RollFriction="0.01" />
       <PhysicsEnvironment AirDensity="1.28" Gravitation="9.81" AirTemperature="293.15" AtmPressure="101.325" AirHumidityPercentage="10" />
       <Slots>
         <Slot xsi:type="UserDefinedSlot" EndStateChange="false" ID="Slot12" CalculationType1="Speed" CalculationType2="EndOfSegmentID" CalculationValue1="15" CalculationValue2="2">
@@ -2445,9 +2471,9 @@
   <WeatherFogSettings Description="" id="Fog" UniqueId="9" Enabled="false" FogName="Default Normal">
     <CurrentFogConfiguration Name="Default Normal" Start="0" End="300" Color="White (FFFFFFFF)" Mode="exp" Density="0.011038161180308408" />
   </WeatherFogSettings>
-  <WeatherRainSettings Description="" id="Rain" UniqueId="10" RainName="Default Moderate_Rain">
-    <CurrentRainConfiguration Name="Default Moderate_Rain" Density="371000" PSize="1.06" Color="Control (FFF0F0F0)" Animation="false" Time="0" ShutterTime="0.05" StartDistance="0" Hardness="9" DepthWrite="true" RenderBin="15" Shape="reset" IsDefault="true">
-      <Direction X="0" Y="0" Z="-4.1999998092651367" />
+  <WeatherRainSettings Description="" id="Rain" UniqueId="10" RainName="Default Extreme_Rain">
+    <CurrentRainConfiguration Name="Default Extreme_Rain" Density="384000" PSize="2.03" Color="Control (FFF0F0F0)" Animation="false" Time="0" ShutterTime="0.05" StartDistance="0" Hardness="9" DepthWrite="true" RenderBin="15" Shape="reset" IsDefault="true">
+      <Direction X="0" Y="0" Z="-6.59999990463257" />
       <DeltaDropletRandomRange X="0" Y="0" Z="0" />
     </CurrentRainConfiguration>
   </WeatherRainSettings>

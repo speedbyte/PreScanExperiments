@@ -1,0 +1,4 @@
+Altered Settings:
+LaneCountNorth = 3
+LaneCountSouth = 3
+Traject = Trajectory_2

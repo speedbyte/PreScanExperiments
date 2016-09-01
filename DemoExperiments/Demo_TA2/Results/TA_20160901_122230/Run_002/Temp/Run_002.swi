@@ -1,0 +1,7 @@
+# create sensor mounts and cameras
+TIS_1_mount = visnodes.VisTransform.createTransformNode(r"TIS_1_mount")
+scene.BMW_X5_1.addChild(TIS_1_mount)
+scene.getTransformChild("TIS_1_mount")
+TIS_1_mount.setTranslation(3.85, 0, 0.7)
+TIS_1_mount.setRotation(0, 1, 0, 0)
+
